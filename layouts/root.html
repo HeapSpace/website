@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+{{ $headless := .Site.GetPage "/_root" }}
+
+<section class="grid bg-red"><div class="content-wrap">
+{{ with ($headless.Resources.GetMatch (printf "mismo.%s.md" .Site.Language.Lang)) }} {{ .Content }} {{ end }}
+</div></section>
+
+<section class="grid bg-white"><div class="content-wrap">
+{{ with ($headless.Resources.GetMatch (printf "heapcon.%s.md" .Site.Language.Lang)) }} {{ .Content }} {{ end }}
+</div></section>
+
+<section class="grid bg-blue"><div class="content-wrap">
+{{ with ($headless.Resources.GetMatch (printf "nasiprojekti.%s.md" .Site.Language.Lang)) }} {{ .Content }} {{ end }}
+</div></section>
+
+{{ end }}

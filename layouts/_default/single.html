@@ -1,0 +1,11 @@
+{{ define "main" }}
+  {{ $site := .Site }}
+  {{ $currentPage := . }}
+
+  {{ range .Params.Parts }}
+  	<section class="grid {{ .color  }}"><div class="content-wrap">
+{{ with ($currentPage.Resources.GetMatch (printf "%s.%s.md" .name $site.Language.Lang)) }} {{ .Content }} {{ end }}
+</div></section>
+  {{ end }}
+  {{ .Content }}
+{{ end }}

@@ -1,0 +1,19 @@
+{{ if .IsTranslated }}
+
+<nav class="nav-lang" id="menu-lang_menu"><ul class="nav">
+	{{ if eq .Site.Language.Lang "rs" }}
+		<li class="current-lang"><span>rs</span></li>
+		{{ range .Translations }}
+    	<li><a href="{{ .Permalink }}">{{ .Lang }}</a></li>
+		{{ end }}
+
+	{{ else }}
+
+		{{ range .Translations }}
+    	<li><a href="{{ .Permalink }}">{{ .Lang }}</a></li>
+		{{ end }}
+		<li class="current-lang"><span>en</span></li>
+	{{ end }}
+</ul></nav>
+
+{{ end }}

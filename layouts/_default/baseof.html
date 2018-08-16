@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{$.Site.Language}}">
+    <head>
+    	<meta charset="UTF-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+  		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>{{ .Title }} - {{ .Site.Title }}</title>
+		<link rel='stylesheet' id='heapspace-style-css'  href='{{ "/css/main.css" | absURL }}' type='text/css' media='all' />
+		{{ partial "head" . }}
+    </head>
+    <body>
+
+    	{{ partial "header" . }}
+
+		<div class="container"><div id="content">
+			<main id="main" class="main">
+				{{ block "main" . }}{{ end }}
+			</main>
+
+		</div></div>
+
+		{{ partial "footer" . }}
+
+		{{ partial "js" . }}
+
+    </body>
+</html>
