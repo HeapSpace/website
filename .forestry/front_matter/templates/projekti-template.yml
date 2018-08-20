@@ -2,4 +2,9 @@
 label: Projekti-template
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: text
+  label: VDB projekti
+  name: projects_vdb
+  config:
+    required: true
