@@ -22,4 +22,5 @@ fields:
   config:
     required: true
 pages:
+- content/_root/nasiprojekti.en.md
 - content/_root/nasiprojekti.rs.md

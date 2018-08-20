@@ -4,7 +4,6 @@ projects_cas: 4
 projects_td: 22
 
 ---
-
 ## Our projects
 
 Our projects aim to develop local and regional tech scene. Making knowledge available moves the society forward.
