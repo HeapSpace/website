@@ -3,8 +3,9 @@ projects:
   vdb: 3
   cas: 4
   td: 22
----
+projects_vdb: 3
 
+---
 ## Naši projekti
 
 Naši projekti su usmereni na razvoj regionalne tehnološke scene. Želimo da omogućimo da znanje svima bude dostupno, pošto je to ono što pomera društvo napred.

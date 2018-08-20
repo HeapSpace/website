@@ -8,3 +8,5 @@ fields:
   name: projects_vdb
   config:
     required: true
+pages:
+- content/_root/nasiprojekti.rs.md
