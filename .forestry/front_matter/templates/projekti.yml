@@ -2,4 +2,9 @@
 label: Projekti
 hide_body: false
 is_partial: true
-fields: []
+fields:
+- type: text
+  label: VDB count
+  name: projects_vdb
+  config:
+    required: true
