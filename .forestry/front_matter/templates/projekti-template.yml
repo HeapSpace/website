@@ -4,8 +4,21 @@ hide_body: false
 is_partial: false
 fields:
 - type: text
-  label: VDB projekti
+  label: VDB count
   name: projects_vdb
+  config:
+    required: true
+  description: Number of VDB conferences
+- type: text
+  label: Back to school - count
+  name: projects_cas
+  config:
+    required: true
+  description: Number of Back To School events
+- type: text
+  label: TD count
+  name: projects_td
+  description: Number of Tehnoloski Dorucak.
   config:
     required: true
 pages:
