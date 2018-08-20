@@ -10,6 +10,11 @@ sections:
   create: all
   match: "*"
 - type: directory
+  path: content/_root
+  label: Root
+  create: all
+  match: "**/*"
+- type: directory
   path: content/dogadjaji
   label: Dogadjaji
   create: all
@@ -20,18 +25,13 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/_footer
-  label: Footer
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/_root
-  label: Root
-  create: all
-  match: "**/*"
-- type: directory
   path: content/manifest
   label: Manifest
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/_footer
+  label: Footer
   create: all
   match: "**/*"
 upload_dir: static/uploads
