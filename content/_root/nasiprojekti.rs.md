@@ -11,9 +11,9 @@ Naši projekti su usmereni na razvoj regionalne tehnološke scene. Želimo da om
 {{% a_btn "dogadjaji" %}}Više o događajima{{% /a_btn %}}
 
 {{% event_left "projects_vdb" %}}
-### Voxxed Days Belgrade
+### Tehnološke konferencije
 
-Prvi Devoxx događaj na Balkanu. Tehnološka konferencija koja je proglašena za najbrojniji Voxxed događaj u Evropi tri godine za redom.
+Počeli smo sa Voxxed Days Belgrade konferencijom koja je proglašena za najbrojniji Voxxed događaj u Evropi tri godine za redom, a nastavljamo sa Heapconom.
 {{% /event_left %}}
 
 {{% event_right "projects_cas" %}}

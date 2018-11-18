@@ -11,9 +11,9 @@ Our projects aim to develop local and regional tech scene. Making knowledge avai
 {{% a_btn "events" %}}Find out more{{% /a_btn %}}
 
 {{% event_left "projects_vdb" %}}
-### Voxxed Days Belgrade
+### Tech conferences
 
-The first Devoxx event in the region. A tech conference which was called the biggest Voxxed event in Europe for three years in a row.
+We started with Voxxed Days Belgrade conference which was proclaimed the biggest Voxxed event in Europe for three years in a row, and we are continuing with Heapcon.
 {{% /event_left %}}
 
 {{% event_right "projects_cas" %}}
