@@ -1,5 +1,4 @@
 ---
-title: Home
-type: page
+title: 2019
 layout: "root"
 ---

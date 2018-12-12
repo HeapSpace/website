@@ -5,23 +5,15 @@
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
   		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>{{ .Title }} - {{ .Site.Title }}</title>
-		<link rel='stylesheet' id='heapspace-style-css'  href='/css/main.css' type='text/css' media='all' />
+		{{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+    	<link rel='stylesheet' href='{{ $style.RelPermalink }}' type='text/css' media='all' />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 		{{ partial "head" . }}
     </head>
     <body>
+		{{ block "main" . }}{{ end }}
 
-    	{{ partial "header" . }}
-
-		<div class="container"><div id="content">
-			<main id="main" class="main">
-				{{ block "main" . }}{{ end }}
-			</main>
-
-		</div></div>
-
-		{{ partial "footer" . }}
-
-		{{ partial "js" . }}
-
+		{{ block "js" . }}{{ end }}
     </body>
 </html>

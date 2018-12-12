@@ -1,17 +1,50 @@
 {{ define "main" }}
 
-{{ $headless := .Site.GetPage "/_root" }}
+<main>
+	<div id="overlay" class="modal over">
+		<a class="msgbox msgbox-in"><div>
+			Year 2019. is missing!<br>
+			Help the Heapspace team<br>
+			return it back!
+		</div></a>
+	</div>
 
-<section class="grid bg-red"><div class="content-wrap">
-{{ with ($headless.Resources.GetMatch (printf "mismo.%s.md" .Site.Language.Lang)) }} {{ .Content }} {{ end }}
-</div></section>
+	<div id="challenge" class="popup over"><div class="popupbox"><div>
+		<img src="/g/team1.png" style="float: left;">How many times must I fly?
+	</div></div></div>
 
-<section class="grid bg-white"><div class="content-wrap">
-{{ with ($headless.Resources.GetMatch (printf "heapcon.%s.md" .Site.Language.Lang)) }} {{ .Content }} {{ end }}
-</div></section>
+	<section class="svg-container">
+		{{ partial "sng2019.svg" }}
+	</section>
 
-<section class="grid bg-blue"><div class="content-wrap">
-{{ with ($headless.Resources.GetMatch (printf "nasiprojekti.%s.md" .Site.Language.Lang)) }} {{ .Content }} {{ end }}
-</div></section>
+</main>
 
+<footer></footer>
+
+{{ end }}
+
+
+{{ define "js" }}
+<script type="text/javascript">
+
+function displayChallenge() {
+
+}
+
+$(function() {
+	console.log('2019.');
+
+	// click to close the dialog
+	$('.msgbox').click(function() {
+		$(this).hide();
+		$('#overlay').hide();
+		$('#challenge').show();
+	});
+
+	$('#building2').click(function() {
+		alert(2);
+	});
+});
+</script>
+  {{ partial "ga" }}
 {{ end }}

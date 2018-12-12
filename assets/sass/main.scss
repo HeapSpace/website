@@ -1,0 +1,135 @@
+@import "normalize";
+@import "mixins";
+@import "animations";
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+/** VARIABLES **/
+$color-beige: #fdf4e3;
+$color-ligth-green: #f1faee;
+$color-shadow: #111;
+$color-red: #e63946;
+$color-dark-gray: #414a51;
+$color-gray: #f5f5f5;
+$color-yellow: #ffe119;
+$color-light-blue: #a8dadc;
+$color-blue: #457b9d;
+$color-navy: #1d3557;
+
+$font-cursive: 'Lobster', cursive;
+$font-text: 'HS Grotesk';
+
+@font-face {
+  font-family: 'HS Grotesk';
+  src: url('../fonts/HS Grotesk.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/** ROOT **/
+
+*, *:after, *:before { box-sizing: border-box; }
+.clearfix:before, .clearfix:after {display: table;  content: ''; }
+.clearfix:after { clear: both; }
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    background-size: 400px 450px;
+    background-color: $color-light-blue;
+    color: $color-dark-gray;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    cursor: crosshair;
+}
+
+a {
+    outline: none;
+    color: $color-red;
+    text-decoration: none;
+    &:hover {
+        color: darken(saturate($color-red, 20%), 20%);
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+/** MODALS */
+main {
+    overflow: hidden;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    min-height: 99vh;
+    height: 100%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.over {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msgbox {
+    padding: 0.5em;
+    cursor: pointer;
+    @include rounded();
+    @include box-shadow(10px, 10px, 20px, $color-shadow);
+    @include envelope(150deg, $color-red, $color-beige, $color-blue);
+
+    div {
+        font-size: 3em;
+        font-family: $font-cursive;
+        text-align: center;
+        padding: 1em;
+        background-color: $color-beige;
+        @include rounded();
+    }
+}
+.msgbox-in {
+    @include animation(0, 0.5s, anim-appear);
+}
+.msgbox-out {
+    @include animation(0, 0.5s, anim-disappear);
+}
+.popup {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    width: 40%;
+    font-size: 1em;
+    display: none;
+}
+
+.popupbox {
+    padding: 0.3em;
+    cursor: pointer;
+    @include rounded();
+    @include box-shadow(10px, 10px, 20px, $color-shadow);
+    @include envelope(150deg, $color-blue, $color-beige, $color-red);
+
+    div {
+        font-size: 1.3em;
+        font-family: $font-text;
+        text-align: center;
+        padding: 1em;
+        background-color: $color-beige;
+        @include rounded();
+    }
+}
+
