@@ -331,3 +331,23 @@
 	20% { opacity: 0.3; }
 	100% { opacity: 1; }
 }
+
+.lights2 {
+	animation: lights2 2s linear infinite;
+}
+@keyframes lights2 {
+	0% { opacity: 1; }
+	70% { opacity: 0.3; }
+	100% { opacity: 1; }
+}
+
+///////////////////////////////////////
+
+
+.yyyy {
+    @include animation_inf(0, 0.5s, yyyy);
+}
+@include defkeyframe(yyyy) {
+	from { fill: #fbb83f; }
+	to { fill: complement(#fbb83f); }
+}
