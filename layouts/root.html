@@ -1,16 +1,26 @@
 {{ define "main" }}
 
 <main>
-	<div id="overlay" class="modal over">
-		<a class="msgbox anim-appear"><div>
+	<div id="hello" class="modal modal-all over">
+		<a class="msgbox jackInTheBox"><div>
 			Year 2019. is missing!<br>
 			Help the Heapspace team<br>
 			to return it back!
 		</div></a>
 	</div>
 
+	<div id="wish" class="modal over">
+		<div class="msgbox"><div>
+			Happy New 2019!<br>
+			Your friends from Heapspace :)
+			<div id="pbar">
+			</div>
+		</div></div>
+	</div>
+
 	<div id="challenge" class="popup over"><div class="popupbox"><div>
-		<div style="flex: 0 0 50px; padding: 0 0.4em; font-size: 0.7em;"><img src="/g/team1.png">Name</div><div style="padding: 0;">How many times must I say 'HO'?</div>
+		<div id="p"><img src="/g/m1.png"><span>&nbsp;</span></div>
+		<div id="q">&nbsp;</div>
 	</div></div></div>
 
 	<section class="svg-container">
@@ -27,27 +37,191 @@
 {{ define "js" }}
 <script type="text/javascript">
 
-function displayChallenge() {
+const manCount = 21;
+const femaleCount = 16;
+const manNames = ['Mita', 'Igor', 'Nino', 'Stefan', 'Nikola'];
+const femaleNames = ['Vesna', 'Jovana', 'Ivana', 'Kaća', 'Nevena'];
+const totalPersons = manNames.length + femaleNames.length;
 
+const challenges = [
+{
+	q: 'How many times do I have to say "Ho"?',
+	a: 'deda'
+}, {
+	q: 'Ah deer, I love to play in the snow.',
+	a: 'irvas'
 }
+];
+
+function shuffle(a) {
+    for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+}
+
+function rnd(max) {
+	return Math.floor(Math.random() * max);
+}
+function randomManPng() {
+	return '/g/m' + (rnd(manCount) + 1) + '.png';
+}
+function randomFemalePng() {
+	return '/g/f' + (rnd(femaleCount) + 1) + '.png';
+}
+
+function randomPerson() {
+	var name;
+	var pic;
+	const random = rnd(totalPersons);
+
+	if (random < manNames.length) {
+		// man
+		name = manNames[random];
+		pic = randomManPng();
+	}
+	else {
+		// female
+		name = femaleNames[random - manNames.length];
+		pic = randomFemalePng();
+	}
+	return {
+		name: name,
+		pic: pic
+	}
+}
+
+function populatePbar() {
+	var allNames = [];
+	allNames = allNames.concat(manNames);
+	allNames = allNames.concat(femaleNames);
+	shuffle(allNames);
+
+	const persons = [];
+	var html = "";
+	for (const name of allNames) {
+		var pic;
+
+		if (manNames.includes(name)) {
+			pic = randomManPng();
+		} else {
+			pic = randomFemalePng();
+		}
+
+		persons.push({
+			name: name,
+			pic: pic
+		});
+		html += `<div><img src=${pic}><br>${name}</div>`;
+	}
+	$('#pbar').html(html);
+}
+
+// -------------------------------------------------------------
+
+var cndx;
+var cc;
+
+function startChallenges() {
+	shuffle(challenges);
+	cndx = 0;
+	nextChallenge();
+}
+
+function nextChallenge() {
+	if (cndx == challenges.length) {
+		const dlg = $('#challenge');
+		dlg.addClass('flipOutX');
+		window.setTimeout(function() {
+			dlg.hide().removeClass('flipOutX');
+			theEnd();
+		}, 700);
+		return;
+	}
+
+	// appear
+	$('#challenge').show().addClass('flipInX');
+	window.setTimeout(function() {
+ 		$('#challenge').removeClass('flipInX');
+	}, 1000);
+
+	cc = challenges[cndx];
+	cndx += 1;
+	$('#q').text(cc.q);
+
+	const person = randomPerson();
+	$('#p img').attr('src', person.pic);
+	$('#p span').text(person.name);
+}
+
+function error(item) {
+	item = $(item);
+	item.addClass('shake');
+	window.setTimeout(function() {
+	 	item.removeClass('shake');
+	}, 1000);
+}
+
+function correctAnswer(item) {
+	item = $(item);
+	item.addClass('bounce');
+	window.setTimeout(function() {
+		item.removeClass('bounce');
+		nextChallenge();
+	}, 1000);
+}
+
+function theEnd() {
+	console.log("All best, your friends from Heapspace :)")
+	$('#challenge').hide('slow');
+	$('#wish').show();
+	populatePbar();
+	window.setInterval(() => {
+		populatePbar();
+	}, 2000);
+}
+
+
+var allItems = [];
 
 $(function() {
 	console.log('Happy New 2019!');
 
-	// click to close the dialog
-	$('.msgbox').click(function() {
-		$(this).hide();
-		$('#overlay').hide();
-		$('#challenge').show();
+	// collect all IDs
+	$("g").each(function(index) {
+		const id = $(this).attr('id');
+		if (id) {
+			if (!id.startsWith('_')) {
+				allItems.push(id);
+			}
+		}
 	});
 
-	$('#deda').click(function() {
-		const item = $(this);
-		item.addClass('anim-shake');
+	// close the welcome dialog
+	$('#hello .msgbox').click(function() {
+		$('#hello').addClass('fadeOut');
 		window.setTimeout(function() {
-			item.removeClass('anim-shake');
-		}, 1000);
+			$('#hello').hide();
+			//theEnd();
+			startChallenges();
+		}, 900);
 	});
+
+	// add click handlers
+	for (const itemId of allItems) {
+		$('#' + itemId).click(function() {
+			const id = $(this).attr('id');
+			//console.log("clicked " + id);
+			if (id === cc.a) {
+				correctAnswer(this);
+			}
+			else {
+				error(this);
+			}
+		});
+	}
+
 });
 </script>
   {{ partial "ga" }}

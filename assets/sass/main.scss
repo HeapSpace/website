@@ -2,7 +2,7 @@
 @import "mixins";
 @import "animations";
 
-@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Lato|Lobster+Two');
 
 /** VARIABLES **/
 $color-beige: #fdf4e3;
@@ -17,15 +17,8 @@ $color-blue: #457b9d;
 $color-navy: #1d3557;
 $color-night: #2b294c;
 
-$font-cursive: 'Lobster', cursive;
-$font-text: 'HS Grotesk';
-
-@font-face {
-  font-family: 'HS Grotesk';
-  src: url('../fonts/HS Grotesk.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
+$font-cursive: 'Lobster Two', cursive;
+$font-text: 'Lato';
 
 /** ROOT **/
 
@@ -42,6 +35,7 @@ html {
 body {
     background-size: 400px 450px;
     background-color: $color-night;
+    color: $color-night;
     margin: 0 auto;
     font-size: 16px;
     font-weight: 400;
@@ -78,6 +72,8 @@ main {
     min-height: 99vh;
     height: 100%;
     display: none;
+}
+.modal-all {
     background-color: rgba(0, 0, 0, 0.8);
 }
 .over {
@@ -92,7 +88,7 @@ main {
     @include box-shadow(10px, 10px, 20px, $color-shadow);
     @include envelope(150deg, $color-red, $color-beige, $color-blue);
 
-    div {
+    > div {
         font-size: 3em;
         font-family: $font-cursive;
         text-align: center;
@@ -120,14 +116,43 @@ main {
     @include envelope(150deg, $color-blue, $color-beige, $color-red);
 
     > div {
-        font-size: 1.3em;
-        font-family: $font-text;
-        text-align: center;
-        padding: 1em;
         background-color: $color-beige;
         display: flex;
         align-items: center;
         justify-content: center;
+        padding: 1em;
     }
 }
+ #p {
+    flex: 0 0 50px;
+    padding: 0 1em;
+    font-size: 0.8em;
+    text-align: center;
+    font-family: $font-text;
+    text-transform: uppercase;
+}
+#pbar {
+    padding-top: 2em;
+    font-size: 12px;
+    font-family: $font-text;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    height: 160px;
+    > div {
+        align-self: flex-end;
+    }
+}
+#q {
+    font-size: 1.3em;
+    font-family: $font-text;
+    text-align: center;
+    padding: 0 1em 0 0;
+}
 
+#wish {
+    width: 80%;
+    top: 10%;
+    left: 10%;
+    display: none;
+}
