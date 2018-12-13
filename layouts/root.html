@@ -52,6 +52,7 @@ const challenges = [
 	a: 'irvas'
 }
 ];
+const lastChallenge = challenges.length;
 
 function shuffle(a) {
     for (let i = a.length - 1; i > 0; i--) {
@@ -130,7 +131,8 @@ function startChallenges() {
 }
 
 function nextChallenge() {
-	if (cndx == challenges.length) {
+	if (cndx == lastChallenge) {
+		// end of challenge
 		const dlg = $('#challenge');
 		dlg.addClass('flipOutX');
 		window.setTimeout(function() {
@@ -189,13 +191,18 @@ $(function() {
 	console.log('Happy New 2019!');
 
 	// collect all IDs
-	$("g").each(function(index) {
+	$("g").each(function() {
 		const id = $(this).attr('id');
 		if (id) {
 			if (!id.startsWith('_')) {
 				allItems.push(id);
 			}
 		}
+	});
+
+	// turn on the lights
+	$("#_svetla circle").each(function() {
+		$(this).addClass("lights");
 	});
 
 	// close the welcome dialog
