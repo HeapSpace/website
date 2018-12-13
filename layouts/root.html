@@ -2,15 +2,15 @@
 
 <main>
 	<div id="overlay" class="modal over">
-		<a class="msgbox msgbox-in"><div>
+		<a class="msgbox anim-appear"><div>
 			Year 2019. is missing!<br>
 			Help the Heapspace team<br>
-			return it back!
+			to return it back!
 		</div></a>
 	</div>
 
 	<div id="challenge" class="popup over"><div class="popupbox"><div>
-		<img src="/g/team1.png" style="float: left;">How many times must I fly?
+		<div style="flex: 0 0 50px; padding: 0 0.4em; font-size: 0.7em;"><img src="/g/team1.png">Name</div><div style="padding: 0;">How many times must I say 'HO'?</div>
 	</div></div></div>
 
 	<section class="svg-container">
@@ -32,7 +32,7 @@ function displayChallenge() {
 }
 
 $(function() {
-	console.log('2019.');
+	console.log('Happy New 2019!');
 
 	// click to close the dialog
 	$('.msgbox').click(function() {
@@ -41,8 +41,12 @@ $(function() {
 		$('#challenge').show();
 	});
 
-	$('#building2').click(function() {
-		alert(2);
+	$('#deda').click(function() {
+		const item = $(this);
+		item.addClass('anim-shake');
+		window.setTimeout(function() {
+			item.removeClass('anim-shake');
+		}, 1000);
 	});
 });
 </script>

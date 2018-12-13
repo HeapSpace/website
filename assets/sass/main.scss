@@ -15,6 +15,7 @@ $color-yellow: #ffe119;
 $color-light-blue: #a8dadc;
 $color-blue: #457b9d;
 $color-navy: #1d3557;
+$color-night: #2b294c;
 
 $font-cursive: 'Lobster', cursive;
 $font-text: 'HS Grotesk';
@@ -40,8 +41,7 @@ html {
 
 body {
     background-size: 400px 450px;
-    background-color: $color-light-blue;
-    color: $color-dark-gray;
+    background-color: $color-night;
     margin: 0 auto;
     font-size: 16px;
     font-weight: 400;
@@ -101,35 +101,33 @@ main {
         @include rounded();
     }
 }
-.msgbox-in {
-    @include animation(0, 0.5s, anim-appear);
-}
-.msgbox-out {
-    @include animation(0, 0.5s, anim-disappear);
-}
+
 .popup {
     position: fixed;
     top: 100px;
     left: 100px;
     width: 40%;
+    max-width: 400px;
     font-size: 1em;
     display: none;
 }
 
 .popupbox {
-    padding: 0.3em;
+    padding: 0.3em 0;
     cursor: pointer;
     @include rounded();
     @include box-shadow(10px, 10px, 20px, $color-shadow);
     @include envelope(150deg, $color-blue, $color-beige, $color-red);
 
-    div {
+    > div {
         font-size: 1.3em;
         font-family: $font-text;
         text-align: center;
         padding: 1em;
         background-color: $color-beige;
-        @include rounded();
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
