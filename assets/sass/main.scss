@@ -158,13 +158,28 @@ main {
 }
 
 .controls {
-    font-size: 0.8em;
-    color: white;
+    font-size: 1em;
+    color: $color-red;
     font-family: $font-text;
     position: absolute;
     top: 0;
     right: 0;
-    margin: 2em;
-    display: flex;
+    margin: 1em;
+    display: none;
+
+    label {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+    }
+
+    input[type="checkbox"] {
+        opacity: 0;
+    }
+    input[type="checkbox"]:checked + label {
+        color: $color-beige;
+    }
 }
 

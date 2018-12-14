@@ -27,8 +27,8 @@
 	</section>
 
 	<div class="controls">
-		<input class="control-checkbox" type="checkbox" onclick='toggleMusic(audio)' checked>music<br>
-		<input class="control-checkbox" type="checkbox" onclick='toggleSnow()' checked>snow<br>
+		<input id="musicbox" type="checkbox" onclick='toggleMusic(audio)' checked><label for="musicbox">music</label>
+		<input id="snowbox" type="checkbox" onclick='toggleSnow()' checked><label for="snowbox">snow</label>
 	</div>
 
 </main>
@@ -95,7 +95,6 @@ const lastChallenge = 7;
 
 // ------------------------------------------------------------- util
 
-// preload images
 function preloadImages(arguments) {
   for (var i = 0; i < arguments.length; i++) {
     $("<img />").attr("src", arguments[i]);
@@ -109,7 +108,6 @@ function loadAndPlayAudio() {
 	audio.loop = true;
 	audio.play();
 }
-
 
 function shuffle(a) {
     for (let i = a.length - 1; i > 0; i--) {
@@ -185,9 +183,9 @@ function populatePbar() {
 	$('#pbar').html(html);
 }
 
-// -------------------------------------------------------------
 
 // ---------------------------------------------- control utils
+
 function toggleSnow(){
 	const snowflakes = document.getElementById('_sneg');
 	snowflakes.style.display = snowflakes.style.display === 'none' ? '' : 'none';
@@ -205,6 +203,7 @@ var cndx;
 var cc;
 
 function startChallenges() {
+	$('.controls').show();
 	loadAndPlayAudio();
 	shuffle(challenges);
 	cndx = 0;
