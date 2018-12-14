@@ -46,6 +46,8 @@ body {
     -moz-osx-font-smoothing: grayscale;
     position: relative;
     cursor: crosshair;
+
+    height: 100vh;
 }
 
 a {
@@ -60,10 +62,16 @@ a {
     }
 }
 
+svg {
+    height: 95vh;
+    max-height: 95vh;
+}
+
 /** MODALS */
 main {
     overflow: hidden;
 }
+
 .modal {
     position: fixed;
     top: 0;
@@ -189,5 +197,6 @@ main {
     font-family: $font-text;
     font-size: 1em;
     text-align: center;
+    margin: -1em 0 1em 0;
 }
 
