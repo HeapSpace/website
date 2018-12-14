@@ -1,6 +1,7 @@
 @import "normalize";
 @import "mixins";
 @import "animations";
+@import "heartbeat";
 
 @import url('https://fonts.googleapis.com/css?family=Lato|Lobster+Two');
 
@@ -181,5 +182,12 @@ main {
     input[type="checkbox"]:checked + label {
         color: $color-beige;
     }
+}
+
+.footer-message {
+    color: $color-beige;
+    font-family: $font-text;
+    font-size: 1em;
+    text-align: center;
 }
 
