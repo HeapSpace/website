@@ -157,3 +157,14 @@ main {
     display: none;
 }
 
+.controls {
+    font-size: 0.8em;
+    color: white;
+    font-family: $font-text;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 2em;
+    display: flex;
+}
+

@@ -1,7 +1,4 @@
 {{ define "main" }}
-<audio autoplay loop volume="0.4">
-  <source src="/JingleBells.mp3" type="audio/mp3">
-</audio>
 <main>
 	<div id="hello" class="modal modal-all over">
 		<a class="msgbox jackInTheBox"><div>
@@ -28,6 +25,11 @@
 	<section class="svg-container">
 		{{ partial "sng2019.svg" }}
 	</section>
+
+	<div class="controls">
+		<input class="control-checkbox" type="checkbox" onclick='toggleMusic(audio)' checked>music<br>
+		<input class="control-checkbox" type="checkbox" onclick='toggleSnow()' checked>snow<br>
+	</div>
 
 </main>
 
@@ -98,6 +100,14 @@ function preloadImages(arguments) {
   for (var i = 0; i < arguments.length; i++) {
     $("<img />").attr("src", arguments[i]);
   }
+}
+
+function loadAudio() {
+	audio = new Audio('/JingleBells.mp3');
+	audio.autoplay = true;
+	audio.volume = 0.4;
+	audio.loop = true;
+	audio.play();
 }
 
 
@@ -176,6 +186,20 @@ function populatePbar() {
 }
 
 // -------------------------------------------------------------
+
+// ---------------------------------------------- control utils
+function toggleSnow(){
+	const snowflakes = document.getElementById('_sneg');
+	snowflakes.style.display = snowflakes.style.display === 'none' ? '' : 'none';
+}
+
+function toggleMusic(audio){
+	const isMusicPaused = audio.paused;
+	isMusicPaused ? audio.play() : audio.pause();
+}
+
+// ------------------------------------------------------------
+
 
 var cndx;
 var cc;
@@ -308,7 +332,10 @@ $(function() {
 		allPics.push(`/g/f${i}.png`);
 	}
 	preloadImages(allPics);
+	loadAudio();
 });
+
+
 </script>
   {{ partial "ga" }}
 {{ end }}
