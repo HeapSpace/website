@@ -97,24 +97,40 @@ main {
     @include box-shadow(10px, 10px, 20px, $color-shadow);
     @include envelope(150deg, $color-red, $color-beige, $color-blue);
 
+    margin: 0 1em;
+    @include md {
+        padding: 1em;
+        margin: 0;
+    }
+
     > div {
-        font-size: 3em;
+        font-size: 2em;
         font-family: $font-cursive;
         text-align: center;
-        padding: 1em;
+        padding: 0.5em;
         background-color: $color-beige;
         @include rounded();
+        @include md {
+            font-size: 3em;
+        }
     }
 }
 
 .popup {
     position: fixed;
-    top: 100px;
-    left: 100px;
-    width: 40%;
+    top: 10px;
+    left: 10px;
+    width: 80%;
     max-width: 400px;
     font-size: 1em;
     display: none;
+
+    @include xl {
+        top: 80px;
+        left: 100px;
+        width: 40%;
+    }
+
 }
 
 .popupbox {
@@ -144,12 +160,21 @@ main {
     padding-top: 2em;
     font-size: 12px;
     font-family: $font-text;
-    display: flex;
     justify-content: space-between;
     text-transform: uppercase;
     height: 160px;
+    align-items: flex-end;
     > div {
-        align-self: flex-end;
+        height: 120px;
+        float:left;
+        margin: 0 0.5em;
+        @include sm {
+            height: auto;
+            float: none;
+        }
+    }
+    @include sm {
+        display: flex;
     }
 }
 #q {
@@ -161,9 +186,12 @@ main {
 
 #wish {
     width: 80%;
-    top: 10%;
+    top: 15%;
     left: 10%;
     display: none;
+    @include sm {
+        top: 10%;
+    }
 }
 
 .controls {
@@ -175,6 +203,12 @@ main {
     right: 0;
     margin: 1em;
     display: none;
+    width: 10%;
+
+    @include sm {
+        width: auto;
+        margin: 1em;
+    }
 
     label {
         -webkit-user-select: none;
