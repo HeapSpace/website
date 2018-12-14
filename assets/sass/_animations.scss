@@ -343,17 +343,17 @@
 
 ///////////////////////////////////////
 
-#_snow1_,
-#_snow2_,
-#_snow3_ {
+._snow1_,
+._snow2_,
+._snow3_ {
 	animation: snow 30s linear infinite;
 	opacity: 0;
 }
-#_snow2_ {
+._snow2_ {
 	animation-delay: 8;
 	animation-duration: 25s;
 }
-#_snow3_ {
+._snow3_ {
 	animation-delay: 15s;
 	animation-duration: 18s;
 }

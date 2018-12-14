@@ -186,9 +186,20 @@ function populatePbar() {
 
 // ---------------------------------------------- control utils
 
+var snowing = false;
 function toggleSnow(){
-	const snowflakes = document.getElementById('_sneg');
-	snowflakes.style.display = snowflakes.style.display === 'none' ? '' : 'none';
+	if (snowing) {
+		snowing = false;
+		$('#_snow1_').removeClass('_snow1_');
+		$('#_snow2_').removeClass('_snow2_');
+		$('#_snow3_').removeClass('_snow3_');
+	}
+	else {
+		snowing = true;
+		$('#_snow1_').addClass('_snow1_');
+		$('#_snow2_').addClass('_snow2_');
+		$('#_snow3_').addClass('_snow3_');
+	}
 }
 
 function toggleMusic(audio){
@@ -204,6 +215,7 @@ var cc;
 
 function startChallenges() {
 	$('.controls').show();
+	toggleSnow();
 	loadAndPlayAudio();
 	shuffle(challenges);
 	cndx = 0;
