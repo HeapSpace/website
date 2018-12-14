@@ -89,6 +89,16 @@ const challenges = [
 ];
 const lastChallenge = 7;
 
+// ------------------------------------------------------------- util
+
+// preload images
+function preloadImages(arguments) {
+  for (var i = 0; i < arguments.length; i++) {
+    $("<img />").attr("src", arguments[i]);
+  }
+}
+
+
 function shuffle(a) {
     for (let i = a.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -256,7 +266,6 @@ $(function() {
 		flash.each(function() {
 			const _this = $(this);
 			var c = _this.css('fill');
-			console.log(c);
 			c = getRGB(c);
 			_this.css('fill', `rgb(${c.red},${c.blue},${c.green})`);
 		});
@@ -288,6 +297,15 @@ $(function() {
 		});
 	}
 
+	// preload images
+	const allPics = [];
+	for (var i = 1; i <= manCount; i++) {
+		allPics.push(`/g/m${i}.png`);
+	}
+	for (var i = 1; i <= femaleCount; i++) {
+		allPics.push(`/g/f${i}.png`);
+	}
+	preloadImages(allPics);
 });
 </script>
   {{ partial "ga" }}
