@@ -209,6 +209,10 @@ function toggleMusic(audio){
 	isMusicPaused ? audio.play() : audio.pause();
 }
 
+function showFooter(){
+	const footerMessage = document.querySelector('.footer-message');
+	footerMessage.style.display = 'block';
+};
 // ------------------------------------------------------------
 
 
@@ -219,6 +223,7 @@ function startChallenges() {
 	$('.controls').show();
 	toggleSnow();
 	loadAndPlayAudio();
+	showFooter();
 	shuffle(challenges);
 	cndx = 0;
 	nextChallenge();
