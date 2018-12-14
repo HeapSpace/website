@@ -102,7 +102,7 @@ function preloadImages(arguments) {
   }
 }
 
-function loadAudio() {
+function loadAndPlayAudio() {
 	audio = new Audio('/JingleBells.mp3');
 	audio.autoplay = true;
 	audio.volume = 0.4;
@@ -205,6 +205,7 @@ var cndx;
 var cc;
 
 function startChallenges() {
+	loadAndPlayAudio();
 	shuffle(challenges);
 	cndx = 0;
 	nextChallenge();
@@ -298,8 +299,7 @@ $(function() {
 	}, 1000);
 
 
-
-	// close the welcome dialog
+	// close the welcome dialog, start!
 	$('#hello .msgbox').click(function() {
 		$('#hello').addClass('fadeOut');
 		window.setTimeout(function() {
@@ -332,7 +332,6 @@ $(function() {
 		allPics.push(`/g/f${i}.png`);
 	}
 	preloadImages(allPics);
-	loadAudio();
 });
 
 
