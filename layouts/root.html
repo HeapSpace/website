@@ -93,7 +93,7 @@ const challenges = [
 	a: 'snesko'
 }
 ];
-const lastChallenge = 7;
+const lastChallenge = 3;
 
 // ------------------------------------------------------------- util
 
@@ -329,16 +329,18 @@ $(function() {
 
 	// add click handlers
 	for (const itemId of allItems) {
-		$('#' + itemId).click(function() {
-			const id = $(this).attr('id');
-			//console.log("clicked " + id);
-			if (id === cc.a) {
-				correctAnswer(this);
-			}
-			else {
-				error(this);
-			}
-		});
+		$('#' + itemId)
+			.addClass('clicker')
+			.click(function() {
+				const id = $(this).attr('id');
+				//console.log("clicked " + id);
+				if (id === cc.a) {
+					correctAnswer(this);
+				}
+				else {
+					error(this);
+				}
+			});
 	}
 
 	// preload images
