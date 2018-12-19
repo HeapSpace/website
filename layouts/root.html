@@ -10,8 +10,9 @@
 
 	<div id="wish" class="modal over">
 		<div class="msgbox"><div class="clearfix">
-			Happy New 2019!<br>
-			Your friends from Heapspace :)
+			Happy 2019! Thank you for being with us all this time.
+			Keep running together!
+			<div style="font-size: 0.8em; margin-top: 0.3em;">- Your friends @ Heapspace.</div>
 			<div id="pbar">
 			</div>
 		</div></div>
@@ -50,46 +51,40 @@ const totalPersons = manNames.length + femaleNames.length;
 
 const challenges = [
 {
-	q: 'How many times do I have to say "Ho"?',
+	q: 'Red suite, white hair and a Heapspace tattoo on his butt :)',
 	a: 'deda'
 }, {
-	q: 'Ah deer, I love to play in the snow.',
+	q: 'Ah deer, I love geek talks and warm sweaters...',
 	a: 'irvas'
 }, {
-	q: 'Something is lost, and something is cold.',
-	a: 'rukavica'
-}, {
-	q: 'Snow, snow, little ball...',
+	q: 'Snow, snow, little ball, in a snow; recursion to go!',
 	a: 'kugla'
 }, {
-	q: 'Jingle, jingle, jingle all the day!',
+	q: 'Jingle, jingle, jingle all the Heapspace way!',
 	a: 'zvono'
 }, {
-	q: 'Ride or fly, no matter how high!',
+	q: 'How to fly to all region events made by Heapspace?',
 	a: 'sanke'
 }, {
-	q: 'Everyone likes them... So do I!',
+	q: 'In Heapspace we believe that giving and sharing is a gift.',
 	a: 'poklon2'
 }, {
-	q: 'In the middle of the night, there is the light.',
+	q: 'Heapcon 2019. conference is going to be soooo bright!',
 	a: 'lampa2'
 }, {
-	q: 'Empty in the evening, full in the morning.',
+	q: 'Don\'t forget to wear them before going to Tech breakfast :)',
 	a: 'carapa'
 }, {
-	q: 'Beautiful circle and some greens.',
-	a: 'ukras'
-}, {
-	q: 'I am lost. I don\'t know where I go.',
+	q: 'There are many paths to follow with the Heapspace.',
 	a: 'putokaz'
 }, {
-	q: 'Boooom. Baaaang. Woooow.',
+	q: 'Heapcon will rock in 2019. like a r.....!',
 	a: 'raketa'
 }, {
-	q: 'Short, but sweet. Love on his feet.',
+	q: 'Heapspace loves Linux - and Linux it is.',
 	a: 'pingvin'
 }, {
-	q: 'He is soft, but has a big, cold, heart.',
+	q: 'Snow, carrot and a Heapcon schedule under the hat... Who is he?',
 	a: 'snesko'
 }
 ];
@@ -249,7 +244,16 @@ function nextChallenge() {
 
 	cc = challenges[cndx];
 	cndx += 1;
-	$('#q').text(cc.q);
+	var txt = cc.q;
+	if (cndx === 1) {
+		txt = '<div>Three challenges to solve!</div>' + txt;
+	}
+	else if (cndx === 2) {
+		txt = '<div>Two to go!</div>' + txt;
+	} else if (cndx === lastChallenge) {
+		txt = '<div>The final one!</div>' + txt;
+	}
+	$('#q').html(txt);
 
 	const person = randomPerson();
 	$('#p img').attr('src', person.pic);

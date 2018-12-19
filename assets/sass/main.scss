@@ -135,7 +135,6 @@ main {
 
 .popupbox {
     padding: 0.3em 0;
-    cursor: pointer;
     @include rounded();
     @include box-shadow(10px, 10px, 20px, $color-shadow);
     @include envelope(150deg, $color-blue, $color-beige, $color-red);
@@ -182,6 +181,11 @@ main {
     font-family: $font-text;
     text-align: center;
     padding: 0 1em 0 0;
+    div {
+        font-size: 0.8em;
+        font-weight: bold;
+        margin-bottom: 0.5em;
+    }
 }
 
 #wish {
