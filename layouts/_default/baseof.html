@@ -5,7 +5,8 @@
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
   		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>{{ .Title }} - {{ .Site.Title }}</title>
-		<link rel='stylesheet' id='heapspace-style-css'  href='/css/main.css' type='text/css' media='all' />
+		{{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+		<link rel='stylesheet' href='{{ $style.RelPermalink }}' type='text/css' media='all' />
 		{{ partial "head" . }}
     </head>
     <body>
