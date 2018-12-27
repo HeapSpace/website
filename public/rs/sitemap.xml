@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://heapspace.rs/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://heapspace.rs/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="rs"
+                href="https://heapspace.rs/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://heapspace.rs/dogadjaji/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://heapspace.rs/en/events/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="rs"
+                href="https://heapspace.rs/dogadjaji/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://heapspace.rs/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://heapspace.rs/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="rs"
+                href="https://heapspace.rs/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://heapspace.rs/manifest/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://heapspace.rs/en/manifest/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="rs"
+                href="https://heapspace.rs/manifest/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://heapspace.rs/o-zajednici/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://heapspace.rs/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="rs"
+                href="https://heapspace.rs/o-zajednici/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://heapspace.rs/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://heapspace.rs/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="rs"
+                href="https://heapspace.rs/tags/"
+                />
+  </url>
+  
+</urlset>
