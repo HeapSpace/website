@@ -150,10 +150,13 @@ main {
  #p {
     flex: 0 0 50px;
     padding: 0 2em 0 1em;
-    font-size: 0.8em;
+    font-size: 0.6em;
     text-align: center;
     font-family: $font-text;
     text-transform: uppercase;
+    @include md {
+        font-size: 0.8em;
+    }
 }
 #pbar {
     padding-top: 2em;
@@ -161,26 +164,44 @@ main {
     font-family: $font-text;
     justify-content: space-between;
     text-transform: uppercase;
-    height: 160px;
     align-items: flex-end;
     > div {
-        height: 120px;
+        font-size: 10px;
         float:left;
         margin: 0 0.5em;
+        img {
+            width: auto;
+            height: 40px;
+            @include sm {
+                height: auto;
+            }
+        }
         @include sm {
+            font-size: 12px;
             height: auto;
             float: none;
         }
     }
+    padding: 0;
     @include sm {
         display: flex;
     }
+    @include lg {
+        padding: 0 10em;
+    }
+    @include md {
+        height: 160px;
+        padding: 0 2em;
+    }
 }
 #q {
-    font-size: 1.3em;
+    font-size: 1em;
     font-family: $font-text;
     text-align: center;
     padding: 0 1em 0 0;
+    @include md {
+        font-size: 1.3em;
+    }
     div {
         font-size: 0.8em;
         font-weight: bold;
