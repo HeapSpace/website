@@ -1,0 +1,56 @@
+<html>
+<head>
+<style type="text/css">
+@font-face {
+  font-family: hs;
+  src: url(hs.otf);
+}
+
+body {
+  background: #eb5027;
+}
+use {
+  text-transform: uppercase;
+  fill: none;
+  stroke-width: 10;
+  letter-spacing: 4px;
+  font: 200px 'hs';
+  -webkit-animation: dash 20s linear infinite;
+          animation: dash 20s linear infinite;
+}
+
+@-webkit-keyframes dash {
+  from {
+    stroke-dashoffset: -100%;
+  }
+  to {
+    stroke-dashoffset: 0%;
+  }
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: -100%;
+  }
+  to {
+    stroke-dashoffset: 0%;
+  }
+}
+</style>
+</head>
+<body>
+
+<svg height="100%" width="100%">
+  <symbol id="s-text">
+    <text x="50%" y="30%" dominant-baseline="middle" text-anchor="middle">SREĆNA NOVA</text>
+    <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle">2019. GODINA!</text>
+  </symbol>
+  <use xlink:href="#s-text" stroke="#384af4" stroke-dasharray="70,10"> </use>
+  <use xlink:href="#s-text" stroke="#fdf4e3" stroke-dasharray="70,90"></use>
+  <use xlink:href="#s-text" stroke="#231f20" stroke-dasharray="70,250"></use>
+  <use xlink:href="#s-text" stroke="#679070" stroke-dasharray="70,570"></use>
+  <use xlink:href="#s-text" stroke="#231f20" stroke-dasharray="70,570"></use>
+</svg>
+
+</body>
+</html>
