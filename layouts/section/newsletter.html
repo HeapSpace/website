@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{$.Site.Language}}">
+    <head>
+    	<meta charset="UTF-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+  		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>{{ .Title }} - {{ .Site.Title }}</title>
+		{{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+		<link rel='stylesheet' href='{{ $style.RelPermalink }}' type='text/css' media='all' />
+		{{ partial "head" . }}
+    </head>
+    <body>
+
+        <main class="content-info grid">
+            <div class="container content-wrap">
+                {{ partial "mailchimp" . }}
+            </div>
+        </main>
+
+		{{ partial "footer" . }}
+
+		{{ partial "js" . }}
+
+    </body>
+</html>
