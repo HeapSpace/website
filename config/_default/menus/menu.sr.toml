@@ -1,0 +1,23 @@
+[[main]]
+	identifier = "about"
+	name = "o zajednici"
+	url = "/o-zajednici"
+	weight = -110
+
+[[main]]
+	identifier = "events"
+	name = "dogadjaji"
+	url = "/dogadjaji"
+	weight = -100
+
+[[main]]
+	identifier = "manifest"
+	name = "manifest"
+	url = "/manifest"
+	weight = -90
+
+[[main]]
+	identifier = "contact"
+	name = "kontakt"
+	url = "#contact"
+	weight = -80

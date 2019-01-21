@@ -1,10 +1,9 @@
 ---
 title: "Home"
 layout: "index"
-color: "red"
 ---
 
-{{% section %}}
+{{% section red %}}
 
 Mi smo Heapspace. Od 2004. godine radimo na razvoju lokalne i regionalne tehnološke scene.
 
@@ -16,9 +15,18 @@ Kroz saradnju sa ostalim akterima na tržištu kreiramo povoljno okruženje za e
 
 {{% /section %}}
 
+<!------------------------------------------------------------------------------------------------>
 
+{{% section white %}}
+## Heapcon
 
+Nastavljamo tamo gde je Voxxed Days Belgrade stao 2017. Ovog oktobra, predstavljamo regionalni "must-see" tech događaj.
 
+{{% a_btn "https://heapcon.io" %}}Saznaj više{{% /a_btn %}}
+
+{{% /section %}}
+
+<!------------------------------------------------------------------------------------------------>
 
 {{% section blue %}}
 
@@ -28,7 +36,7 @@ Naši projekti su usmereni na razvoj regionalne tehnološke scene. Želimo da om
 
 {{% a_btn "dogadjaji" %}}Više o događajima{{% /a_btn %}}
 
-{{% event_left "projects_vdb" %}}
+{{% event_left 5 %}}
 
 ### Tehnološke konferencije
 
