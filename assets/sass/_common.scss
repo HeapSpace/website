@@ -1,14 +1,14 @@
 
 @font-face {
   font-family: 'HS Grotesk';
-  src: url('../fonts/HS Grotesk.otf') format('opentype');
+  src: url('/fonts/HS Grotesk.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Menoe Grotesque';
-  src: url('../fonts/Menoe-Grotesque-Std-Regular.otf') format('opentype');
+  src: url('/fonts/Menoe-Grotesque-Std-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -55,7 +55,7 @@ html {
 
 .bg-beige {
   background-color: $color-hs-beige;
-  color: $color-hs-black;
+  color: $color-hs-red;
 }
 
 .bg-blue {
@@ -71,13 +71,8 @@ html {
 .bg-white {
   background-color: $color-hs-white;
   color: $color-hs-black;
-  mix-blend-mode: difference;
-  position: relative;
-  z-index: 15;
-  pointer-events: none;
   a {
     color: $color-hs-black;
-    pointer-events: all;
   }
 }
 
@@ -101,7 +96,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.2em;
+  font-size: 2.0em;
 }
 
 h3 {
@@ -187,4 +182,22 @@ img {
 }
 .clear:after {
   clear: both;
+}
+
+/** INPUT */
+
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  font-family: $font-main;
+}
+
+/** LISTS */
+
+ul {
+  margin: 40px 0;
 }

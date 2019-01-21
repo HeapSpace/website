@@ -13,12 +13,9 @@
 
     	{{ partial "header" . }}
 
-		<div class="container"><div id="content">
-			<main id="main" class="main">
-				{{ block "main" . }}{{ end }}
-			</main>
-
-		</div></div>
+		<main id="main" class="main bg-{{ .Param "color" }}">
+			{{ block "main" . }}{{ end }}
+		</main>
 
 		{{ partial "footer" . }}
 

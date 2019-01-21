@@ -1,6 +1,0 @@
-<pre class="debug">
-ALL RESOURCES:
-{{ $headless := .Site.GetPage "/_index" }}
-{{ with $headless.Resources }} {{ range . }} + {{ . }}
-{{ end }}{{ end }}
-</pre>

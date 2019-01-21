@@ -1,12 +1,33 @@
-@import "common/variables";
 @import "normalize";
+@import "variables";
+@import "common";
+@import "header";
+@import "footer";
 
-@import "common/global";
-@import "common/shortcodes";
-@import "layouts/header";
-@import "layouts/footer";
-@import "layouts/pages";
+.grid {
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1120px) 1fr;
+  grid-gap: 1em;
+}
+main .grid, footer.grid {
+	padding: $section-padding 0;
+}
 
-@import "common/media";
+main {
+	padding-top: 80px;
+}
 
-@import "common/debug";
+.content-wrap {
+  grid-column: 2;
+  font-size: 2em;
+  line-height: 1.2;
+}
+.content-wrap-1em {
+  grid-column: 2;
+  font-size: 1em;
+  line-height: 1;
+}
+
+
+
+@import "media";

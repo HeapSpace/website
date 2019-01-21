@@ -1,45 +1,40 @@
 
 header {
-  font-size: 1.2em;
+  font-size: 1em;
   position: fixed;
   line-height: 1.2em;
-  top: 10px;
-  left: 20px;
-  right: 20px;
   z-index: 10;
+  width: 100%;
   white-space: nowrap;
+  background-color: $color-hs-black;
 }
 
 nav ul li a {
   text-decoration: none;
   color: $color-hs-white;
-  background-color: trasparent;
 }
 
 .inner-nav {
     display: flex;
     align-items: center;
-    -ms-transform-origin: bottom left;
-    transform-origin: bottom left;
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
 }
 
-.site-branding {
-    margin-top: 20px;
-    padding-left: 15px;
-    display: inline-block;
-    -ms-transform: rotate(-90deg);
-    transform: rotate(-90deg);
+.site-logo {
+    //top: 10px;
+    //padding-left: 15px;
+    //position: fixed;
+    padding: 10px 0;
+    img {
+      width: 70%;
+    }
 }
 
 nav.nav-primary {
   clear: both;
   display: inline-block;
   width: 100%;
-  margin-left: .5em;
   line-height: 2em;
-  border-left: 2px solid $color-hs-white;
+  border-left: 2px dotted $color-hs-white;
 
   ul {
     list-style: none;
@@ -66,14 +61,14 @@ nav.nav-primary {
 nav.nav-lang {
   position: absolute;
   display: inline-block;
-  right: 0;
-  top: 0;
+  right: 10px;
+  top: 14px;
 
   ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    font-size: 1.2em;
+    font-size: 2em;
   }
 
   ul li {
@@ -83,7 +78,7 @@ nav.nav-lang {
 
   ul li:first-child::after {
     content: "/";
-    margin-right: -12px;
+    margin-right: -20px;
   }
 
   .current-lang > span {

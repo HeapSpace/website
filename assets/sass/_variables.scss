@@ -1,0 +1,23 @@
+
+/** Colors */
+$color-hs-black:		#231f20;
+$color-hs-red:			#fd4000;
+$color-hs-beige:		#fff4e1;
+$color-hs-blue:			#384af4;
+$color-hs-white:		#ffffff;
+
+:root {
+  --color-hs-red: $color-hs-red;
+  --color-hs-beige: $color-hs-beige;
+  --color-hs-blue: $color-hs-blue;
+  --color-hs-black: $color-hs-black;
+  --color-hs-white: $color-hs-white;
+}
+
+/** Box Model  */
+$spacer:				2rem;
+$section-padding:		4em;
+
+/** Fonts */
+$font-title:        'HS Grotesk', sans-serif;
+$font-main:         'Menoe Grotesque', sans-serif;

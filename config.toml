@@ -1,11 +1,10 @@
 baseURL = "https://heapspace.rs/"
-languageCode = "en-us"
 title = "Heapspace"
 disableRss = true
-DefaultContentLanguage = "rs"
+DefaultContentLanguage = "sr"
 
 [languages]
-  [languages.rs]
+  [languages.sr]
   [languages.en]
 
 [[languages.en.menu.main]]
