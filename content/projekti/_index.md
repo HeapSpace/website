@@ -4,10 +4,9 @@ translationKey: "projects"
 ---
 
 {{% section red %}}
-# Projects
+# Projekti
 
-Projekti svi.
-
+Svi naši projekti.
 {{% /section %}}
 
 {{< section_file "_body" >}}

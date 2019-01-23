@@ -39,7 +39,7 @@ nav.nav-primary {
   li {
     display: block;
     float: left;
-    margin-left: 1em;
+    margin-left: 1.5em;
     border-left: 1px solid $color-hs-white;
   }
 
@@ -64,23 +64,21 @@ nav.nav-lang {
     margin: 0;
     padding: 0;
     font-size: 2em;
+    li {
+      display: inline-block;
+      color: $color-hs-white;
+      a {
+        padding: 14px;
+        text-decoration: underline;
+      }
+      a:hover {
+        color: $color-hs-white;
+      }
+    }
   }
-
-  ul li {
-    display: inline-block;
-    color: $color-hs-white;
-  }
-
-  ul li:first-child::after {
-    content: "/";
-    margin-right: -20px;
-  }
-
   .current-lang > span {
-    text-decoration: underline;
-  }
-
-  a:hover {
-    color: $color-hs-white;
+    background-color: $color-hs-white;
+    color: $color-hs-black;
+    padding: 14px;
   }
 }

@@ -1,3 +1,6 @@
+---
+headless: true
+---
 ### Tech Breakfast
 
 Monthly event – on each first Wednesday of the month – where we see quick showcases of entrepreneurial ideas as we cosily sip the first morning coffee. A couple of five-minute presentations, two-minute Q&A sessions, and networking, made complete by the flavour of [Domaće kiflice](http://domacekiflice.rs/), is a terrific way to start your day.

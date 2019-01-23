@@ -51,21 +51,33 @@ html {
 .bg-red {
   background-color: $color-hs-red;
   color: $color-hs-white;
+  a {
+    color: $color-hs-white;
+  }
 }
 
 .bg-beige {
   background-color: $color-hs-beige;
   color: $color-hs-red;
+  a {
+    color: $color-hs-black;
+  }
 }
 
 .bg-blue {
   background-color: $color-hs-blue;
   color: $color-hs-white;
+  a {
+    color: $color-hs-white;
+  }
 }
 
 .bg-black {
   background-color: $color-hs-black;
   color: $color-hs-white;
+  a {
+    color: $color-hs-white;
+  }
 }
 
 .bg-white {
@@ -92,7 +104,7 @@ h6 {
 }
 
 h1 {
-  font-size: 6em;
+  font-size: 4em;
 }
 
 h2 {
@@ -111,7 +123,7 @@ p {
 /** LINKS */
 
 a {
-  color: #fff;
+  color: $color-hs-black;
 }
 
 a:visited {

@@ -6,8 +6,7 @@ translationKey: "projects"
 {{% section red %}}
 # Projects
 
-Projekti.
-
+All our projects.
 {{% /section %}}
 
 {{< section_file "_body" >}}

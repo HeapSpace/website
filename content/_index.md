@@ -32,19 +32,27 @@ Nastavljamo tamo gde je Voxxed Days Belgrade stao 2017. Ovog oktobra, predstavlj
 
 Naši projekti su usmereni na razvoj regionalne tehnološke scene. Želimo da omogućimo da znanje svima bude dostupno, pošto je to ono što pomera društvo napred.
 
+
+{{< flex >}}
+{{% flex-column %}}
+# 5
 ### Tehnološke konferencije
 
 Počeli smo sa Voxxed Days Belgrade konferencijom koja je proglašena za najbrojniji Voxxed događaj u Evropi tri godine za redom, a nastavljamo sa Heapconom.
-
-
+{{% /flex-column %}}
+{{% flex-column %}}
+# 7
 ### Sedmi čas
 
 Štreberska okupljanja na temu tehnologije uz neizostavni Floppy challenge.
-
-
+{{% /flex-column %}}
+{{% flex-column %}}
+# 33
 ### Tehnološki doručak
 
 Razmena preduzetničkih ideja uz jutarnju kafu i kiflice, svake prve srede u mesecu. Svrati po svoju dozu inspiracije!
+{{% /flex-column %}}
+{{</ flex >}}
+
 
 {{% /section %}}
-
