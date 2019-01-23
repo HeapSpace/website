@@ -1,3 +1,7 @@
+---
+headless: true
+---
+
 ## Heapspace is an open community for all technology lovers.
 
 {{% big-numtxt "1" %}}

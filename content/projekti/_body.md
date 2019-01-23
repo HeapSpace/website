@@ -1,7 +1,8 @@
-+++
+---
+headless: true
+---
 
-+++
-### Tehnološki doručak
+## Tehnološki doručak
 
 Mesečno okupljanje – svake prve srede u mesecu – sa ciljem brze razmene preduzetničkih ideja u prijatnoj atmosferi prve jutarnje kafe. Tri-četiri predavanja od 5 minuta, 2 minuta za pitanja uz networking upotpunjen ukusom [Domaćih kiflica](http://domacekiflice.rs/) je sjajan način da se započne dan.
 
@@ -11,9 +12,9 @@ Ako imaš ideju koju želiš da podeliš na doručku, piši nam na: [dorucak@hea
 
 ![](td.jpg)
 
-***
+---
 
-### Sedmi čas
+## Sedmi čas
 
 Vraćamo vas u školu, ali na one časove koje ste voleli, ili pak, na one časove koje nikada niste imali.
 
@@ -23,9 +24,9 @@ Ako želiš da budeš "profa", piši nam na: [sedmicas@heapspace.rs](mailto:sedm
 
 ![](scas.jpg)
 
-***
+---
 
-### Heapcon
+## Heapcon
 
 Regionalna tehnološka konferencija namenjena softverskim inženjerima će se održati ove godine u oktobru. Naslednik Voxxed Days Belgrade konferencije, [Heapcon](http://heapcon.io/) će doneti još bolji line-up govornika, nove formate razmene znanja i predstaviće regionalnu ekspertizu u domenu razvoja softvera.
 

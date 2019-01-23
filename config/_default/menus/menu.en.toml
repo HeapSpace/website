@@ -1,13 +1,13 @@
 [[main]]
-	identifier = "about"
-	name = "about"
-	url = "/en/about"
+	identifier = "projects"
+	name = "projects"
+	url = "/en/projects"
 	weight = -110
 
 [[main]]
-	identifier = "events"
-	name = "events"
-	url = "/en/events"
+	identifier = "news"
+	name = "news"
+	url = "/en/news"
 	weight = -100
 
 [[main]]
@@ -17,7 +17,13 @@
 	weight = -90
 
 [[main]]
+	identifier = "team"
+	name = "team"
+	url = "/team"
+	weight = -80
+
+[[main]]
 	identifier = "contact"
 	name = "contact"
-	url = "#contact"
-	weight = -80
+	url = "/contact"
+	weight = -70

@@ -1,3 +1,7 @@
+---
+headless: true
+---
+
 ## Heapspace je otvorena zajednica za sve one koji vole tehnologiju.
 
 {{% big-numtxt "1" %}}

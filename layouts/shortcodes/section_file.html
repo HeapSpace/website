@@ -1,0 +1,10 @@
+{{ $page := (.Get 0) }}
+{{ $bgcolor := (.Get 1) }}
+<div class="grid bg-{{ $bgcolor }}"><div class="content-wrap">
+
+
+{{ with .Page.GetPage $page }}{{ .Content }}{{ end }}
+
+
+
+</div></div>
