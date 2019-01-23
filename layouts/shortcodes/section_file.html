@@ -2,9 +2,6 @@
 {{ $bgcolor := (.Get 1) }}
 <div class="grid bg-{{ $bgcolor }}"><div class="content-wrap">
 
-
-{{ with .Page.GetPage $page }}{{ .Content }}{{ end }}
-
-
+{{ with (.Page.Resources.GetMatch (printf "%s.%s.md" $page .Site.Language.Lang)) }}{{ .Content }}{{ end }}
 
 </div></div>
