@@ -1,7 +1,6 @@
 ---
 headless: true
 ---
-
 ## Tehnološki doručak
 
 Mesečno okupljanje – svake prve srede u mesecu – sa ciljem brze razmene preduzetničkih ideja u prijatnoj atmosferi prve jutarnje kafe. Tri-četiri predavanja od 5 minuta, 2 minuta za pitanja uz networking upotpunjen ukusom [Domaćih kiflica](http://domacekiflice.rs/) je sjajan način da se započne dan.

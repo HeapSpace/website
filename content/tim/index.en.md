@@ -1,7 +1,6 @@
 ---
 title: "Team"
+translationKey: "team"
+slug: "team"
 ---
-
-{{% section red %}}
 # Team
-{{% /section %}}

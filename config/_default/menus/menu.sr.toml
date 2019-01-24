@@ -2,28 +2,28 @@
 	identifier = "projects"
 	name = "projekti"
 	url = "/projekti"
-	weight = -110
+	weight = 10
 
 [[main]]
 	identifier = "news"
 	name = "novosti"
 	url = "/novosti"
-	weight = -100
+	weight = 20
 
 [[main]]
 	identifier = "manifest"
 	name = "manifest"
 	url = "/manifest"
-	weight = -90
+	weight = 30
 
 [[main]]
 	identifier = "team"
 	name = "tim"
 	url = "/tim"
-	weight = -80
+	weight = 40
 
 [[main]]
 	identifier = "contact"
 	name = "kontakt"
 	url = "/kontakt"
-	weight = -70
+	weight = 50

@@ -9,4 +9,4 @@ translationKey: "projects"
 Svi naši projekti.
 {{% /section %}}
 
-{{< section_file "_body" >}}
+{{< section_file "body" >}}

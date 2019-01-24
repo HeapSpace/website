@@ -1,6 +1,7 @@
 ---
 title: "Projects"
 translationKey: "projects"
+url: "/en/projects"
 ---
 
 {{% section red %}}
@@ -9,4 +10,4 @@ translationKey: "projects"
 All our projects.
 {{% /section %}}
 
-{{< section_file "_body" >}}
+{{< section_file "body" >}}

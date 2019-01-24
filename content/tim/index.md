@@ -1,7 +1,5 @@
 ---
 title: "Tim"
+translationKey: "team"
 ---
-
-{{% section red %}}
 # Tim
-{{% /section %}}

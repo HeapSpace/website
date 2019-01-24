@@ -1,7 +1,6 @@
 ---
 headless: true
 ---
-
 {{< flex >}}
 {{% flex-column %}}
   {{< big-num "1" >}}
