@@ -1,6 +1,7 @@
 ---
 title: "Manifest"
 translationKey: "manifest"
+url: "/en/manifest"
 ---
 
 {{% section red %}}
@@ -8,3 +9,4 @@ translationKey: "manifest"
 
 {{% /section %}}
 
+{{< section_file "body" >}}

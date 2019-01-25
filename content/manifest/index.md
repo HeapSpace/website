@@ -10,3 +10,4 @@ translationKey: "manifest"
 
 {{% /section %}}
 
+{{< section_file "body" >}}

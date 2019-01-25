@@ -1,10 +1,9 @@
 ---
 headless: true
 ---
+
 {{< flex >}}
-{{% flex-column %}}
-  {{< big-num "1" >}}
-{{% /flex-column %}}
+{{% flex-column %}}{{< superbig "1" >}}{{% /flex-column %}}
 {{% flex-column-2 %}}
 ### A community, not an organisation.
 
@@ -14,9 +13,7 @@ Our projects aim at one thing: development of the regional tech scene. So, Heaps
 
 
 {{< flex >}}
-{{% flex-column %}}
-  {{< big-num "2" >}}
-{{% /flex-column %}}
+{{% flex-column %}}{{< superbig "2" >}}{{% /flex-column %}}
 {{% flex-column-2 %}}
 ### Knowledge made available.
 
@@ -26,9 +23,7 @@ Ever since JavaSvet was founded in 2004, all events we’ve organised have been 
 
 
 {{< flex >}}
-{{% flex-column %}}
-  {{< big-num "3" >}}
-{{% /flex-column %}}
+{{% flex-column %}}{{< superbig "3" >}}{{% /flex-column %}}
 {{% flex-column-2 %}}
 ### Changing the mindset.
 
@@ -38,9 +33,7 @@ When it comes to staying quiet or raising our voice, most of us would go with st
 
 
 {{< flex >}}
-{{% flex-column %}}
-  {{< big-num "4" >}}
-{{% /flex-column %}}
+{{% flex-column %}}{{< superbig "4" >}}{{% /flex-column %}}
 {{% flex-column-2 %}}
 ### Joining forces.
 
@@ -50,9 +43,7 @@ Heapspace has no value, unless we join our forces with other communities that ai
 
 
 {{< flex >}}
-{{% flex-column %}}
-  {{< big-num "5" >}}
-{{% /flex-column %}}
+{{% flex-column %}}{{< superbig "5" >}}{{% /flex-column %}}
 {{% flex-column-2 %}}
 ### No discrimination.
 

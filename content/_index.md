@@ -11,16 +11,16 @@ Kroz saradnju sa ostalim akterima na tržištu kreiramo povoljno okruženje za e
 
 2019\. godina nam donosi još uzbudljivih projekata.
 
+\> [Heapcon](https://heapcon.io) | [Tehnološki Doručak](https://tehnoloskidorucak.io) | [OpenData](https://opendata.rs)
+
 {{% /section %}}
 
 <!------------------------------------------------------------------------------------------------>
 
 {{% section white %}}
-## Heapcon
+## Novosti
 
-Nastavljamo tamo gde je Voxxed Days Belgrade stao 2017. Ovog oktobra, predstavljamo regionalni "must-see" tech događaj.
-
-{{% a_btn "https://heapcon.io" %}}Saznaj više{{% /a_btn %}}
+... ovde će biti poslednje novosti...
 
 {{% /section %}}
 
@@ -28,26 +28,16 @@ Nastavljamo tamo gde je Voxxed Days Belgrade stao 2017. Ovog oktobra, predstavlj
 
 {{% section blue %}}
 
-## Naši projekti
-
-Naši projekti su usmereni na razvoj regionalne tehnološke scene. Želimo da omogućimo da znanje svima bude dostupno, pošto je to ono što pomera društvo napred.
-
 
 {{< flex >}}
-{{% flex-column %}}
-# 5
+{{% flex-column %}}{{< big "5" >}}
+
 ### Tehnološke konferencije
 
 Počeli smo sa Voxxed Days Belgrade konferencijom koja je proglašena za najbrojniji Voxxed događaj u Evropi tri godine za redom, a nastavljamo sa Heapconom.
 {{% /flex-column %}}
-{{% flex-column %}}
-# 7
-### Sedmi čas
+{{% flex-column %}}{{< big "33" >}}
 
-Štreberska okupljanja na temu tehnologije uz neizostavni Floppy challenge.
-{{% /flex-column %}}
-{{% flex-column %}}
-# 33
 ### Tehnološki doručak
 
 Razmena preduzetničkih ideja uz jutarnju kafu i kiflice, svake prve srede u mesecu. Svrati po svoju dozu inspiracije!

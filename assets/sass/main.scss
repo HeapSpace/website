@@ -30,12 +30,13 @@ main {
   line-height: 1;
 }
 
-h2.superbig {
+h1.superbig {
   font-size: 16em;
-  margin-bottom: 0;
   line-height: .7em;
-  position: relative;
-  top: -40px;
+}
+h1.big {
+  font-size: 8em;
+  line-height: .7em;
 }
 
 @import "media";

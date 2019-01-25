@@ -5,9 +5,9 @@
 	weight = 10
 
 [[main]]
-	identifier = "news"
-	name = "novosti"
-	url = "/novosti"
+	identifier = "blog"
+	name = "blog"
+	url = "/blog"
 	weight = 20
 
 [[main]]

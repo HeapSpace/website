@@ -2,4 +2,11 @@
 title: "Tim"
 translationKey: "team"
 ---
-# Tim
+
+{{% section red %}}
+# Upoznaj Heapspace tim
+{{% /section %}}
+
+{{% section %}}
+![](hs.jpg)
+{{% /section %}}

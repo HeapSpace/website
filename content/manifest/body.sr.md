@@ -1,10 +1,9 @@
 ---
 headless: true
 ---
+
 {{< flex >}}
-{{% flex-column %}}
-  {{< big-num "1" >}}
-{{% /flex-column %}}
+{{% flex-column %}}{{< superbig "1" >}}{{% /flex-column %}}
 {{% flex-column-2 %}}
 ### Zajednica, a ne organizacija.
 
@@ -14,9 +13,7 @@ Naši projekti imaju jedno usmerenje: razvoj regionalne tehnološke scene. Samim
 
 
 {{< flex >}}
-{{% flex-column %}}
-  {{< big-num "2" >}}
-{{% /flex-column %}}
+{{% flex-column %}}{{< superbig "2" >}}{{% /flex-column %}}
 {{% flex-column-2 %}}
 ### Dostupno znanje.
 
@@ -26,9 +23,7 @@ Od nastanka JavaSveta 2004. godine, svi događaji koje smo organizovali su bili 
 
 
 {{< flex >}}
-{{% flex-column %}}
-  {{< big-num "3" >}}
-{{% /flex-column %}}
+{{% flex-column %}}{{< superbig "3" >}}{{% /flex-column %}}
 {{% flex-column-2 %}}
 ### Menjanje svesti.
 
@@ -38,21 +33,17 @@ Između sagni glavu i digni glas, biraš sagni glavu, jer su te tako učili od m
 
 
 {{< flex >}}
-{{% flex-column %}}
-  {{< big-num "4" >}}
-{{% /flex-column %}}
+{{% flex-column %}}{{< superbig "4" >}}{{% /flex-column %}}
 {{% flex-column-2 %}}
 ### Udruživanje.
 
-Heapspace sam po sebi nema vrednost, ako se ne udružujemo sa ostalim zajednicama koje imaju za cilj da naprave promenu u društvu. Dok sami šetamo, zajedno trčimo!
+Heapspace sam po sebi nema vrednost, ako se ne udružujemo sa ostalim zajednicama koje imaju za cilj da naprave promenu u društvu. Dok sami koračamo, zajedno trčimo!
 {{% /flex-column-2 %}}
 {{< /flex >}}
 
 
 {{< flex >}}
-{{% flex-column %}}
-  {{< big-num "5" >}}
-{{% /flex-column %}}
+{{% flex-column %}}{{< superbig "5" >}}{{% /flex-column %}}
 {{% flex-column-2 %}}
 ### Bez diskriminacije.
 
