@@ -11,7 +11,7 @@ Kroz saradnju sa ostalim akterima na tržištu kreiramo povoljno okruženje za e
 
 2019\. godina nam donosi još uzbudljivih projekata.
 
-\> [Heapcon](https://heapcon.io) | [Tehnološki Doručak](https://tehnoloskidorucak.io) | [OpenData](https://opendata.rs)
+{{< fa angle-right >}} [Heapcon](https://heapcon.io) {{< fa grip-lines-vertical >}} [Tehnološki Doručak](https://tehnoloskidorucak.io) {{< fa grip-lines-vertical >}} [OpenData](https://opendata.rs)
 
 {{% /section %}}
 
