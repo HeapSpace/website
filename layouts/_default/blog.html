@@ -12,7 +12,11 @@
 <div class="post-small" style="display: flex">
 <div style="flex: 1;">
 	<h2><a href="{{ .RelPermalink }}">{{.LinkTitle}}</a></h2>
-	<div>{{ partial "dateof" (dict "ctx" $ "date" .Date) }} {{ .Params.author }} {{.ReadingTime}}min</div>
+	<div style="font-size: 0.8em">
+		{{ partial "dateof" (dict "ctx" $ "date" .Date) }}
+		<i class="far fa-user"></i>{{ .Params.author }}
+		<i class="far fa-clock"></i>{{.ReadingTime}}min
+	</div>
 	<p>{{ .Summary }}</p>
 </div>
 <div style="flex: 0 0 180px">

@@ -1,2 +1,1 @@
-{{ $data := .ctx.Site.Data}}
-{{ .date.Day }}. {{ index $data.months (printf "%d" .date.Month) }} {{.date.Year}}.
+<i class="far fa-calendar"></i>{{ .date.Day }}. {{ index .ctx.Site.Data.months (printf "%d" .date.Month) }} {{.date.Year}}.
