@@ -1,0 +1,2 @@
+{{ $data := .ctx.Site.Data}}
+{{ .date.Day }}. {{ index $data.months (printf "%d" .date.Month) }} {{.date.Year}}.

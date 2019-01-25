@@ -1,6 +1,5 @@
 ---
 title: "Home"
-layout: "index"
 ---
 
 {{% section red %}}
@@ -32,13 +31,13 @@ Kroz saradnju sa ostalim akterima na tržištu kreiramo povoljno okruženje za e
 {{< flex >}}
 {{% flex-column %}}{{< big "5" >}}
 
-### Tehnološke konferencije
+## Tehnološke konferencije
 
 Počeli smo sa Voxxed Days Belgrade konferencijom koja je proglašena za najbrojniji Voxxed događaj u Evropi tri godine za redom, a nastavljamo sa Heapconom.
 {{% /flex-column %}}
 {{% flex-column %}}{{< big "33" >}}
 
-### Tehnološki doručak
+## Tehnološki doručak
 
 Razmena preduzetničkih ideja uz jutarnju kafu i kiflice, svake prve srede u mesecu. Svrati po svoju dozu inspiracije!
 {{% /flex-column %}}

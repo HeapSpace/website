@@ -1,6 +1,5 @@
 ---
 title: "Home"
-layout: "index"
 ---
 
 {{% section red %}}

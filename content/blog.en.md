@@ -1,9 +1,9 @@
 ---
-title: "Blog"
+title: Blog
 translationKey: "blog"
+layout: "blog"
 url: "/en/blog"
 ---
-
 {{% section red %}}
-# Blog
+# Blog & News
 {{% /section %}}
