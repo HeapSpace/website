@@ -6,5 +6,5 @@ layout: "team"
 ---
 
 {{% section red %}}
-# Meet the Heapspace team
+# Meet the team
 {{% /section %}}

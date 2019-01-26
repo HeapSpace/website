@@ -5,5 +5,5 @@ translationKey: "contact"
 
 {{% section red %}}
 # Kontakt
-Kontaktirajte nas.
+Otvoreni smo za saradnju, pitanja i sugestije. Radimo punom parom za dobrobit regionalne tehnološke zajednice.
 {{% /section %}}

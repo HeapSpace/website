@@ -13,7 +13,9 @@ main {
 main .grid, footer.grid {
   padding: $section-padding 0;
 }
-
+main .grid:first-child {
+  padding: $section-padding/2;
+}
 
 .content-wrap {
   grid-column: 2;

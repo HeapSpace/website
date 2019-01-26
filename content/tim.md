@@ -5,5 +5,5 @@ layout: "team"
 ---
 
 {{% section red %}}
-# Upoznaj Heapspace tim
+# Upoznaj tim
 {{% /section %}}

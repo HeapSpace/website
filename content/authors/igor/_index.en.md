@@ -1,6 +1,6 @@
 ---
+photo: 'igor.jpg'
 slug: igor
 ---
 
-
-**Igor** (October 21, 1929 – January 22, 2018) was an American
+On a good day, I'm freaking awesome.

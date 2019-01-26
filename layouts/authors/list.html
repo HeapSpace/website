@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="grid bg-blue"><div class="content-wrap">
+<section id="main" class="post">
+  <div style="display: flex">
+  {{ $image := .Resources.GetMatch .Params.Photo }}
+  <img src="{{ $image.RelPermalink }}" style="flex: 1; height: {{ $image.Height }}px; max-width: {{ $image.Width }}px; margin-top: 1em;">
+  <div style="flex: 1; margin-left: 1em">
+  <h1>{{ .Params.Name }}</h1>
+  <div>
+  	<i class="fab fa-github"></i>
+  	<i class="fab fa-twitter"></i>
+  	<i class="fab fa-linkedin"></i>
+  	<i class="fas fa-blog"></i>
+  </div>
+
+  {{.Content}}
+  </div>
+  </div>
+</section>
+</div></div>
+
+<div class="grid"><div class="content-wrap">
+<h2>Articles</h2>
+{{ range .Data.Pages }}
+  {{ . }}
+{{ end }}
+</div></div>
+
+{{ end }}

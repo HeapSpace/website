@@ -5,7 +5,9 @@
   {{ partial "article_about" .}}
 
   {{ $image := .Resources.GetMatch "index.jpg" }}
+  {{ if $image }}
   <img style="width: 100%; height: {{ $image.Height }}px; margin-top: 2em;" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+  {{ end }}
 
   <article style="margin-top: 2em;">
     {{ .Content }}
