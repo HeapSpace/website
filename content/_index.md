@@ -17,9 +17,9 @@ Kroz saradnju sa ostalim akterima na tržištu kreiramo povoljno okruženje za e
 <!------------------------------------------------------------------------------------------------>
 
 {{% section white %}}
-## Novosti
+## Vesti
 
-... ovde će biti poslednje novosti...
+... ovde će biti poslednje vesti ...
 
 {{% /section %}}
 

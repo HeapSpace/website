@@ -20,9 +20,9 @@
 </div></div>
 
 <div class="grid"><div class="content-wrap">
-<h2>Articles</h2>
+<h2>Članci</h2>
 {{ range .Data.Pages }}
-  {{ . }}
+  {{ partial "article_small" . }}
 {{ end }}
 </div></div>
 
