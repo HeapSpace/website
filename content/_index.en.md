@@ -10,39 +10,27 @@ Together with other organisations and companies, we create a habitat where busin
 
 The year of 2019. has many more exciting projects in store.
 
+[Heapcon](https://heapcon.io) {{< fa grip-lines-vertical >}} [Tehnološki Doručak](https://tehnoloskidorucak.io) {{< fa grip-lines-vertical >}} [OpenData](https://opendata.rs)
+
 {{% /section %}}
 
 
 <!------------------------------------------------------------------------------------------------>
-
-{{% section white %}}
-## Heapcon
-
-We continue where Voxxed Days Belgrade stopped in 2017. This October, we present the regional "must-see" tech event.
-
-{{% a_btn "https://heapcon.io" %}}Learn more{{% /a_btn %}}
-
-{{% /section %}}
-
-<!------------------------------------------------------------------------------------------------>
-
 {{% section blue %}}
 
-## Our projects
-
-Our projects aim to develop local and regional tech scene. Making knowledge available moves the society forward.
+{{< flex >}}
+{{% flex-column %}}{{< big "5" >}}
 
 ### Tech conferences
 
 We started with Voxxed Days Belgrade conference which was proclaimed the biggest Voxxed event in Europe for three years in a row, and we are continuing with Heapcon.
-
-### Back to school
-
-Geek events on technology topics coupled with the traditional Floppy challenge.
+{{% /flex-column %}}
+{{% flex-column %}}{{< big "33" >}}
 
 ### Tech breakfast
 
 The exchange of entrepreneurial ideas over kiflice and coffee, each first Wednesday of the month. Come get your shot of inspiration!
+{{% /flex-column %}}
+{{</ flex >}}
 
 {{% /section %}}
-

@@ -4,9 +4,9 @@ translationKey: "manifest"
 ---
 
 {{% section red %}}
-# Heapspace Manifest
+# Manifest
 
-## Heapspace je otvorena zajednica za sve one koji vole tehnologiju.
+Heapspace je otvorena zajednica za sve one koji vole tehnologiju.
 
 {{% /section %}}
 

@@ -7,7 +7,7 @@ url: "/en/projects"
 {{% section red %}}
 # Projects
 
-All our projects.
+Our projects aim to develop local and regional tech scene. Making knowledge available moves the society forward.
 {{% /section %}}
 
 {{< section_file "body" >}}
