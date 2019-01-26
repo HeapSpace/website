@@ -7,20 +7,14 @@
 {{ range first .Site.Params.lastPostsCount (where .Site.RegularPages "Type" "posts") }}
 
 {{ $indexjpg := .Resources.GetMatch "index.jpg" }}
-{{ $image := $indexjpg.Fill "180x180 center" }}
+{{ $image := $indexjpg.Fill "800x180 center" }}
 
-<div class="post-small" style="display: flex">
-<div style="flex: 1;">
+<div class="post post-small">
+<div>
 	<h2><a href="{{ .RelPermalink }}">{{.LinkTitle}}</a></h2>
-	<div style="font-size: 0.8em">
-		{{ partial "dateof" (dict "ctx" $ "date" .Date) }}
-		<i class="far fa-user"></i>{{ .Params.author }}
-		<i class="far fa-clock"></i>{{.ReadingTime}}min
-	</div>
+	{{ partial "article_about" . }}
+	<img style="width: 100%; height: {{ $image.Height }}px;" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
 	<p>{{ .Summary }}</p>
-</div>
-<div style="flex: 0 0 180px">
-<img style="max-width: 100%; height: {{ $image.Height }}px;" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
 </div>
 </div>
 {{ end }}
