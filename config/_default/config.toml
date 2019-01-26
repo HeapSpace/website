@@ -19,6 +19,7 @@ disableKinds = ["categories", "RSS", "section", "taxonomyTerm"]
 
 [permalinks]
   posts = "/blog/:slug/"
+  authors = "/tim/:slug"
 
 [outputs]
   home = [ "HTML", "RSS", "REDIR", "HEADERS" ]

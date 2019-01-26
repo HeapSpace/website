@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+{{ .Content }}
+
+<div class="grid bg-white"><div class="content-wrap">
+
+{{ range $name, $taxonomy := .Site.Taxonomies.authors }}
+    {{ with $.Site.GetPage (printf "/authors/%s" $name) }}
+        <a href="{{ .Permalink }}">{{ $name }}</a>
+    {{ end }}
+{{ end }}
+
+</div></div>
+
+{{ end }}

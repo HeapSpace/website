@@ -2,7 +2,10 @@
 Title: "Zdravo svete!"
 slug: zdravo-svete
 date: 2019-01-25
-author: igor
+authors:
+  - igor
+tags:
+  - news
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel gravida neque, sit amet gravida nisi. Nulla fermentum dignissim venenatis. In vel dui bibendum, hendrerit lectus quis, porttitor dui. Suspendisse gravida posuere dictum. Sed et blandit erat, et tristique nisl. In hac habitasse platea dictumst. Nullam posuere vehicula leo ut luctus.
 
