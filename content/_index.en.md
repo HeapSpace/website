@@ -10,7 +10,7 @@ Together with other organisations and companies, we create a habitat where busin
 
 The year of 2019. has many more exciting projects in store.
 
-[Heapcon](https://heapcon.io) {{< fa grip-lines-vertical >}} [Tehnološki Doručak](https://tehnoloskidorucak.io) {{< fa grip-lines-vertical >}} [OpenData](https://opendata.rs)
+[Heapcon](https://heapcon.io){{< separator2 >}}[Tech Breakfast](https://tehnoloskidorucak.io){{< separator2 >}}[OpenData](https://opendata.rs)
 
 {{% /section %}}
 

@@ -4,6 +4,9 @@ footer div#footer {
 }
 
 footer {
+  i {
+  	color: $color-hs-red;
+  }
   ul {
   	list-style: none;
   	padding-left: 0;
