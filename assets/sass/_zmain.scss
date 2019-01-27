@@ -17,6 +17,14 @@ main .grid:first-child {
   padding: $section-padding/2;
 }
 
+
+.edge--bottom {
+  @include angle(after);
+}
+.edge--bottom--reverse {
+  @include angle(after, true);
+}
+
 .content-wrap {
   grid-column: 2;
   font-size: 2em;
