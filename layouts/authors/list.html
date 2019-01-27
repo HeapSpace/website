@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="grid bg-blue"><div class="content-wrap">
-<section id="main" class="post">
+<section id="main" class="author">
   <div style="display: flex">
   {{ if .Params.photo }}
   {{ $image := .Resources.GetMatch .Params.photo }}
@@ -10,7 +10,7 @@
   {{ end }}
   <div style="flex: 1; margin-left: 1em">
   <h1>{{ .Params.Name }}</h1>
-  <div>
+  <div class="links">
   	{{ if .Params.github }}<a href="https://github.com/{{ .Params.github }}" target="_blank"><i class="fab fa-github"></i></a>{{ end }}
   	{{ if .Params.twitter }}<a href="htts://twitter/{{ .Params.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>{{end}}
     {{ if .Params.linkedin }}<a href="https://www.linkedin.com/in/{{ .Params.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>{{end}}
