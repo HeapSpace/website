@@ -2,15 +2,20 @@
 <div class="grid bg-blue"><div class="content-wrap">
 <section id="main" class="post">
   <div style="display: flex">
-  {{ $image := .Resources.GetMatch .Params.Photo }}
+  {{ if .Params.photo }}
+  {{ $image := .Resources.GetMatch .Params.photo }}
+  {{ if $image }}
   <img src="{{ $image.RelPermalink }}" style="flex: 1; height: {{ $image.Height }}px; max-width: {{ $image.Width }}px; margin-top: 1em;">
+  {{ end }}
+  {{ end }}
   <div style="flex: 1; margin-left: 1em">
   <h1>{{ .Params.Name }}</h1>
   <div>
-  	<i class="fab fa-github"></i>
-  	<i class="fab fa-twitter"></i>
-  	<i class="fab fa-linkedin"></i>
-  	<i class="fas fa-blog"></i>
+  	{{ if .Params.github }}<a href="https://github.com/{{ .Params.github }}" target="_blank"><i class="fab fa-github"></i></a>{{ end }}
+  	{{ if .Params.twitter }}<a href="htts://twitter/{{ .Params.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>{{end}}
+    {{ if .Params.linkedin }}<a href="https://www.linkedin.com/in/{{ .Params.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>{{end}}
+  	{{ if .Params.blog }}<a href="{{.Params.blog}}" target="_blank"><i class="fas fa-blog"></i></a>{{end}}
+    {{ if .Params.home }}<a href="{{.Params.home}}" target="_blank"><i class="fas fa-home"></i></a>{{end}}
   </div>
 
   {{.Content}}

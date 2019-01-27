@@ -1,4 +1,5 @@
 ---
+title: Igor
 photo: 'igor.jpg'
 slug: igor
 ---
