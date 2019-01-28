@@ -2,4 +2,9 @@
 	.links a {
 		margin-right: 0.5em;
 	}
+	a i.fab, a i.far, a i.fas {
+	  &:hover {
+	    color: $color-hs-black;
+	  }
+	}
 }

@@ -18,13 +18,6 @@ main .grid:first-child {
 }
 
 
-.edge--bottom {
-  @include angle(after);
-}
-.edge--bottom--reverse {
-  @include angle(after, true);
-}
-
 .content-wrap {
   grid-column: 2;
   font-size: 2em;
@@ -44,10 +37,4 @@ h1.superbig {
 h1.big {
   font-size: 8em;
   line-height: .7em;
-}
-
-a i.fab, a i.far, a i.fas {
-  &:hover {
-    color: $color-hs-black;
-  }
 }
