@@ -154,10 +154,9 @@ a:active {
 /** ELEMENTS */
 
 hr {
-  background-color: #ccc;
-  border: 0;
-  height: 1px;
-  margin-bottom: 1.5em;
+  background-color: $color-hs-black;
+  height: 2px;
+  margin: 4em 2em;
 }
 
 /** IMG **/
