@@ -6,11 +6,11 @@ headless: true
 
 Mesečno okupljanje – svake prve srede u mesecu – sa ciljem brze razmene preduzetničkih ideja u prijatnoj atmosferi prve jutarnje kafe. Tri-četiri predavanja od 5 minuta, 2 minuta za pitanja uz networking upotpunjen ukusom [Domaćih kiflica](http://domacekiflice.rs/) je sjajan način da se započne dan.
 
+![](td.jpg)
+
 [Tehnološki doručak](https://tehnoloskidorucak.io/ "Tehnološki doručak") je mesto za razmenu ideja i kao i svaki Heapspace projekat, otvoren je za prijave. Nije važno da li si programer, dizajner, preduzetnik ili marketar, prijavi svoju ideju i budi inspiracija drugima!
 
 Ako imaš ideju koju želiš da podeliš na doručku, piši nam na: [dorucak@heapspace.rs](mailto:dorucak@heapspace.rs).
-
-![](td.jpg)
 
 ---
 
