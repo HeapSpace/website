@@ -1,0 +1,7 @@
+{{ $member := .member }}
+{{with .ctx.GetPage (printf "authors/%s" $member.slug) -}}
+<a href="{{.RelPermalink}}">
+	<div class="twolett">{{ $member.initials }}</div>
+	<div class="twolett-sub">{{ $member.fullName }}</div>
+</a>
+{{- end }}

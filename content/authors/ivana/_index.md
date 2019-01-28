@@ -1,8 +1,4 @@
 ---
-name: Ivana
-photo: 'igor.jpg'
+title: Ivana
 slug: ivana
-weight: 2
 ---
-
-Ivana

@@ -1,7 +1,6 @@
 ---
-name: Vesna
+title: Vesna
 slug: vesna
-weight: 4
 ---
 
 Vesna

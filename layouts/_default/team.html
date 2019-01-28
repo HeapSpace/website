@@ -3,10 +3,36 @@
 {{ .Content }}
 
 <div class="grid bg-white"><div class="content-wrap">
-
 {{range where .Site.Pages  "Section" "authors" }}
 <a href="{{ .Permalink }}">{{ .Params.Name }}</a>
 {{ end }}
+<div id="tim44">
+<div class="row">
+	<div class="column"></div>
+	<div class="column"></div>
+	<div class="column">{{ partial "team_box" (dict "ctx" . "member" .Site.Data.team.igor) }}</div>
+	<div class="column"></div>
+</div>
+<div class="row">
+	<div class="column"></div>
+	<div class="column"></div>
+	<div class="column">{{ partial "team_box" (dict "ctx" . "member" .Site.Data.team.dimitrije) }}</div>
+	<div class="column">{{ partial "team_box" (dict "ctx" . "member" .Site.Data.team.ninoslav) }}</div>
+</div>
+<div class="row">
+	<div class="column">{{ partial "team_box" (dict "ctx" . "member" .Site.Data.team.jovana) }}</div>
+	<div class="column">{{ partial "team_box" (dict "ctx" . "member" .Site.Data.team.ivana) }}</div>
+	<div class="column">{{ partial "team_box" (dict "ctx" . "member" .Site.Data.team.vesna) }}</div>
+	<div class="column"></div>
+</div>
+<div class="row">
+	<div class="column"></div>
+	<div class="column">{{ partial "team_box" (dict "ctx" . "member" .Site.Data.team.stefan) }}</div>
+	<div class="column"></div>
+	<div class="column">{{ partial "team_box" (dict "ctx" . "member" .Site.Data.team.nikola) }}</div>
+</div>
+</div>
+
 
 </div></div>
 

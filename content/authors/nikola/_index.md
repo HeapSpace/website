@@ -1,7 +1,6 @@
 ---
-name: Nikola
+title: Nikola
 slug: nikola
-weight: 9
 ---
 
 Nikola

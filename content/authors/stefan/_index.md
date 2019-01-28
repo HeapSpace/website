@@ -1,7 +1,6 @@
 ---
-name: Stefan
+title: Stefan
 slug: stefan
-weight: 8
 ---
 
 Stefan

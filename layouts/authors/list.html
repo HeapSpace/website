@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ $member := (index $.Site.Data.team .Params.slug ) }}
 <div class="grid bg-blue"><div class="content-wrap">
 <section id="main" class="author">
   <div style="display: flex">
@@ -9,15 +10,14 @@
   {{ end }}
   {{ end }}
   <div style="flex: 1; margin-left: 1em">
-  <h1>{{ .Params.Name }}</h1>
+  <h1>{{ $member.fullName }}</h1>
   <div class="links">
-  	{{ if .Params.github }}<a href="https://github.com/{{ .Params.github }}" target="_blank"><i class="fab fa-github"></i></a>{{ end }}
-  	{{ if .Params.twitter }}<a href="htts://twitter/{{ .Params.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>{{end}}
-    {{ if .Params.linkedin }}<a href="https://www.linkedin.com/in/{{ .Params.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>{{end}}
-  	{{ if .Params.blog }}<a href="{{.Params.blog}}" target="_blank"><i class="fas fa-blog"></i></a>{{end}}
-    {{ if .Params.home }}<a href="{{.Params.home}}" target="_blank"><i class="fas fa-home"></i></a>{{end}}
+  	{{ if $member.github }}<a href="https://github.com/{{ $member.github }}" target="_blank"><i class="fab fa-github"></i></a>{{ end }}
+  	{{ if $member.twitter }}<a href="htts://twitter/{{ $member.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>{{end}}
+    {{ if $member.linkedin }}<a href="https://www.linkedin.com/in/{{ $member.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>{{end}}
+  	{{ if $member.blog }}<a href="{{$member.blog}}" target="_blank"><i class="fas fa-blog"></i></a>{{end}}
+    {{ if $member.home }}<a href="{{$member.home}}" target="_blank"><i class="fas fa-home"></i></a>{{end}}
   </div>
-
   {{.Content}}
   </div>
   </div>

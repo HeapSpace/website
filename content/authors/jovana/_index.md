@@ -1,7 +1,6 @@
 ---
-name: Jovana
+title: Jovana
 slug: jovana
-weight: 6
 ---
 
 Jovana

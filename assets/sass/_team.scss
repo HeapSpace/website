@@ -1,0 +1,36 @@
+#tim44 {
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    width: 200px;
+
+    .twolett {
+      font-size: 4em;
+      line-height: 0.9em;
+      text-align: center;
+      letter-spacing: -16px;
+    }
+    .twolett-sub {
+      font-size: 0.8em;
+      text-align: center;
+      letter-spacing: -4px;
+    }
+    a {
+      padding: 30px;
+      display: block;
+      text-decoration: none;
+      &:hover {
+        background-color: $color-hs-black;
+        color: $color-hs-white;
+      }
+    }
+  }
+}
