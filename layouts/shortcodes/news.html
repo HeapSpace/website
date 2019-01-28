@@ -1,4 +1,6 @@
 {{ $news := slice "news" }}
+<div class="flex">
 {{ range where $.Site.Pages.ByDate "Params.tags" "intersect" $news }}
 {{ partial "article_small" . }}
 {{ end }}
+</div>

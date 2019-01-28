@@ -8,15 +8,14 @@
 @media screen and (max-width: $screen-break) {
 	.flex {
 		flex-direction: column;
+		align-items: center;
+    	justify-content: center;
 	}
 	.grid {
 		display: block;
 	}
-	main .grid:first, main .grid {
-		padding: 0
-	}
-	#social {
-		margin: 0 2em;
+	main {
+		padding-top:50px;
 	}
 }
 
