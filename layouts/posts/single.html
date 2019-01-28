@@ -16,12 +16,13 @@
 </section>
 </div></div>
 
+<div class="grid bg-blue"><div class="content-wrap">
 <aside id="meta">
     <div>
     {{ with .Params.tags }}
-    <ul id="tags">
+    <ul id="tags" class="clear">
       {{ range . }}
-        <li> <a href="{{ "tags" | absURL }}{{ . | urlize }}">{{ . }}</a> </li>
+        <li>#{{ . }} </li>
       {{ end }}
     </ul>
     {{ end }}
@@ -35,4 +36,5 @@
         {{ end }}
     </div>
 </aside>
+</div></div>
 {{ end }}
