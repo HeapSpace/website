@@ -1,5 +1,11 @@
+[mailchimp-about]
+other = "Prijavite se na naš newsletter i saznajte prvi sve o našim budućim aktivnostima, događajima i specijalnim ponudama!"
+
 [mailchimp-placeholder]
-other = "prijavite se na naš newsletter"
+other = "VAŠ EMAIL"
+
+[mailchimp-signup]
+other = "PRIJAVI ME!"
 
 [site-description]
 other = "Heapspace je otvorena zajednica za sve one koji vole tehnologijum, a ovo je naš manifest. Naši projekti imaju jedno usmerenje: razvoj regionalne tehnološke scene. Samim tim, Heapspace nije samo organizacija, već zajednica koja počiva na neposrednim kontaktima sa svojim članovima."
