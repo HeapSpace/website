@@ -2,7 +2,7 @@
 {{ $member := (index $.Site.Data.team .Params.slug ) }}
 <div class="grid bg-blue"><div class="content-wrap">
 <section id="main" class="author">
-  <div style="display: flex">
+  <div class="flex">
   {{ if .Params.photo }}
   {{ $image := .Resources.GetMatch .Params.photo }}
   {{ if $image }}

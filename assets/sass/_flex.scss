@@ -1,16 +1,16 @@
-.flex-container {
+.flex {
   display: flex;
   display: -ms-flex;
   display: -webkit-flex;
 }
 
-.flex-container > .flex-column {
+.flex > .flex-column {
   flex: 1;
   padding: 0 0.1em;
   align-self: flex-start;
 }
 
-.flex-container > .flex-columns-2 {
+.flex > .flex-columns-2 {
   flex: 2;
   padding: 0 0.1em;
   align-self: flex-start;

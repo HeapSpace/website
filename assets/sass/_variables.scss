@@ -14,10 +14,15 @@ $color-hs-white:		#ffffff;
   --color-hs-white: $color-hs-white;
 }
 
-/** Box Model  */
-$spacer:				2rem;
-
 
 /** Fonts */
 $font-title:        'HS Grotesk', sans-serif;
 $font-main:         'Menoe Grotesque', sans-serif;
+
+
+/** MEDIA */
+
+$screen-large:		1340px;
+$screen-medium:		968px;
+$screen-break:		768px;
+$screen-small:		600px;
