@@ -2,9 +2,9 @@
 <h3><a href="{{.RelPermalink}}">{{ .Name }}</a></h3>
 {{ partial "article_about_small" . }}
 {{ $image := .Resources.GetMatch "index.jpg" }}
-{{ if $image }}
+{{- if $image -}}
 <img style="width: 100%; max-height: {{ $image.Height }}px;" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
-{{ end }}
+{{- end -}}
 <div style="font-size: 0.7em">
 {{ .Summary }}
 </div>

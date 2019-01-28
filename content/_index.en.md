@@ -21,13 +21,13 @@ The year of 2019. has many more exciting projects in store.
 {{< flex >}}
 {{% flex-column %}}{{< big "5" >}}
 
-### Tech conferences
+## Tech conferences
 
 We started with Voxxed Days Belgrade conference which was proclaimed the biggest Voxxed event in Europe for three years in a row, and we are continuing with Heapcon.
 {{% /flex-column %}}
 {{% flex-column %}}{{< big "33" >}}
 
-### Tech breakfast
+## Tech breakfast
 
 The exchange of entrepreneurial ideas over kiflice and coffee, each first Wednesday of the month. Come get your shot of inspiration!
 {{% /flex-column %}}
