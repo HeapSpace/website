@@ -4,6 +4,7 @@
 	}
 	#social {
 		margin: 0 2em;
+		font-size: 1.5em;
 	}
 	#mc_embed_signup {
 		input.email {
@@ -15,6 +16,9 @@
 		.button {
 			font-size: 1em;
 			margin:0;
+			height: auto;
+			padding: 2em;
+			line-height: inherit;
 		}
 	}
 }
