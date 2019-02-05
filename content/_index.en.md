@@ -4,11 +4,11 @@ title: "Home"
 
 {{% section red %}}
 
-We are Heapspace. Since 2004 we’ve been working on the development of local and regional tech environment.
+Heapspace is an IT community working on the development of local and regional tech environment since 2004.
 
-Together with other organisations and companies, we create a habitat where business can thrive. We have overseen the organisation of over 100 events. For three consecutive years, we’ve organised one of the biggest tech conferences in the Balkans – Heapcon.
+Our team consists of professionals from different domains of technology, marketing and culture, and we see great value in regional collaboration.
 
-The year of 2019. has many more exciting projects in store.
+_Alone we walk, together we run!_
 
 [Heapcon](https://heapcon.io){{< separator2 >}}[Tech Breakfast](https://tehnoloskidorucak.io){{< separator2 >}}[OpenData](https://opendata.rs)
 
@@ -16,6 +16,7 @@ The year of 2019. has many more exciting projects in store.
 
 
 <!------------------------------------------------------------------------------------------------>
+
 {{% section blue %}}
 
 {{< flex >}}

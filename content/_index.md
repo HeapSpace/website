@@ -4,21 +4,13 @@ title: "Home"
 
 {{% section red %}}
 
-Mi smo Heapspace. Od 2004. godine radimo na razvoju lokalne i regionalne tehnološke scene.
+Heapspace je IT zajednica koja od 2004. godine radi na razvoju lokalne i regionalne tehnološke scene.
 
-Kroz saradnju sa ostalim akterima na tržištu kreiramo povoljno okruženje za edukaciju, razmenu znanja i razvoj biznisa. Pod našim autorstvom organizovano je preko 100 događaja. Tri godine za redom organizovali smo jednu od najvećih tehnoloških konferencija na Balkanu – Heapcon.
+Naš tim čine profesionalci iz različitih domena tehnologije, marketinga i kulture, a najveću vrednost vidimo u regionalnoj saradnji.
 
-2019\. godina nam donosi još uzbudljivih projekata.
+_Dok sami koračamo, zajedno trčimo!_
 
 [Heapcon](https://heapcon.io){{< separator2 >}}[Tehnološki Doručak](https://tehnoloskidorucak.io){{< separator2 >}}[OpenData](https://opendata.rs)
-
-{{% /section %}}
-
-<!------------------------------------------------------------------------------------------------>
-
-{{% section white %}}
-
-{{< news >}}
 
 {{% /section %}}
 
