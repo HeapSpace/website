@@ -5,9 +5,9 @@ translationKey: "contact"
 
 {{% section red %}}
 # Kontakt
-Otvoreni smo za saradnju, pitanja i sugestije. Radimo punom parom za dobrobit regionalne tehnološke zajednice.
+Otvoreni smo za saradnju i pitanja.
 {{% /section %}}
 
 {{% section %}}
-Piši nam na	[info@heapspace.rs](mailto:info@heapspace.rs) ako imaš konkretne predloge!
+Piši nam na	[info@heapspace.rs](mailto:info@heapspace.rs).
 {{% /section %}}

@@ -6,9 +6,9 @@ url: "en/contact"
 
 {{% section red %}}
 # Contact
-We’re open for cooperation, questions, and suggestions. We work at full throttle for the welfare of the tech community.
+Open to collaboration and to all of your questions.
 {{% /section %}}
 
 {{% section %}}
-You can write to us at	[info@heapspace.rs](mailto:info@heapspace.rs) if you have ideas you want to share!
+Drop us a line to [info@heapspace.rs](mailto:info@heapspace.rs).
 {{% /section %}}
