@@ -6,5 +6,7 @@ layout: "blog"
 
 {{% section red %}}
 # Blog & Novosti
-Dajemo kritički osvrt i predlažemo unapređenja.
+
+Razmišljamo kritički i želimo da čujemo i tvoje mišljenje.
+
 {{% /section %}}
