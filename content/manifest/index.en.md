@@ -7,7 +7,7 @@ url: "/en/manifest"
 {{% section red %}}
 # Manifest
 
-Heapspace is an open community for all technology lovers.
+We believe in these principles. They inspire us.
 
 {{% /section %}}
 

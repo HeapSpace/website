@@ -6,7 +6,7 @@ translationKey: "manifest"
 {{% section red %}}
 # Manifest
 
-Heapspace je otvorena zajednica za sve one koji vole tehnologiju.
+Ovo su načela u koja verujemo i koja nas inspirišu.
 
 {{% /section %}}
 

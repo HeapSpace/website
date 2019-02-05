@@ -7,7 +7,7 @@ headless: true
 {{% flex-column-2 %}}
 ### A community, not an organisation.
 
-Our projects aim at one thing: development of the regional tech scene. So, Heapspace is not just an organisation, but a community that rests on direct contacts with its members.
+Heapspace is not just an organisation, but a community that rests on direct contacts with its members. We listen and understand actual problems, but we also recognize the opportunities of the regional tech environment.
 {{% /flex-column-2 %}}
 {{< /flex >}}
 
@@ -17,7 +17,7 @@ Our projects aim at one thing: development of the regional tech scene. So, Heaps
 {{% flex-column-2 %}}
 ### Knowledge made available.
 
-Ever since JavaSvet was founded in 2004, all events we’ve organised have been free. This didn’t change even when we expanded our scope and became Heapspace. We believe that knowledge is a prerequisite to raise the awareness and that’s why we want to make it available to everyone.
+Ever since JavaSvet was founded in 2004, all events we’ve organised have been free or their content was available online. This didn’t change even when we expanded our scope and became Heapspace. We believe that knowledge is a prerequisite to raise the awareness and that’s why we want to make it available to everyone.
 {{% /flex-column-2 %}}
 {{< /flex >}}
 
@@ -37,7 +37,7 @@ When it comes to staying quiet or raising our voice, most of us would go with st
 {{% flex-column-2 %}}
 ### Joining forces.
 
-Heapspace has no value, unless we join our forces with other communities that aim to make a change in the society. Alone we walk, together we run!
+Heapspace has no value, unless we join our forces with other communities that aim to make a change in the society. This is why our projects aim at one thing: development of the regional tech scene. Alone we walk, together we run!
 {{% /flex-column-2 %}}
 {{< /flex >}}
 

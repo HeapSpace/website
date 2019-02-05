@@ -7,7 +7,7 @@ headless: true
 {{% flex-column-2 %}}
 ### Zajednica, a ne organizacija.
 
-Naši projekti imaju jedno usmerenje: razvoj regionalne tehnološke scene. Samim tim, Heapspace nije samo organizacija, već zajednica koja počiva na neposrednim kontaktima sa svojim članovima.
+Heapspace nije samo organizacija, već zajednica koja počiva na neposrednim kontaktima sa svojim članovima. Osluškujemo i razumemo tekuće probleme, ali prepoznajemo i prednosti regionalne tehnološke scene.
 {{% /flex-column-2 %}}
 {{< /flex >}}
 
@@ -17,7 +17,7 @@ Naši projekti imaju jedno usmerenje: razvoj regionalne tehnološke scene. Samim
 {{% flex-column-2 %}}
 ### Dostupno znanje.
 
-Od nastanka JavaSveta 2004. godine, svi događaji koje smo organizovali su bili besplatni. To se nije promenilo ni kada smo proširili polje delovanja i postali Heapspace. Smatramo da je znanje nužan preduslov menjanja svesti i zato želimo da svima bude dostupno.
+Od nastanka JavaSveta 2004. godine, svi događaji koje smo organizovali su bili besplatni ili je njihov sadržaj bio dostupan na Internetu. To se nije promenilo ni kada smo proširili polje delovanja i postali Heapspace. Smatramo da je znanje nužan preduslov menjanja svesti i zato želimo da svima bude dostupno.
 {{% /flex-column-2 %}}
 {{< /flex >}}
 
@@ -37,7 +37,7 @@ Između sagni glavu i digni glas, biraš sagni glavu, jer su te tako učili od m
 {{% flex-column-2 %}}
 ### Udruživanje.
 
-Heapspace sam po sebi nema vrednost, ako se ne udružujemo sa ostalim zajednicama koje imaju za cilj da naprave promenu u društvu. Dok sami koračamo, zajedno trčimo!
+Heapspace sam po sebi nema vrednost, ako se ne udružujemo sa ostalim zajednicama koje imaju za cilj da naprave promenu u društvu. Zato naši projekti imaju ovo glavno usmerenje: razvoj regionalne tehnološke scene. Dok sami koračamo, zajedno trčimo!
 {{% /flex-column-2 %}}
 {{< /flex >}}
 
