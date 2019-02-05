@@ -6,7 +6,7 @@ translationKey: "projects"
 {{% section red %}}
 # Projekti
 
-Naši projekti su usmereni na razvoj regionalne tehnološke scene. Želimo da omogućimo da znanje svima bude dostupno, pošto je to ono što pomera društvo napred.
+Naši projekti su usmereni na povezivanje tehnologije, kulture i preduzetništva.
 
 [Tehnološki doručak](#tehnološki-doručak){{< separator2 >}}[Heapcon](#heapcon)
 
