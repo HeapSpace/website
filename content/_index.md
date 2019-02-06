@@ -10,29 +10,24 @@ Naš tim čine profesionalci iz različitih domena tehnologije, marketinga i kul
 
 _Dok sami koračamo, zajedno trčimo!_
 
-[Heapcon](https://heapcon.io){{< separator2 >}}[Tehnološki Doručak](https://tehnoloskidorucak.io){{< separator2 >}}[OpenData](https://opendata.rs)
-
 {{% /section %}}
 
 <!------------------------------------------------------------------------------------------------>
 
 {{% section blue %}}
 
+[Heapcon](https://heapcon.io) je tehnološka konferencija za softverske inženjere.
 
-{{< flex >}}
-{{% flex-column %}}{{< big "5" >}}
+[Tehnološki doručak](https://tehnoloskidorucak.io) je serija događaja koji promovišu lokalno preduzetništvo.
 
-## Tehnološke konferencije
+[OpenData](https://opendata.rs) je open data.
 
-Počeli smo sa Voxxed Days Belgrade konferencijom koja je proglašena za najbrojniji Voxxed događaj u Evropi tri godine za redom, a nastavljamo sa Heapconom.
-{{% /flex-column %}}
-{{% flex-column %}}{{< big "33" >}}
+Pod našim autorstvom održano je više od **150** događaja.
 
-## Tehnološki doručak
+### 4 tehnološke konferencije
+Doveli smo Voxxed Days u Beograd, a od 2018. godine organizujemo Heapcon.
 
-Razmena preduzetničkih ideja uz jutarnju kafu i kiflice, svake prve srede u mesecu. Svrati po svoju dozu inspiracije!
-{{% /flex-column %}}
-{{</ flex >}}
-
+### 35 Tehnoloških doručaka
+Razmena preduzetničkih ideja uz jutarnju kafu i kiflice u šest gradova u regionu.
 
 {{% /section %}}
