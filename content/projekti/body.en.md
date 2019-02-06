@@ -4,7 +4,7 @@ headless: true
 
 ## Tech Breakfast
 
-Launched in December 2015, Tech breakfast showcases entrepreneurial ideas as we cosily sip the first morning coffee. A couple of five-minute presentations, two-minute Q&A sessions, and networking, made complete by the flavour of [Domaće kiflice](http://domacekiflice.rs/), is a terrific way to start your day.
+Launched in December 2015., Tech breakfast showcases entrepreneurial ideas as we cosily sip the first morning coffee. A couple of five-minute presentations, two-minute Q&A sessions, and networking, made complete by the flavour of [Domaće kiflice](http://domacekiflice.rs/), is a terrific way to start your day.
 
 In September 2018, Tech breakfast event takes place in Zagreb and Novi Sad and in 2019. Niš, Osijek and Subotica will be hosting this morning event.
 

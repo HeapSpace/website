@@ -4,7 +4,7 @@ headless: true
 
 ## Tehnološki doručak
 
-Pokrenut je u decembru 2015. Godine, Tehnološko doručak ima za cilj brzu razmenu preduzetničkih ideja u prijatnoj atmosferi prve jutarnje kafe. Četiri-pet predavanja od 5 minuta, 2 minuta za pitanja uz networking upotpunjen ukusom [Domaćih kiflica](http://domacekiflice.rs/) je sjajan način da se započne dan.
+Pokrenut je u decembru 2015. godine, Tehnološko doručak ima za cilj brzu razmenu preduzetničkih ideja u prijatnoj atmosferi prve jutarnje kafe. Četiri-pet predavanja od 5 minuta, 2 minuta za pitanja uz networking upotpunjen ukusom [Domaćih kiflica](http://domacekiflice.rs/) je sjajan način da se započne dan.
 
 Od septembra 2018. godine, širimo inicijativu na Zagreb i Novi Sad, a u 2019. godini Doručak će se održavati u Nišu, Osijeku i Subotici.
 
