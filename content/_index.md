@@ -6,7 +6,7 @@ title: "Home"
 
 Heapspace je IT zajednica koja od 2004. godine radi na razvoju lokalne i regionalne tehnološke scene.
 
-Naš tim čine profesionalci iz različitih domena tehnologije, marketinga i kulture, a najveću vrednost vidimo u regionalnoj saradnji.
+Naš tim čine profesionalci iz različitih domena tehnologije, marketinga i kulture, a najveću vrednost vidimo u menjanju svesti kroz regionalnu saradnju.
 
 _Dok sami koračamo, zajedno trčimo!_
 
