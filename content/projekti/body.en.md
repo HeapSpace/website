@@ -4,7 +4,9 @@ headless: true
 
 ## Tech Breakfast
 
-Monthly event – on each first Wednesday of the month – where we see quick showcases of entrepreneurial ideas as we cosily sip the first morning coffee. A couple of five-minute presentations, two-minute Q&A sessions, and networking, made complete by the flavour of [Domaće kiflice](http://domacekiflice.rs/), is a terrific way to start your day.
+Launched in December 2015, Tech breakfast showcases entrepreneurial ideas as we cosily sip the first morning coffee. A couple of five-minute presentations, two-minute Q&A sessions, and networking, made complete by the flavour of [Domaće kiflice](http://domacekiflice.rs/), is a terrific way to start your day.
+
+In September 2018, Tech breakfast event takes place in Zagreb and Novi Sad and in 2019. Niš, Osijek and Subotica will be hosting this morning event.
 
 ![](td.jpg)
 
@@ -18,4 +20,4 @@ If you want to share your idea, write to us at: [dorucak@heapspace.rs](mailto:do
 
 ![](hc.jpg)
 
-Regional tech conference crafted for software engineers will take place this year in October. Voxxed Days Belgrade successor, [Heapcon](http://heapcon.io/) will bring an even better speakers line up, new formats of knowledge exchange and it will present regional expertise in the domain of software development.
+Regional tech conference crafted for software engineers and tech businesses takes place in Belgrade every fall. Voxxed Days Belgrade successor, [Heapcon](http://heapcon.io/) brings an even better speakers line up, new formats of knowledge exchange and presents regional expertise in the domain of software development.
