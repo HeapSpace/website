@@ -8,10 +8,6 @@ Heapspace is an IT community working on the development of local and regional te
 
 Our team consists of professionals from different domains of technology, marketing and culture, and we see great value in regional collaboration.
 
-_Alone we walk, together we run!_
-
-[Heapcon](https://heapcon.io){{< separator2 >}}[Tech Breakfast](https://tehnoloskidorucak.io){{< separator2 >}}[OpenData](https://opendata.rs)
-
 {{% /section %}}
 
 
@@ -20,13 +16,13 @@ _Alone we walk, together we run!_
 {{% section blue %}}
 
 {{< flex >}}
-{{% flex-column %}}{{< big "5" >}}
+{{% flex-column %}}
 
 ## Tech conferences
 
 We started with Voxxed Days Belgrade conference which was proclaimed the biggest Voxxed event in Europe for three years in a row, and we are continuing with Heapcon.
 {{% /flex-column %}}
-{{% flex-column %}}{{< big "33" >}}
+{{% flex-column %}}
 
 ## Tech breakfast
 

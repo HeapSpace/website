@@ -18,27 +18,21 @@ Naš tim čine profesionalci iz različitih domena tehnologije, marketinga i kul
 {{% flex-column %}}
 ### [Heapcon](https://heapcon.io)
 {{% /flex-column %}}
-{{% flex-column-2 %}}
-Tehnološka konferencija za softverske inženjere. Doveli smo Voxxed Days u Beograd, a od 2018. godine organizujemo Heapcon.
-{{% /flex-column-2 %}}
+{{% flex-column-2 %}}Tehnološka konferencija za softverske inženjere. Doveli smo Voxxed Days u Beograd, a od 2018. godine organizujemo Heapcon.{{% /flex-column-2 %}}
 {{< /flex >}}
 
 {{< flex >}}
 {{% flex-column %}}
 ### [Tehnološki doručak](https://tehnoloskidorucak.io)
 {{% /flex-column %}}
-{{% flex-column-2 %}}
-Serija događaja koji promovišu lokalno preduzetništvo. Razmena preduzetničkih ideja uz jutarnju kafu i kiflice u šest gradova u regionu.
-{{% /flex-column-2 %}}
+{{% flex-column-2 %}}Serija događaja koji promovišu lokalno preduzetništvo. Razmena preduzetničkih ideja uz jutarnju kafu i kiflice u šest gradova u regionu.{{% /flex-column-2 %}}
 {{< /flex >}}
 
 {{< flex >}}
 {{% flex-column %}}
 ### [Open Data](https://opendata.rs)
 {{% /flex-column %}}
-{{% flex-column-2 %}}
-Otvoreni podaci.
-{{% /flex-column-2 %}}
+{{% flex-column-2 %}}Inicijativa za unapređenje postojećih skupova otvorenih podataka Republike Srbije i uspostavljanje platforme za lakšu objavu novih skupova.{{% /flex-column-2 %}}
 {{< /flex >}}
 
 {{% /section %}}
@@ -46,30 +40,21 @@ Otvoreni podaci.
 <!------------------------------------------------------------------------------------------------>
 
 {{% section %}}
-
-{{< flex >}}
-{{% flex-column %}}
-### 150
-događaja
+&nbsp;
+{{< flex >}}{{% flex-column %}}
+{{< count "150" "događaja" >}}
 {{% /flex-column %}}
 {{% flex-column %}}
-### 10000
-učesnika
+{{< count "10k" "učesnika" >}}
 {{% /flex-column %}}
 {{% flex-column %}}
-### 15
-godina rada
+{{< count "15" "godina rada" >}}
 {{% /flex-column %}}
 {{% flex-column %}}
-### XX
-nečega
+{{< count "22" "nečega" >}}
 {{% /flex-column %}}
 {{% flex-column %}}
-### 1
-pajser - igor
-{{% /flex-column %}}
-{{< /flex >}}
-
-
+{{< count "1" "igor pajser" >}}
+{{% /flex-column %}}{{< /flex >}}
 
 {{% /section %}}
