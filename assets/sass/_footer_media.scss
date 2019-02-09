@@ -1,0 +1,24 @@
+@media screen and (max-width: $screen-break) {
+	footer {
+		font-size: 0.7em;
+	}
+	#social {
+		margin: 0 2em;
+		font-size: 1.5em;
+	}
+	#mc_embed_signup {
+		input.email {
+			@include placeholder {
+				font-size: 1em;
+			}
+			padding: 10px;
+		}
+		.button {
+			font-size: 1em;
+			margin:0;
+			height: auto;
+			padding: 2em;
+			line-height: inherit;
+		}
+	}
+}

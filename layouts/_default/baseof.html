@@ -7,18 +7,17 @@
 		<title>{{ .Title }} - {{ .Site.Title }}</title>
 		{{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
 		<link rel='stylesheet' href='{{ $style.RelPermalink }}' type='text/css' media='all' />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		{{ partial "head" . }}
+		{{ block "head" . }}{{ end }}
     </head>
     <body>
 
     	{{ partial "header" . }}
 
-		<div class="container"><div id="content">
-			<main id="main" class="main">
-				{{ block "main" . }}{{ end }}
-			</main>
-
-		</div></div>
+		<main id="main" class="main bg-{{ .Param "color" }}">
+			{{ block "main" . }}{{ end }}
+		</main>
 
 		{{ partial "footer" . }}
 

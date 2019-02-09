@@ -1,0 +1,41 @@
+igor:
+  slug: igor
+  name: Igor
+  fullName: "Igor Spasić"
+  twitter: "joddorg"
+  linkedin: "igorspasic"
+  github: "igr"
+  blog: "https://oblac.rs"
+  home: "https://igo.rs"
+ivana:
+  slug: ivana
+  name: Ivana
+  fullName: "Ivana Nikolić"
+ninoslav:
+  slug: ninoslav
+  name: Ninoslav
+  fullName: "Ninoslav Rupić"
+  linkedin: "ninoslavrupic"
+  twitter: "profa_the_ninja"
+dimitrije:
+  slug: dimitrije
+  name: Dimitrije
+  fullName: "Dimitrije Stamenković"
+jovana:
+  slug: jovana
+  name: Jovana
+  fullName: "Jovana Tomić"
+vesna:
+  slug: vesna
+  name: Vesna
+  fullName: "Vesna Marjanović"
+  linkedin: "vesna-marjanovic-hs"
+  twitter: "vesnaHS"
+stefan:
+  slug: stefan
+  name: Stefan
+  fullName: "Stefan Feješ"
+nikola:
+  slug: nikola
+  name: Nikola
+  fullName: "Nikola Đuza"

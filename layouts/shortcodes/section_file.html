@@ -1,0 +1,8 @@
+{{ $file := (.Get 0) }}
+{{ $bgcolor := (.Get 1) }}
+
+<div class="grid bg-{{ $bgcolor }}"><div class="content-wrap">
+{{ with (.Page.Resources.GetMatch (printf "%s.%s.md" $file .Site.Language.Lang)) }}
+{{ .Content }}
+{{ end }}
+</div></div>

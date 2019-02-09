@@ -1,0 +1,10 @@
+
+[sr]
+languageName = "Srpski"
+weight = 1
+
+[en]
+languageName = "English"
+weight = 2
+[en.permalinks]
+  authors = "/team/:slug"

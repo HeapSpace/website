@@ -1,9 +1,14 @@
 ---
 title: "Manifest"
 translationKey: "manifest"
-url: "en/manifest"
-
-parts:
-  - name: "1"
-    color: "bg-white"
+url: "/en/manifest"
 ---
+
+{{% section red %}}
+# Manifest
+
+We believe in these principles. They inspire us.
+
+{{% /section %}}
+
+{{< section_file "body" >}}

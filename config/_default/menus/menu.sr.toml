@@ -1,0 +1,23 @@
+[[main]]
+	identifier = "projects"
+	name = "projekti"
+	url = "/projekti"
+	weight = 10
+
+[[main]]
+	identifier = "manifest"
+	name = "manifest"
+	url = "/manifest"
+	weight = 30
+
+[[main]]
+	identifier = "team"
+	name = "tim"
+	url = "/tim"
+	weight = 40
+
+[[main]]
+	identifier = "contact"
+	name = "kontakt"
+	url = "/kontakt"
+	weight = 50

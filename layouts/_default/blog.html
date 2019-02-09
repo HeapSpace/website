@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+{{ .Content }}
+
+<div class="grid bg-white"><div class="content-wrap">
+
+{{ range first .Site.Params.lastPostsCount (where .Site.RegularPages "Type" "posts") }}
+
+{{ $image := .Resources.GetMatch "index.jpg" }}
+{{ if $image}}{{ $image := $image.Fill "800x180 center" }}{{ end}}
+
+<div class="post post-small">
+<div>
+	<h2><a href="{{ .RelPermalink }}">{{.LinkTitle}}</a></h2>
+	{{ partial "article_about" . }}
+	{{ if $image }}
+	<img style="width: 100%; height: {{ $image.Height }}px;" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+	{{ end }}
+	<p>{{ .Summary }}</p>
+</div>
+</div>
+{{ end }}
+
+</div></div>
+
+{{ end }}

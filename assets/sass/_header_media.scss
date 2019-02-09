@@ -1,0 +1,25 @@
+@media screen and (max-width: $screen-small) {
+	.site-logo {
+		width: 30px;
+		margin-left: 5px;
+	}
+	header {
+		width: 100vh;
+		left: 0;
+	}
+	nav.nav-primary li {
+		margin-left: 0.5em;
+		font-size: 0.9em;
+		line-height: 1.5em;
+	}
+	nav.nav-lang {
+		position: fixed;
+		top: 17px;
+		ul li a {
+			padding: 5px;
+		}
+		li.current-lang {
+			display: none;
+		}
+	}
+}

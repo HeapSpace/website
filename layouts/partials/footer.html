@@ -1,19 +1,16 @@
-<footer id="contact" class="content-info grid bg-black">
-  <div class="container content-wrap">
-
-{{ with .Site.GetPage "/_footer" }} {{ .Content }} {{ end }}
-
-	<ul>
-		<li><a href="https://www.meetup.com/Heapspace/">meetup</a></li>
-		<li><a href="https://twitter.com/heap_space">twitter</a></li>
-		<li><a href="https://www.instagram.com/_heapspace_/">instagram</a></li>
-		<li><a href="https://www.youtube.com/channel/UCSyM4id-CzDFHQatXHDiwog">youtube</a></li>
-		<li><a href="http://facebook.com/heapspace">facebook</a></li>
-		<li><a href="https://www.flickr.com/photos/136891384@N04/albums">flickr</a></li>
-	</ul>
+<footer id="contact" class="grid bg-black"><div class="content-wrap">
 
 	{{ partial "mailchimp" . }}
 
-    <div id="footer">©{{ now.Format "2006" }} heapspace / organized with love for technology and local community.</div>
-  </div>
-</footer>
+	<ul id="social">
+		<li><a href="https://www.meetup.com/Heapspace/" target="_blank"><i class="fab fa-meetup"></i></a></li>
+		<li><a href="https://twitter.com/heap_space" target="_blank"><i class="fab fa-twitter"></i></a></li>
+		<li><a href="https://www.instagram.com/_heapspace_/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+		<li><a href="https://www.youtube.com/channel/UCSyM4id-CzDFHQatXHDiwog" target="_blank"><i class="fab fa-youtube"></i></a></li>
+		<li><a href="http://facebook.com/heapspace" target="_blank"><i class="fab fa-facebook"></i></a></li>
+	</ul>
+
+    <div id="footer">©{{ partial "year" }} heapspace / organized with&nbsp;<i class="fas fa-heart"></i>&nbsp;for technology and local community.</div>
+
+    <div id="private">{{with .GetPage "politika-privatnosti"}}<a href="{{.RelPermalink}}">{{.Title}}</a> & {{with .GetPage "uslovi-koriscenja"}}<a href="{{.RelPermalink}}">{{.Title}}</a>{{end}}{{end}}</div>
+</div></footer>

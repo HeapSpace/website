@@ -1,5 +1,12 @@
+[mailchimp-about]
+other = "Sign up for our newsletter and find out more about our future activities and events!"
+
 [mailchimp-placeholder]
-other = "subscribe to our newsletter"
+other = "YOUR EMAIL"
+
+[mailchimp-signup]
+other = "SIGN UP!"
+
 
 [site-description]
 other = "Heapspace is an open community for all technology lovers and this is our manifest. Our projects aim at one thing: development of the regional tech scene. So, Heapspace is not just an organisation, but a community that rests on direct contacts with its members."

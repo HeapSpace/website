@@ -1,0 +1,50 @@
+
+@media screen and (max-width: $screen-large) {
+	.content-wrap {
+		padding: 0 60px 0 100px;
+	}
+}
+
+@media screen and (max-width: $screen-break) {
+	.flex {
+		flex-direction: column;
+		align-items: center;
+    	justify-content: center;
+	}
+	.grid {
+		display: block;
+	}
+	main {
+		padding-top: 30px;
+		.grid {
+			padding: 2em 0;
+			&:first-child {
+				padding: 2em 0 1em 0;
+			}
+		}
+	}
+	.content-wrap {
+		padding: 0 10px;
+		font-size: 1.2em;
+	}
+	hr {
+	  margin: 2em 1em;
+	  height: 1px;
+	}
+	h1.superbig {
+		font-size: 6em;
+		line-height: 0.5em;
+	}
+	.bg-counter .flex {
+		flex-direction: row;
+	}
+	.counter {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: $screen-small) {
+	body {
+		font-size: 0.8em;
+	}
+}
