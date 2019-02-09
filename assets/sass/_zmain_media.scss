@@ -35,6 +35,12 @@
 		font-size: 6em;
 		line-height: 0.5em;
 	}
+	.bg-counter .flex {
+		flex-direction: row;
+	}
+	.counter {
+		font-size: 1em;
+	}
 }
 
 @media screen and (max-width: $screen-small) {

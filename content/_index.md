@@ -39,22 +39,10 @@ Naš tim čine profesionalci iz različitih domena tehnologije, marketinga i kul
 
 <!------------------------------------------------------------------------------------------------>
 
-{{% section %}}
+{{% section counter %}}
 &nbsp;
-{{< flex >}}{{% flex-column %}}
-{{< count "150" "događaja" >}}
-{{% /flex-column %}}
-{{% flex-column %}}
-{{< count "10k" "učesnika" >}}
-{{% /flex-column %}}
-{{% flex-column %}}
-{{< count "15" "godina rada" >}}
-{{% /flex-column %}}
-{{% flex-column %}}
-{{< count "22" "nečega" >}}
-{{% /flex-column %}}
-{{% flex-column %}}
-{{< count "1" "igor pajser" >}}
-{{% /flex-column %}}{{< /flex >}}
+{{< flex >}}{{% flex-column %}}{{< count "15" "godina rada" >}}{{% /flex-column %}}
+{{% flex-column %}}{{< count "200+" "događaja" >}}{{% /flex-column %}}
+{{% flex-column %}}{{< count "2k+" "članova zajednice" >}}{{% /flex-column %}}{{< /flex >}}
 
 {{% /section %}}

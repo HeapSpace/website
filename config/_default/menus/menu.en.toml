@@ -5,12 +5,6 @@
 	weight = 10
 
 [[main]]
-	identifier = "blog"
-	name = "blog"
-	url = "/en/blog"
-	weight = 20
-
-[[main]]
 	identifier = "manifest"
 	name = "manifest"
 	url = "/en/manifest"
