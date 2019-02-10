@@ -23,13 +23,3 @@
   </div>
 </section>
 </div></div>
-
-{{ if .Data.Pages }}
-<div class="grid"><div class="content-wrap">
-<h2>Članci</h2>
-{{ range .Data.Pages }}
-  {{ partial "article_small" . }}
-{{ end }}
-</div></div>
-{{ end }}
-{{ end }}
