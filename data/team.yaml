@@ -23,6 +23,7 @@ dimitrije:
   slug: dimitrije
   name: Dimitrije
   fullName: "Dimitrije Stamenković"
+  url: "https://www.linkedin.com/in/dimitrije-stamenkovic-a395a721/"
 jovana:
   slug: jovana
   name: Jovana
@@ -39,7 +40,9 @@ stefan:
   slug: stefan
   name: Stefan
   fullName: "Stefan Feješ"
+  url: "https://www.linkedin.com/in/fejes713/"
 nikola:
   slug: nikola
   name: Nikola
   fullName: "Nikola Đuza"
+  url: "https://www.linkedin.com/in/nikoladjuza/"
