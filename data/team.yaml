@@ -7,6 +7,7 @@ igor:
   github: "igr"
   blog: "https://oblac.rs"
   home: "https://igo.rs"
+  url: "https://igo.rs"
 ivana:
   slug: ivana
   name: Ivana
@@ -17,6 +18,7 @@ ninoslav:
   fullName: "Ninoslav Rupić"
   linkedin: "ninoslavrupic"
   twitter: "profa_the_ninja"
+  url: "https://www.linkedin.com/in/ninoslavrupic"
 dimitrije:
   slug: dimitrije
   name: Dimitrije
@@ -31,6 +33,7 @@ vesna:
   fullName: "Vesna Marjanović"
   linkedin: "vesna-marjanovic-hs"
   twitter: "vesnaHS"
+  url: "https://www.linkedin.com/in/vesna-marjanovic-hs/"
 stefan:
   slug: stefan
   name: Stefan
