@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{$.Site.Language}}">
+    <head>
+    	<meta charset="UTF-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+  		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>{{ .Title }} - {{ .Site.Title }}</title>
+		{{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+		<link rel='stylesheet' href='{{ $style.RelPermalink }}' type='text/css' media='all' />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		{{ partial "head" . }}
+<style type="text/css">
+h1 {
+	font-size: 2.5em;
+}
+.bg-beige a {
+	color: #eb5027;
+}
+main {
+	padding: 0;
+}
+</style>
+    </head>
+    <body>
+		<main id="main" class="main bg-{{ .Param "color" }}">
+			{{ block "main" . }}{{ end }}
+		</main>
+
+		{{ partial "js" . }}
+
+    </body>
+</html>
