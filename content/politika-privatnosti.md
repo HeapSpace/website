@@ -10,20 +10,20 @@ Ova stranica sadrži politiku privatnosti, naše obaveze prema korisnicima vezan
 Heapspace poštuje i čuva lični integritet osoba koje posećuju naš sajt i to na sledeći način:
 
 + garantujemo da podatke koje ste nam ustupili nećemo ni ukom slučaju zloupotrebiti, prodati niti proslediti trećim licima.
-+ Kao i sve ostale stranice na internetu, koristimo kolačiće kako bi prikupili anonimne podatke koji nam služe za unapređenje i poboljšanje funkcionalnosti sajta. Na osnovu ovih podataka možemo znati koji sadržaj je popularan.
-+ Svi podaci, kolačići kao i privatni podaci poput imena i prezimena, email adrese ili boravišta, neće biti prikupljani bez izričite saglasnosti korisnika.
++ kao i sve ostale stranice na internetu, koristimo kolačiće kako bi prikupili anonimne podatke koji nam služe za unapređenje i poboljšanje funkcionalnosti sajta. Na osnovu ovih podataka možemo znati koji sadržaj je popularan.
++ svi podaci, kolačići kao i privatni podaci poput imena i prezimena, email adrese ili boravišta, neće biti prikupljani bez izričite saglasnosti korisnika.
 
 ## Pravila zaštite ličnih podataka
 
-Heapspace dobija vaše lične podatke pri prilikom prijave na naše vesti/newsletter.
+Heapspace dobija vaše lične podatke prilikom prijave na naše vesti/newsletter.
 
-Podaci koji se prikupljaju prilikom prijave na naše vesti/newsletter su email. Korisnici se slažu da prijavom na newsletter daju dozvolu i slažu se da mogu primati vesti vezane za rad Heapspace-a. Korisniku se daje na znanje da u svakom trenutku može odustati i povući saglasnost za primanje ovih vesti klikom na polje “odjavi me” u dnu newsletter-a. Za prikupljanje ovih podataka i slanje newsletter-a sajt Heapspace koristi usluge kompanije MailChimp koja takođe posluje u skladu sa evropskim zakonom (GDPR). To možete proveriti na linkovima [Privacy Policy](https://mailchimp.us17.list-manage.com/track/click?u=7408690b9f7fe1132e6e7422b&id=af40f6074e&e=0fbb7e19d8) i [Terms of Use](https://mailchimp.us17.list-manage.com/track/click?u=7408690b9f7fe1132e6e7422b&id=404e45cec3&e=0fbb7e19d8).
+Podaci koji se prikupljaju prilikom prijave na naše vesti/newsletter su email adrese. Korisnici se slažu da prijavom na newsletter daju dozvolu i slažu se da mogu primati vesti vezane za rad Heapspace-a. Korisniku se daje na znanje da u svakom trenutku može odustati i povući saglasnost za primanje ovih vesti klikom na polje “odjavi me” u dnu newsletter-a. Za prikupljanje ovih podataka i slanje newsletter-a sajt Heapspace koristi usluge kompanije MailChimp koja takođe posluje u skladu sa evropskim zakonom (GDPR). To možete proveriti na linkovima [Privacy Policy](https://mailchimp.us17.list-manage.com/track/click?u=7408690b9f7fe1132e6e7422b&id=af40f6074e&e=0fbb7e19d8) i [Terms of Use](https://mailchimp.us17.list-manage.com/track/click?u=7408690b9f7fe1132e6e7422b&id=404e45cec3&e=0fbb7e19d8).
 
 Podaci se prikupljaju u najboljoj nameri, poštujući privatnost korisnika. Podaci se koriste u svrhu komunikacije sa korisnikom i omogućavanja bolje upotrebe portala.
 
-Osim toga, prikupljaju se anonimni podaci, putem kolačića, poput IP adrese, vremena računara te vrste pretraživača. Ovi podaci služe kako bi se unapredile funkcije sajta i kako bi se prikupili anonimni statistički podaci poput posete ili popularnog sadržaja.
+Osim toga, prikupljaju se anonimni podaci, putem kolačića, poput IP adrese, vremena i vrste pretraživača. Ovi podaci služe kako bi se unapredile funkcije sajta i kako bi se prikupili anonimni statistički podaci poput posete ili popularnog sadržaja.
 
-Kolačići su dobronamerni, te su podaci koje su prikupili, anonimni. Lični podaci i  kolačići, prikupljaju se samo iz izričiti pristanak korisnika i koriste se samo za upotrebu portala. Na dalje, trećerazredni kolačići, poput Google kolačića, prikupljaju se uz pristanak korisnika i služe za praćenje statistike sajta.
+Kolačići su dobronamerni, te su podaci koje su prikupili, anonimni. Lični podaci i kolačići, prikupljaju se samo iz izričitih pristanaka korisnika i koriste se samo za upotrebu portala. Na dalje, trećerazredni kolačići, poput Google kolačića, prikupljaju se uz pristanak korisnika i služe za praćenje statistike sajta.
 
 Korisnik ima pravo da traži izmene i brisanje podataka koje je stranica prikupila. Sve primedbe možete uputiti na mejl info@heapspace.rs
 
@@ -69,7 +69,7 @@ Prvorazredni kolačići su kolačići koje je postavila naša stranica, u svrhu 
 
 ### Kolačići treće strane
 
-Naš sajt koristi nekoliko servisa koji postavljaju limitirane kolačiće, koji ne dolaze sa našeg portala, niti imamo kontrolu nad njima, služe kako bi omogućili pojedine funkcije stranice.
+Naš sajt koristi nekoliko servisa koji postavljaju limitirane kolačiće, koji ne dolaze sa našeg sajta, niti imamo kontrolu nad njima, služe kako bi omogućili pojedine funkcije stranice.
 
 ### Posećenost
 
@@ -77,7 +77,7 @@ Google Analytics može postaviti kolačiće kako bi merili posećenost naših st
 
 ### Društvene mreže
 
-Šerovanjem članaka na društvenim mrežama, poput Facebooka, korisniku mogu biti postavljeni kolačići.
+Deljenjem članaka na društvene mreže, poput Facebook-a, korisniku mogu biti postavljeni kolačići.
 
 
 ### Kako upravljati kolačićima?
@@ -91,7 +91,7 @@ Registracijom i korišćenjem sajta Heapspace.rs, smatra se da je korisnik proč
 
 ## GDPR - General Data Protection Regulation
 
-Više informacija o tome što je GDPR pročitajte ovde: [GDPR](https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=celex%3A32016R0679).
+Više informacija o tome šta je GDPR pročitajte ovde: [GDPR](https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=celex%3A32016R0679).
 
 Ova Politika privatnosti i Pravila zaštite ličnih podataka donešeni su 31.01.2019. i stupaju na snagu danom objavljivanja.
 

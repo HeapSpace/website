@@ -5,7 +5,7 @@ title: Uslovi korišćenja
 {{% section %}}
 # Uslovi korišćenja
 
-Vaš pristup, kao i korišćenje ovog našeg internet sajta (u daljem tekstu: internet sajt) podleže ovim uslovima korišćenja i važećim zakonskim propisima koji uređuju ovu oblast. Pristupom i korišćenjem internet sajta, prihvatate bez ograničenja, ove uslove korišćenja. Ukoliko ne prihvatate ove uslove korišćenja bez ograničenja, molimo vas da napustite internet sajt.
+Vaš pristup, kao i korišćenje našeg internet sajta (u daljem tekstu: internet sajt) podleže ovim uslovima korišćenja i važećim zakonskim propisima koji uređuju ovu oblast. Pristupom i korišćenjem internet sajta, prihvatate bez ograničenja, ove uslove korišćenja. Ukoliko ne prihvatate ove uslove korišćenja bez ograničenja, molimo vas da napustite internet sajt.
 
 ## Vlasništvo sadržaja
 
@@ -25,6 +25,7 @@ Internet sajt može sadržati linkove drugih internet sajtova čiji vlasnik ili 
 
 ## Sadržaj dostupan na ovom internet sajtu
 
-Prava intelektualne svojine i ostala prava na bilo koji Sadržaj koji je dostupan za preuzimanje sa internet sajta (u daljem tekstu Sadržaj), pripadaju Autoru, osim ako drugačije nije izričito određeno. Vaša upotreba Sadržaja podleže uslovima Zakona o zaštiti autorskih prava Republike Srbije.  Nemojte preuimati niti koristiti Sadržaj ako se ne slažete sa ovim odredbama. Kada preuzimate ili koristite Sadržaj sa internet sajta, to činite na sopstveni rizik.
+Prava intelektualne svojine i ostala prava na bilo koji Sadržaj koji je dostupan za preuzimanje sa internet sajta (u daljem tekstu Sadržaj), pripadaju Autoru, osim ako drugačije nije izričito određeno. Vaša upotreba Sadržaja podleže uslovima Zakona o zaštiti autorskih prava Republike Srbije. Nemojte preuzimati niti koristiti Sadržaj ako se ne slažete sa ovim odredbama. Kada preuzimate ili koristite Sadržaj sa internet sajta, to činite na sopstveni rizik.
+
 
 {{% /section %}}
