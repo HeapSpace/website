@@ -81,3 +81,16 @@ nav.nav-lang {
     padding: 14px;
   }
 }
+#cfp {
+  position:fixed;
+  top:0;
+  text-align: center;
+  padding: 12px 0;
+  width: 100%;
+  z-index: 9;
+  background-color: $color-hs-blue;
+  a {
+    color: $color-hs-white;
+    padding: 20px;
+  }
+}
