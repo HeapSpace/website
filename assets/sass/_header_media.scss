@@ -16,6 +16,7 @@
 		position: fixed;
 		top: 10px;
 		ul li a {
+			background-color: $color-hs-blue;
 			padding: 5px;
 		}
 		li.current-lang {
