@@ -1,5 +1,6 @@
 ---
 title: Terms and conditions
+url: "en/terms-and-conditions"
 ---
 
 {{% section %}}
