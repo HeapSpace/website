@@ -6,7 +6,7 @@
 
 {{ range first .Site.Params.lastPostsCount (where .Site.RegularPages "Type" "posts") }}
 
-{{ $image := .Resources.GetMatch "index.jpg" }}
+{{ $image := .Resources.GetMatch .Params.postImage }}
 {{ if $image}}{{ $image := $image.Fill "800x180 center" }}{{ end}}
 
 <div class="post post-small">
