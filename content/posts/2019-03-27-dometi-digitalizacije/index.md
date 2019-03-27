@@ -1,7 +1,7 @@
 ---
 Title: "Dometi digitalizacije"
 slug: dometi-digitalizacije
-date: 2019-03-22
+date: 2019-03-27
 authors:
   - igor
 tags:
