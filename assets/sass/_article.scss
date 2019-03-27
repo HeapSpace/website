@@ -1,4 +1,19 @@
 .post {
+	ul#social {
+		margin: 2em 0;
+		list-style: none;
+		width: 100%;
+		padding-left: 0;
+		li {
+			float: left;
+			margin-right: 1em;
+			color: $color-hs-blue;
+			a {
+				color: $color-hs-blue;
+			}
+		}
+		@include clearfix();
+	}
 	.center-cropped {
   		width: 100%;
   		height: 300px;
