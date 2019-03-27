@@ -5,7 +5,7 @@
   {{ partial "article_about" .}}
 
   {{ $image := .Resources.GetMatch .Params.postImage }}{{- if $image -}}
-  <img style="width: 100%; height: {{ $image.Height }}px; margin: 1em 0 0 0;" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+  <img style="width: 100%; margin: 1em 0 0 0;" src="{{ $image.RelPermalink }}">
   {{- end -}}
 
   <article style="margin-top: 1em;">

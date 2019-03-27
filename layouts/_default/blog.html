@@ -14,7 +14,9 @@
 	<h2><a href="{{ .RelPermalink }}">{{.LinkTitle}}</a></h2>
 	{{ partial "article_about" . }}
 	{{ if $image }}
-	<img style="width: 100%; height: {{ $image.Height }}px;" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+	<div class="center-cropped"
+		style="background-image: url({{ $image.RelPermalink }});">
+	</div>
 	{{ end }}
 	<p>{{ .Summary }}</p>
 </div>
