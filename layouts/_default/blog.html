@@ -18,7 +18,9 @@
 		style="background-image: url({{ $image.RelPermalink }});">
 	</div>
 	{{ end }}
-	<p>{{ .Summary }}</p>
+	{{- .Summary -}}
+	<a class="read_more" href="{{.RelPermalink}}"><i class="fa fa-forward"></i>Pročitaj više...</a>
+
 </div>
 </div>
 {{ end }}
