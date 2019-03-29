@@ -9,9 +9,10 @@ tags:
   - novaiskra
   - projects
 postImage: dometi.jpg
+post: true
 ---
 
- Sa velikim zadovoljstvom vam predstavljamo novi program koji smo kreirali u saradnji sa [Novom Iskrom](https://novaiskra.com/), a koji je nastao sa idejom da pristupi domenu digitalizacije iz jednog šireg ugla, obuhvatajući različite aspekte ovog složenog procesa.
+Sa velikim zadovoljstvom vam predstavljamo novi program koji smo kreirali u saradnji sa [Novom Iskrom](https://novaiskra.com/), a koji je nastao sa idejom da pristupi domenu digitalizacije iz jednog šireg ugla, obuhvatajući različite aspekte ovog složenog procesa.
 
 <!--more-->
 

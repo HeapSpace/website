@@ -11,6 +11,12 @@
 	weight = 30
 
 [[main]]
+	identifier = "blog"
+	name = "blog"
+	url = "/blog"
+	weight = 35
+
+[[main]]
 	identifier = "team"
 	name = "tim"
 	url = "/tim"

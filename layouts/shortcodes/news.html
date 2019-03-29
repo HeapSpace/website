@@ -1,5 +1,6 @@
 {{ $news := slice "news" }}
-<div class="flex">
-{{ range where $.Site.Pages.ByDate "Params.tags" "intersect" $news }}
+<h2>Najnovije sa bloga</h2>
+<div class="flex news">
+{{ range first 2 (where $.Site.Pages.ByDate.Reverse "Params.tags" "intersect" $news) }}
 {{ partial "article_small" . }}{{ end }}
 </div>

@@ -39,6 +39,14 @@ Naš tim čine profesionalci iz različitih domena tehnologije, marketinga i kul
 
 <!------------------------------------------------------------------------------------------------>
 
+{{% section beige %}}
+
+{{< news >}}
+
+{{% /section %}}
+
+<!------------------------------------------------------------------------------------------------>
+
 {{% section counter %}}
 &nbsp;
 {{< flex >}}{{% flex-column %}}{{< count "15" "godina rada" >}}{{% /flex-column %}}
