@@ -12,7 +12,7 @@ postImage: heapcon.png
 post: true
 ---
 
-[Heapcon konferencija](https://heapcon.io) dolazi kao prirodni nastavak težnje da se na jednom događaju prikaže ekspertiza u polju informacionih tehnologija, preduzetništva i digitalne umetnosti. Rezervišite **3.** & **4. oktobar** za novo izdanje konferencije - ovaj put u novom prostoru :)
+[Heapcon konferencija](https://heapcon.io) dolazi kao prirodni nastavak težnje da se na jednom događaju prikaže ekspertiza u polju informacionih tehnologija i preduzetništva. Rezervišite **3.** & **4. oktobar** za novo izdanje konferencije - ovaj put u novom prostoru :)
 
 <!--more-->
 
