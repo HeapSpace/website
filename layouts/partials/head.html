@@ -5,7 +5,7 @@
 {{ if .Params.post }}
 	<meta name="description" content="{{ .Summary }}" />
 	<meta property="og:description" content="{{ .Summary }}" />
-	<meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.slug }}/{{ .Params.postImage }}" />
+	<meta property="og:image" content="{{ .Site.BaseURL }}/blog{{ .Params.slug }}/{{ .Params.postImage }}" />
 {{ else }}
 	<meta name="description" content="{{ i18n "site-description" }}" />
 	<meta property="og:description" content="{{ i18n "site-description" }}" />
