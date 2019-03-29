@@ -6,21 +6,25 @@
 	<meta name="description" content="{{ .Summary }}" />
 	<meta property="og:description" content="{{ .Summary }}" />
 	<meta property="og:image" content="{{ .Site.BaseURL }}blog/{{ .Params.slug }}/{{ .Params.postImage }}" />
+	<meta property="og:type" content="article" />
+	<meta name="twitter:description" content="{{ .Summary }}" />
 {{ else }}
 	<meta name="description" content="{{ i18n "site-description" }}" />
 	<meta property="og:description" content="{{ i18n "site-description" }}" />
 	<meta property="og:image" content="{{ .Site.BaseURL }}hs-og.png" />
+	<meta property="og:type" content="website" />
+	<meta name="twitter:description" content="{{ i18n "site-description" }}" />
+	<meta name="twitter:title" content="{{ .Site.Title }}" />
 {{ end }}
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:description" content="{{ i18n "site-description" }}" />
-<meta name="twitter:title" content="{{ .Site.Title }}" />
-
 {{ if .IsHome }}
     <title>{{ .Site.Title }}</title>
     <meta property="og:title" content="{{ .Site.Title }}" />
+    <meta name="twitter:title" content="{{ .Site.Title }}" />
 {{ else }}
     <title>{{ .Title }} - {{ .Site.Title }}</title>
     <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}" />
+    <meta name="twitter:title" content="{{ .Title }} - {{ .Site.Title }}" />
 {{ end }}
 
 <link rel="shortlink" href="https://heapspace.rs/" />
