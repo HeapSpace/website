@@ -2,4 +2,5 @@
 	<i class="far fa-calendar"></i>{{ .Date.Day }}.{{ index $.Site.Data.months (printf "%d" .Date.Month) }} {{.Date.Year}}.
 	<i class="far fa-user"></i>{{- range .Params.authors }}{{ . }}&nbsp;{{ end }}
 	<i class="far fa-clock"></i>{{.ReadingTime}}min
+	<a class="read_more" href="{{.RelPermalink}}"><i class="far fa-caret-square-right"></i>Pročitaj više...</a>
 </div>

@@ -12,14 +12,14 @@
 <div class="post post-small">
 <div>
 	<h2><a href="{{ .RelPermalink }}">{{.LinkTitle}}</a></h2>
-	{{ partial "article_about" . }}
+	<br>
 	{{ if $image }}
 	<div class="center-cropped"
 		style="background-image: url({{ $image.RelPermalink }});">
 	</div>
 	{{ end }}
 	{{- .Summary -}}
-	<a class="read_more" href="{{.RelPermalink}}"><i class="fa fa-forward"></i>Pročitaj više...</a>
+	{{ partial "article_about" . }}
 
 </div>
 </div>
