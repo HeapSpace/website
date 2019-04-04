@@ -8,11 +8,13 @@ igor:
   blog: "https://oblac.rs"
   home: "https://igo.rs"
   url: "https://igo.rs"
+  team: true
 ivana:
   slug: ivana
   name: Ivana
   fullName: "Ivana Nikolić"
   url: "https://www.linkedin.com/in/ivananikolic82"
+  team: true
 ninoslav:
   slug: ninoslav
   name: Ninoslav
@@ -20,16 +22,19 @@ ninoslav:
   linkedin: "ninoslavrupic"
   twitter: "profa_the_ninja"
   url: "https://www.linkedin.com/in/ninoslavrupic"
+  team: true
 dimitrije:
   slug: dimitrije
   name: Dimitrije
   fullName: "Dimitrije Stamenković"
   url: "https://www.facebook.com/dimitrije.stamenkovic.9"
+  team: true
 jovana:
   slug: jovana
   name: Jovana
   fullName: "Jovana Tomić"
   url: "https://www.linkedin.com/in/jovanatomic/"
+  team: true
 vesna:
   slug: vesna
   name: Vesna
@@ -37,13 +42,22 @@ vesna:
   linkedin: "vesna-marjanovic-hs"
   twitter: "vesnaHS"
   url: "https://www.linkedin.com/in/vesna-marjanovic-hs/"
+  team: true
 stefan:
   slug: stefan
   name: Stefan
   fullName: "Stefan Feješ"
   url: "https://www.linkedin.com/in/fejes713/"
+  team: true
 nikola:
   slug: nikola
   name: Nikola
   fullName: "Nikola Đuza"
   url: "https://www.linkedin.com/in/nikoladjuza/"
+  team: true
+nevena:
+  slug: nevena
+  name: Nevena
+  fullname: "Nevena Sofranić"
+  url: "https://www.linkedin.com/in/nevenasofranic/"
+  team: false

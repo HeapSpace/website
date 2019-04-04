@@ -2,4 +2,5 @@
 	{{ .Date.Day }}.{{ index $.Site.Data.months (printf "%d" .Date.Month) }} {{.Date.Year}}.
 	/&nbsp; {{- range .Params.authors }}{{ . }}&nbsp;{{ end }}
 	/&nbsp;{{.ReadingTime}}min
+	/&nbsp;<a class="read_more" href="{{.RelPermalink}}"></i>Pročitaj više...</a>
 </div>

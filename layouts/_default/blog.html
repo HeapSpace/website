@@ -14,12 +14,11 @@
 	<h2><a href="{{ .RelPermalink }}">{{.LinkTitle}}</a></h2>
 	<br>
 	{{ if $image }}
-	<div class="center-cropped"
-		style="background-image: url({{ $image.RelPermalink }});">
+	<div class="center-cropped" style="background-image: url({{ $image.RelPermalink }});">
 	</div>
 	{{ end }}
 	{{- .Summary -}}
-	{{ partial "article_about" . }}
+	{{ partial "article_about2" . }}
 
 </div>
 </div>
