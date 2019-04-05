@@ -41,7 +41,7 @@ Naš tim čine profesionalci iz različitih domena tehnologije, marketinga i kul
 
 {{% section beige %}}
 
-{{< news >}}
+{{< blogs >}}
 
 {{% /section %}}
 

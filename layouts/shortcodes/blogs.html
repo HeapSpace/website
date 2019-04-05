@@ -1,0 +1,3 @@
+<h2>Najnovije sa bloga</h2><div class="flex news">{{ range first 2 (where $.Site.Pages.ByDate.Reverse "Params.post" "eq" true) }}
+{{ partial "article_small" . }}{{ end }}
+</div>
