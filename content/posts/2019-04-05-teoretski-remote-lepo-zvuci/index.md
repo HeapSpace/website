@@ -11,7 +11,7 @@ postImage: omnes.jpg
 post: true
 ---
 
-Biti ostavljen na miru ili na moru, stvar je ličnih potreba i afiniteta. Sa jedne strane, remote rad je način života, za nekoga rutina, za nekoga funkcionalan haos i odsustvo iste. Za Omnes je to poverenje. Poverenje među kolegama, uverenost da mogu da se oslone jedni na druge. I da, ovo zaista u praksi radi. Ne kažemo da svakome jednako odgovara, niti da treba da se podvede pod moranje, ali tvrdimo da postoji veliki broj ljudi koji bi ovu beneficiju uvrstili na sam vrh liste prioriteta.
+Biti ostavljen na miru ili na moru, stvar je ličnih potreba i afiniteta. Sa jedne strane, remote rad je način života, za nekoga rutina, za nekoga funkcionalan haos i odsustvo iste. Za [Omnes](https://www.omnesgroup.com/) je to poverenje. Poverenje među kolegama, uverenost da mogu da se oslone jedni na druge. I da, ovo zaista u praksi radi. Ne kažemo da svakome jednako odgovara, niti da treba da se podvede pod moranje, ali tvrdimo da postoji veliki broj ljudi koji bi ovu beneficiju uvrstili na sam vrh liste prioriteta.
 
 <!--more-->
 

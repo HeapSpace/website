@@ -1,5 +1,5 @@
 ---
-Title: "Heapcon 2019."
+Title: "Heapcon 2019"
 slug: heapcon-2019
 date: 2019-03-22
 authors:
