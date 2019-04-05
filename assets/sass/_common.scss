@@ -128,7 +128,7 @@ p {
 /** LINKS */
 
 a {
-  color: $color-hs-black;
+  color: $color-hs-red;
 }
 
 a:visited {
@@ -138,7 +138,6 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-  color: inherit;
   text-decoration: none;
 }
 
