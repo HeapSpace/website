@@ -6,7 +6,7 @@ title: "Partneri"
 
 # Partneri
 
-
+Kroz saradnju sa kompanijama omogućavamo povezivanje privatnog i civilnog sektora u tehnologiji.
 
 {{% /section %}}
 
