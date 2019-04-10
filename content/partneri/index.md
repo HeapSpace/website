@@ -24,9 +24,10 @@ Kroz saradnju sa kompanijama omogućavamo povezivanje privatnog i civilnog sekto
 Heapspace radi uz pomoć:
 
 {{% flex %}}
-{{% flex-column %}}![](airtable.png){{% /flex-column %}}
-{{% flex-column %}}![](netlify.png){{% /flex-column %}}
-{{% flex-column %}}![](zapier.png){{% /flex-column %}}
+{{% flex-column %}}[![](airtable.png)](https://airtable.com){{% /flex-column %}}
+{{% flex-column %}}[![](netlify.png)](https://netlify.com){{% /flex-column %}}
+{{% flex-column %}}[![](slack.png)](https://slack.com){{% /flex-column %}}
+{{% flex-column %}}[![](zapier.png)](https://zapier.com){{% /flex-column %}}
 {{% /flex %}}
 
 {{% /section %}}
