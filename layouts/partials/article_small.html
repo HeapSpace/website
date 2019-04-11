@@ -1,9 +1,4 @@
 <div style="flex:1" class="post">
-<h3><a href="{{.RelPermalink}}">{{ .Name }}</a></h3>
-{{ $image := .Resources.GetMatch "index.jpg" }}
-{{- if $image -}}
-<img style="width: 100%; max-height: {{ $image.Height }}px;" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
-{{- end -}}
 <div style="font-size: 0.7em">{{- .Summary -}}</div>
 {{ partial "article_about_small" . }}
 </div>
