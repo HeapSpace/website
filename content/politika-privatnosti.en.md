@@ -1,6 +1,6 @@
 ---
 title: "Privacy policy"
-url: "en/privacy-policy"
+url: "privacy-policy"
 ---
 
 {{% section %}}

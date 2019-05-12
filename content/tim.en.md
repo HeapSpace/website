@@ -1,7 +1,7 @@
 ---
 title: "Team"
 translationKey: "team"
-url: "en/team"
+url: "team"
 layout: "team"
 ---
 

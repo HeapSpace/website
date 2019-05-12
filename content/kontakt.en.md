@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 translationKey: "contact"
-url: "en/contact"
+url: "contact"
 ---
 
 {{% section red %}}
