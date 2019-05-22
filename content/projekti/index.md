@@ -8,8 +8,6 @@ translationKey: "projects"
 
 Naši projekti su usmereni na povezivanje tehnologije, kulture i preduzetništva.
 
-[Tehnološki doručak](#tehnološki-doručak){{< separator2 >}}[Heapcon](#heapcon)
-
 {{% /section %}}
 
-{{< section_file "body" >}}
+{{< section_file "body" "white" >}}

@@ -1,7 +1,7 @@
 ---
 title: "Manifest"
 translationKey: "manifest"
-url: "/en/manifest"
+url: "manifest"
 ---
 
 {{% section red %}}
@@ -11,4 +11,4 @@ We believe in these principles. They inspire us.
 
 {{% /section %}}
 
-{{< section_file "body" >}}
+{{< section_file "body" "white">}}

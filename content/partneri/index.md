@@ -1,5 +1,6 @@
 ---
 title: "Partneri"
+translationKey: "partners"
 ---
 
 {{% section red %}}

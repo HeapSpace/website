@@ -1,6 +1,7 @@
 ---
 title: "Partners"
 url: "partners"
+translationKey: "partners"
 ---
 
 {{% section red %}}

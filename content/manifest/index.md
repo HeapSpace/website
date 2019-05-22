@@ -10,4 +10,4 @@ Ovo su načela u koja verujemo i koja nas inspirišu.
 
 {{% /section %}}
 
-{{< section_file "body" >}}
+{{< section_file "body" "white">}}

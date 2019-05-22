@@ -11,6 +11,12 @@
 	weight = 30
 
 [[main]]
+	identifier = "partners"
+	name = "partners"
+	url = "/en/partners"
+	weight = 33
+
+[[main]]
 	identifier = "team"
 	name = "team"
 	url = "/en/team"
