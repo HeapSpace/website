@@ -2,6 +2,11 @@
 headless: true
 ---
 
+[Tech breakfast](#tech-breakfast)<br>
+[Heapcon](#heapcon)
+
+---
+
 ## Tech Breakfast
 
 Launched in December 2015., Tech breakfast showcases entrepreneurial ideas as we cosily sip the first morning coffee. A couple of five-minute presentations, two-minute Q&A sessions, and networking, made complete by the flavour of [Domaće kiflice](http://domacekiflice.rs/), is a terrific way to start your day.

@@ -9,6 +9,7 @@ tags:
   - društvo
   - panel
 postImage: ob.jpg
+smallImageClass: bckg-top
 post: true
 ---
 
