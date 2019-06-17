@@ -19,7 +19,6 @@ Kroz saradnju sa kompanijama omogućavamo povezivanje privatnog i civilnog sekto
 
 ---
 
-
 ## CyberAvocado
 
 [www.cyberavocado.rs](http://www.cyberavocado.rs/)
@@ -48,6 +47,17 @@ HOOLOOVOO su dobri ljudi i matori programeri i svi mislimo da Beograd mora da im
 SpiceFactory je konsultantska kompanija koja pomaže drugim kompanijama u kreiranju tehnoloških inovacija kroz svoj jedinstveni proces definisanja biznis ideje, validacije tržišta i razvoja proizvoda.
 
 Heapspace je prepoznat kao jedna od retkih organizacija koja se posvetila unapređenju tehnološke svesti, deljenja, edukacije i povezivanja u našem regionu. Ove aktivnosti vidimo kao podstičuće za lokalne talente i stimulans kompanijama da rade na stvaranju lokalne intelektualne svojine. Zadovoljstvo nam je da sarađujemo sa ovakvom organizacijom.
+
+
+## Zühlke
+
+[zuehlke.com](https://www.zuehlke.com/rs/en/)
+
+Podržavanjem Heapspace-a želimo da podstaknemo zajednicu i ideje koje iz nje proističu – kao što to radimo i u svakodnevnim aktivnostima sa našim klijentima.
+
+Verujemo da postojeće i buduće akitvnosti ove zajednice mogu da unaprede i obogate naše IT tržište.
+
+Drago nam je da imamo priliku da doprinesemo i budemo deo ovog rasta.
 
 {{% /section %}}
 {{% section beige %}}

@@ -47,6 +47,16 @@ SpiceFactory is an innovation partner, helping companies create value for their 
 
 Heapspace has been recognized as one of the rare NGOs committed to continuous knowledge, technology and entrepreneurial development in the region through their activities and events. These activities present great motivational boost for local talent and companies to create local intellectual property. We’re glad that there’s such great energy within Heapspace and are proud to be one of the supporters.
 
+## Zühlke
+
+[zuehlke.com](https://www.zuehlke.com/rs/en/)
+
+We want to empower Heapspace community and ideas growing within it – as we do in our every day business.
+
+We believe that current and future activities of this community can enrich and improve our IT ecosystem.
+
+It is great opportunity and honor to be a part of this growth and contribute to its development.
+
 {{% /section %}}
 {{% section beige %}}
 
