@@ -16,6 +16,7 @@ Kroz saradnju sa kompanijama omogućavamo povezivanje privatnog i civilnog sekto
 [CyberAvocado](#cyberavocado)<br>
 [Hooloovoo](#hooloovoo)<br>
 [SpiceFactory](#spicefactory)<br>
+[Zühlke](#zühlke)<br>
 
 ---
 

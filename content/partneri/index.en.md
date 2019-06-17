@@ -17,6 +17,7 @@ EN: Kroz saradnju sa kompanijama omogućavamo povezivanje privatnog i civilnog s
 [CyberAvocado](#cyberavocado)<br>
 [Hooloovoo](#hooloovoo)<br>
 [SpiceFactory](#spicefactory)<br>
+[Zühlke](#zühlke)<br>
 
 ---
 
