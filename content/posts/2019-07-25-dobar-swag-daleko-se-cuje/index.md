@@ -14,7 +14,7 @@ post: true
 
 Uh, još jedna stres-loptica, reče svaki posetilac [svake konferencije](https://heapcon.io) ikada. Za razliku od poklonjenog konja, poklonima koje dobijaju učesnici konferencije se i te kako gleda u zube. Jer takvi pokloni su možda najmanje – pokloni. Onu su pre medium koji govori mnogo o firmi koja ih poklanja. Zato se trebaju pažljivo birati.
 
-To ne znači da svaki SWAG mora da bude apsolutno upotrebljiv godinama kasnije. Naravno da ne; tako nešto nije ni moguće. Dovoljno je da uhvati pažnju posetioca, da ga  zainteresuje, učini mu iskustvo konferencije zabavnim… ili pak učini da upozna nekoga. Kako bilo, bitno je ne samo šta se daje, već i kako je poklon ‘upakovan’.
+To ne znači da svaki SWAG mora da bude apsolutno upotrebljiv godinama kasnije. Naravno da ne; tako nešto nije ni moguće. Dovoljno je da uhvati pažnju posetioca, da ga  zainteresuje, učini mu iskustvo konferencije zabavnim... ili pak učini da upozna nekoga. Kako bilo, bitno je ne samo šta se daje, već i kako je poklon ‘upakovan’.
 
 Šta onda može da bude dobar SWAG? Evo neke liste ideja.
 
@@ -37,11 +37,11 @@ Mladica u saksiji je nešto što može da krasi sto dugo vremena. Zahteva posve�
 
 ## Donacije
 
-Poklon ne moraju da dobiju učesnici. Umesto toga, moguće je za svakog učesnika napraviti donaciju i o tome ih obavestiti tako što ćete tu infomaciju odštampati na liflet ili bedž i staviti ga u welcome bag.. Bitno je da posetioc može uvek da vidi kuda su otišle donacije i šta se dešava sa time, koliko je prikupljeno i tome slično.
+Poklon ne moraju da dobiju učesnici. Umesto toga, moguće je za svakog učesnika napraviti donaciju i o tome ih obavestiti tako što ćete tu infomaciju odštampati na liflet ili bedž i staviti ga u welcome bag... Bitno je da posetioc može uvek da vidi kuda su otišle donacije i šta se dešava sa time, koliko je prikupljeno i tome slično.
 
 ## Gedžeti
 
-Priznajemo – ko ne voli gedžete!? Mi ih svakako volimo! Koristan gedžet ima smisla. Isto tako, važno je da kvalitet gedžeta bude prvoklasan. Slušalice koje ne rade, uređaji koji se kvare… sve to ne odaje dobru sliku.
+Priznajemo – ko ne voli gedžete!? Mi ih svakako volimo! Koristan gedžet ima smisla. Isto tako, važno je da kvalitet gedžeta bude prvoklasan. Slušalice koje ne rade, uređaji koji se kvare... sve to ne odaje dobru sliku.
 
 ---
 
