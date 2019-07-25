@@ -3,7 +3,7 @@ Title: "Dobar SWAG daleko se čuje"
 slug: dobar-swag-daleko-se-cuje
 date: 2019-07-25
 authors:
-  - jovana
+  - heapcon.io
 tags:
   - konferencija
   - heapcon
