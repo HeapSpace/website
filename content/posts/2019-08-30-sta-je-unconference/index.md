@@ -17,7 +17,7 @@ septembra u press centru Kombank dvorane dan pred glavni događaj.
 
 Kako bismo one manje upućene upoznali sa konceptom _unconference_-a, pripremili smo kratak
 vodič kroz ovaj format konferencije čiji je **akcenat na samim učesnicima**.
-
+<!--more-->
 Ono što _unconference_ razlikuje od klasičnog konferencijskog okupljanja je njegova otvorenija
 struktura. Ovakav pristup se zasniva na otvorenoj razmeni ideja i mišljenja u opuštenoj
 atmosferi te se direktno oslanja na želju učesnika da u što većoj meri doprinesu kvalitetnoj
