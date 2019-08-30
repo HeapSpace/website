@@ -1,5 +1,6 @@
 ---
-Title: "Šta je unconference i kako se pripremiti za ovakvo okupljanje"
+Title: "Šta je unconference"
+Subtitle: " i kako se pripremiti za ovakvo okupljanje"
 slug: sta-je-unconference
 date: 2019-08-30
 authors:

@@ -2,6 +2,7 @@
 <div class="grid"><div class="content-wrap">
 <section id="main" class="post">
   <h1>{{ .Title }}</h1>
+  {{ if isset .Params "subtitle" }}<h2 class="subtitle">{{ .Params.subtitle }}</h2>{{ end }}
   {{ partial "article_about" .}}
 
   {{ $image := .Resources.GetMatch .Params.postImage }}{{- if $image -}}
