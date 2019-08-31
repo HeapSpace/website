@@ -1,3 +1,8 @@
+@media screen and (max-width: $screen-medium) {
+	h2.subtitle {
+  		top: -20px;
+	}
+}
 @media screen and (max-width: $screen-small) {
 	h1 {
 		font-size: 2em;
@@ -5,6 +10,9 @@
 	h2 {
 		font-size: 1.6em;
 		line-height: 1em;
+	}
+	h2.subtitle {
+  		top: -10px;
 	}
 
 }
