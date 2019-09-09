@@ -40,7 +40,7 @@ Par nedelja pred konferenciju, ne bi bilo loše i da kontaktirate s ljudima za k
 
 Predlog je svakako da pratite stranicu konferencije na društvenom mrežama, a pre svega na [Tviteru](https://twitter.com/heapconf). Tu možete da se najbrže informišete o samom toku konferencije, dodatnim dešavanjima i eventualnim izmenama u programu. Ovogodišnji hashtag Heapcona je #heapcon19.
 
-Međutim, još jedna sjajna stvar će vam pomoći da ispratite sve što je neophodno tokom konferencije. Whova je aplikacija koja služi za lakšu organizaciju na ovakvim događajima. Nakon što skinete aplikaciju i napravite profil, potražite Heapcon 2019.
+Međutim, još jedna sjajna stvar će vam pomoći da ispratite sve što je neophodno tokom konferencije. Whova je aplikacija koja služi za lakšu organizaciju na ovakvim događajima. Prezumite je <a href="https://whova.com/portal/heapc_201909/?source=text_link" target="_blank"/>OVDE</a>.
 
 Na ovaj način dobijate zgodan pregled predavanja i propratnih događaja tokom konferencije, kao i spisak gostiju sa kojima možete četovati u samoj aplikaciji. Dalje, obaveštenja od strane organizacije, dogovaranja oko nalaženja, postavljanje pitanja i slično - sve je dostupno na telefonu.
 
