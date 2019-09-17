@@ -9,6 +9,7 @@ tags:
   - konferencija
   - heapcon
 post: true
+postImage: ""
 ---
 
 While conferences are often remembered for being a lot of fun or for the intense and lively debates, these types of events truly are a networking opportunity from head to toe.
