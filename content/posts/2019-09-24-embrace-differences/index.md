@@ -13,6 +13,7 @@ postImage: ""
 ---
 
 > **community**
+>
 > noun
 
 *Self-organized network of people with common agenda, cause, or interest, who collaborate by sharing ideas, information, and other resources.*
