@@ -34,6 +34,8 @@ As is usually the case, the second time around people got more used to the idea 
 
 During the third and final session, Vladimir Dejanović kicked off a discussion on the *Do’s and Don'ts of building microservices*. Meanwhile, Marko Kažić opened up the issue of *Public money - Public code* as Alex Casalboni shared his views on *Serverless computing* with guests.
 
+![](unguzva.jpg)
+
 To wrap things up, participants and speakers were invited to a dinner in the *Marshall’s Salon* of Kombank dvorana. Over food and drinks, some of the discussions continued, while some took up conversing about tomorrow’s agenda, what to do and see in Belgrade or other conference experiences.
 
 This unique opportunity to meet each other, network a bit and debate different relevant issues before the excitement of the main event turned out to be the highlight for some Heapcon attendees.
