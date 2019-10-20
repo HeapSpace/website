@@ -1,7 +1,7 @@
 ---
 Title: "Heapcon 2019 Day 2: A dilemma, some rocking and the AI revolution"
-slug: 2019-10-21-dilemma-some-rocking-and-the-ai-revolution-heapcon-2019-day-2
-date: 2019-10-21
+slug: dilemma-some-rocking-and-the-ai-revolution-heapcon-2019-day-2
+date: 2019-10-20
 authors:
   - heapcon
 tags:
