@@ -16,7 +16,7 @@ Following a busy first day of Heapcon 2019, the second day of the Belgrade tech 
 
 Better weather conditions and the feeling of a certain familiarity helped the second day of Heapcon begin on an even more energetic note.
 
-## Coffee with and a slice of philosophy
+## Coffee with a slice of philosophy
 
 Computational philosopher or self-described big geek Ted Neward is no stranger to Heapcon. As a guest at previous tech conferences organized by Heapspace Neward touched on the subject of *Polytechnic Careering* in front of a Belgrade audience before.
 
