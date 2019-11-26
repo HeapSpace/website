@@ -26,7 +26,7 @@ Our team consists of professionals from different domains of technology, marketi
 {{% flex-column %}}
 ### [Tehnološki doručak](https://tehnoloskidorucak.io)
 {{% /flex-column %}}
-{{% flex-column-2 %}}Serie of events promoting local entrepreneurship. Exchange of entrepreneurial ideas alongside with morning coffee and croissants in six cities in the region.{{% /flex-column-2 %}}
+{{% flex-column-2 %}}Series of events promoting local entrepreneurship. Exchange of entrepreneurial ideas alongside with morning coffee and croissants in six cities in the region.{{% /flex-column-2 %}}
 {{< /flex >}}
 
 {{< flex >}}
