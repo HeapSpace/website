@@ -23,12 +23,6 @@
 	weight = 35
 
 [[main]]
-	identifier = "team"
-	name = "tim"
-	url = "/tim"
-	weight = 40
-
-[[main]]
 	identifier = "contact"
 	name = "kontakt"
 	url = "/kontakt"
