@@ -1,4 +1,0 @@
----
-title: Nikola
-slug: nikola
----

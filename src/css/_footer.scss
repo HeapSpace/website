@@ -1,0 +1,83 @@
+footer {
+  @extend .text-large;
+  padding: 2em 0;
+  #social {
+  	margin-top: 2em;
+  }
+  ul {
+  	list-style: none;
+  	margin: 0 4em;
+  	display: flex;
+  	align-items: center;
+    justify-content: center;
+  	li {
+  		display: block;
+  		flex: 1;
+  	}
+  }
+  #footer {
+	font-size: 0.7em;
+	margin: 6em 0 0 0;
+	text-align: center;
+  }
+  #private {
+  	margin: 2em 0 0 0;
+  	font-size: 0.5em;
+  	letter-spacing: -1px;
+  	text-align: center;
+  }
+  p {
+  	margin: 2em 0 2em 0;
+  }
+}
+
+#mc_embed_signup {
+	margin: 0 0 2em 0;
+	width: 100%;
+
+	input.email {
+		border: 0;
+		border-bottom: 3px solid $color-hs-white;
+		color: white;
+		background-color: transparent;
+		box-shadow: none;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		-webkit-appearance: none;
+		-webkit-border-radius: 0px;
+		padding: 22px 20px;
+		display: inline-block;
+		margin: 0;
+		width: 90%;
+
+		@include placeholder {
+			color: $color-hs-white;
+			font-size: 25px;
+		}
+		margin-bottom: 2em;
+		&:focus {
+    		outline: none;
+		}
+	}
+
+	.button {
+		height: 84px;
+		border: 3px solid $color-hs-white;
+		background-color: $color-hs-black;
+		color: $color-hs-white;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		line-height: 80px;
+		display: inline-block;
+		cursor: pointer;
+		margin-left: 20px;
+		font-size: 25px;
+		padding: 0 4em;
+
+		&:hover {
+			background-color: $color-hs-white;
+			color: $color-hs-black;
+		}
+	}
+}

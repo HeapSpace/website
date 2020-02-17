@@ -1,4 +1,0 @@
----
-title: Stefan
-slug: stefan
----

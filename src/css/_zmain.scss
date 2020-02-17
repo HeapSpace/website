@@ -1,0 +1,76 @@
+
+//// GRIDBOX
+
+main, .gridbox {
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1150px) 1fr;
+  grid-gap: 1em;
+}
+main {
+  @extend .gridbox;
+  @extend .text-large;
+  padding-top: 120px;
+  margin-bottom: 5em;
+}
+
+.gridbox-content {
+  grid-column: 2;
+  line-height: 1.2;
+}
+
+.text-large {
+  font-size: 1.5rem;
+  letter-spacing: -2px;
+}
+.text-medium {
+  font-size: 1rem;
+}
+.text-name {
+  font-family: $font-title;
+  letter-spacing: 0 ;
+}
+
+
+//// HOMEPAGE
+
+.homepage {
+  max-width: 100%;
+  padding: 0;
+  margin: 1em 0;
+}
+
+.home-post {
+  display: inline-block;
+  background: #fff;
+
+  -webkit-transition: 1s ease all;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px 0 #ccc;
+  a {
+    padding: 1em;
+    display: block;
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.grid-item {
+  width: 280px;
+  margin: 0 0 20px;
+}
+
+.grid-item--width2 {
+  width: 570px;
+}
+
+.post-hs {
+  .date {
+    float: right;
+  }
+  background-color: cornsilk;
+  border-right: 8px solid #eb5027;
+  border-bottom: 8px solid #eb5027;
+  a:hover {
+    background-color: #eb5027;
+  }
+}

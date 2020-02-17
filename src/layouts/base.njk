@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/css/main.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" crossorigin="anonymous">
+  <title>{{ title }}</title>
+  {% include "partials/head.njk" %}
+  {% block head %}{% endblock %}
+</head>
+<body>
+
+{% include "partials/header.njk" %}
+
+<main>
+  <div class="gridbox-content">
+    {% block main %}
+      <h1>{{ title }}</h1>
+      {{ content | safe }}
+    {% endblock %}
+  </div>
+</main>
+
+{% include "partials/footer.njk" %}
+
+<script type="text/javascript" src="/js/main.js"></script>
+{% block script %}{% endblock %}
+
+{% include "partials/ga.njk" %}
+{% include "partials/li.njk" %}
+</body>
+</html>

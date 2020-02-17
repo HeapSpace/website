@@ -1,4 +1,0 @@
-{{ $member := .member }}
-{{with .ctx.GetPage (printf "authors/%s" $member.slug) -}}
-<div><a href="{{$member.url}}" target="_blank">{{ $member.fullName }}</a></div>
-{{- end }}

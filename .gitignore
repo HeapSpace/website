@@ -1,2 +1,5 @@
 public
 .netlify
+node_modules
+out
+.idea
