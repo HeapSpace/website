@@ -2,42 +2,42 @@
 title: Naše vrednosti
 ---
 
-## Zajedno smo u ovome
+## Delimo istu viziju
 
-Raznoliki smo, empatični i otvorenog uma. Razumemo da kao pojedinci imamo različite ciljeve, ali se trudimo da damo naše najbolje. Pretpostavljamo dobre namere. 
+Mi smo ekipa motivisanih entuzijasta sa jakom voljom za stvaranjem dobrih prilika u okruženju. Pulsiramo istom idejom, raznoliki smo, empatični i otvorenog uma. Da, kao pojedinci imamo različite ciljeve, ali gledamo istom vizijom. 
 
-Volimo da sukobljavamo mišljenja, nekada se i ne slažemo, ali smo uvek fer. Slušamo i postavljamo pitanja, uvažavamo različite stavove. Gradimo mostove, ne zidove. 
+Delimo mišljenja, nekada se ne slažemo, slušamo se i uvažavamo različite stavove.
+
+Gradimo merdevine i zajedno se uspinjemo.
 
 Imamo i mi loše dane. Naše greške su deo našeg puta iz kojih učimo. Opraštamo sebi i drugima i brzo idemo dalje.
 
 
-## Surovo iskreni
+## Iskreni
 
-Negujemo iskrenost. Ali idemo i dalje: surovi smo. Otvoreni, ranjivi, bez-proseravanja, direktni i nadasve transparentni.
+Negujemo iskrenost. Važno nam je međusobno poštovanje i način komunikacije. Direktni smo, transparentni, zahvalni na konstruktivnoj kritici i učimo kako da činimo bolje.
 
-Zahvalni samo na kritici - učimo iz nje kako da činimo bolje.
+Ne podržavamo priče iza leđa, već ohrabrujemo istinu u oči!
 
-Ne pričamo drugima iza leđa; pristupamo direktno i saopštavamo kako se osećamo i šta mislimo.
+Važan nam je uzrok i rešenje iz kog zajedno rastemo.
 
 
-## Snalazimo se usput
+## Idemo dalje
 
-Život je vrtoglavo brz, pun promena. Znamo da je neophodno da se nosimo s njima; a to često znači da radimo stvari za koje ne znamo kako se rade.
-
-Izlazimo iz naše komfort=zone i kažemo "Da, mi to možemo", čak i kada nemamo blagog pojma kako ćemo to zapravo i uraditi. Snaćićemo se već usput.
+Svakodnevno nailazimo na promene, prihvatamo ih čak i kada ne znamo kako da se nosimo sa njima. Izazov nam je upravo izlazak iz poznatog.
 
 Brzo učimo. Najbolji smo u stvaranju nečega što pre nismo radili.
 
 
 ## Korak više 
 
-Nema detalja koji je nevažan. Guramo dalje što više možemo i nikada se ne smirujemo. Mislimo unapred i pružamo drugima više nego što žele ili očekuju. 
+Važni su nam detalji. Mislimo unapred i pružamo drugima više nego što očekuju. Ne zaustavljamo se, uvek idemo dalje. Ne stajemo kada je gotovo.
 
 Znamo da uvek postoje načini da se bude bolji. I bolji. I bolji.
 
 
 ## Život je kratak, zato uživamo u putu 
 
-Život je besmisleno zabavan. Uskoro nas neće ovde biti. Razigrani smo, šalimo se budalasto, ali na dobar način.
+Kroz lični rast i razvoj organizacije ne zaboravljamo na vrednost življenja. Ne uzimamo stvari lično. Ne živimo u prošlosti, a ne opterećujemo se s onim šta će doći. Razigrani smo, na dobar način.
 
-Ne uzimamo stvari lično. Ne živimo u prošlosti, a ne brinemo previše o budućnosti. Ovde smo, zajedno smo živi, i to je prokleto sjajno. 
+Ovde i sada loži nas da živimo svoju strast! 
