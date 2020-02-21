@@ -1,4 +1,0 @@
----
-title: Jovana
-slug: jovana
----

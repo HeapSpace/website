@@ -1,0 +1,26 @@
+---
+title: "Heapspace"
+layout: "home"
+---
+
+<main class="bg-blue"><div class="gridbox-content">
+Mi smo <span class="text-name">Heapspace</span> organizacija. Od 2004. se udružujemo i ostvarujemo ideje kroz inovativne akcije i projekte koji rezonuju sa našim vrednostima s ciljem povezivanja i razvoja timova i pojedinaca.
+<br><br>
+Pokreće nas da prenosimo strast drugima i inspirišemo ih na napredovanje i akciju.
+</div></main>
+
+
+<div class="gridbox"><div class="gridbox-content">
+  <div class="homepage grid text-medium">
+    {% set posts = site.pages() | pagesWithinSubdirs('/blog/') | sortBy('date') | reverse %}
+
+    {% for p in posts %}
+      <article class="home-post grid-item post-{{ p.category }}"><a href="{{ p.url }}">
+        <h2>{{ loop.index }}. {{ p.title }}</h2>
+        <p>{{ p.description }}</p>
+          <div class="date">{{ p.date | dateDisplay }}</div>
+      </a></article>
+    {% endfor %}
+
+  </div>
+</div></div>

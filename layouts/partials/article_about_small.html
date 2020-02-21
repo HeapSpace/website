@@ -1,6 +1,0 @@
-<div class="post-subtitle-small">
-	{{ .Date.Day }}.{{ index $.Site.Data.months (printf "%d" .Date.Month) }}
-	/&nbsp;{{- range .Params.authors }}{{ . }}&nbsp;{{ end }}
-	/&nbsp;{{.ReadingTime}}min
-	/&nbsp; <a class="read_more" href="{{.RelPermalink}}">Pročitaj&nbsp;više</a>
-</div>

@@ -1,0 +1,11 @@
+---
+title: Blog
+---
+
+{% set posts = site.pages() | pagesWithinSubdirs('/blog/') | sortBy('date') | reverse %}
+
+{% for p in posts %}
+
+  <a href="{{ p.url }}">{{ p.title }}</a>
+
+{% endfor %}
