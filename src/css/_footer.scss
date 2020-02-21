@@ -61,9 +61,10 @@ footer {
 	}
 
 	.button {
-		height: 84px;
-		border: 3px solid $color-hs-white;
-		background-color: $color-hs-black;
+		height: 76px;
+    border: 0;
+		//border: 3px solid $color-hs-red;
+		background-color: $color-hs-red;
 		color: $color-hs-white;
 		box-sizing: border-box;
 		-moz-box-sizing: border-box;

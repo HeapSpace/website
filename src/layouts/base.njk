@@ -13,14 +13,14 @@
 
 {% include "partials/header.njk" %}
 
-<main>
-  <div class="gridbox-content">
-    {% block main %}
-      <h1>{{ title }}</h1>
-      {{ content | safe }}
-    {% endblock %}
-  </div>
-</main>
+
+{% block main %}
+  <main><div class="gridbox-content">
+    <h1>{{ title }}</h1>
+    {{ content | safe }}
+    </div></main>
+{% endblock %}
+
 
 {% include "partials/footer.njk" %}
 
