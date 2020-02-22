@@ -4,7 +4,7 @@ title: "Home"
 
 {{% section red %}}
 
-Heapspace je IT zajednica koja od 2004. godine radi na razvoju lokalne i regionalne tehnološke scene.
+Heapspace je IT organizacija koja od 2004. godine radi na razvoju lokalne i regionalne tehnološke scene.
 
 Naš tim čine profesionalci iz različitih domena tehnologije, marketinga i kulture, a najveću vrednost vidimo u menjanju svesti kroz regionalnu saradnju.
 
@@ -52,5 +52,18 @@ Naš tim čine profesionalci iz različitih domena tehnologije, marketinga i kul
 {{< flex >}}{{% flex-column %}}{{< count "15" "godina rada" >}}{{% /flex-column %}}
 {{% flex-column %}}{{< count "200+" "događaja" >}}{{% /flex-column %}}
 {{% flex-column %}}{{< count "2k+" "članova zajednice" >}}{{% /flex-column %}}{{< /flex >}}
+
+{{% /section %}}
+
+{{% section beige %}}
+
+Heapspace radi uz pomoć:
+
+{{% flex %}}
+{{% flex-column %}}[![](airtable.png)](https://airtable.com){{% /flex-column %}}
+{{% flex-column %}}[![](netlify.png)](https://netlify.com){{% /flex-column %}}
+{{% flex-column %}}[![](slack.png)](https://slack.com){{% /flex-column %}}
+{{% flex-column %}}[![](zapier.png)](https://zapier.com){{% /flex-column %}}
+{{% /flex %}}
 
 {{% /section %}}

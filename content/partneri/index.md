@@ -61,15 +61,3 @@ Verujemo da postojeće i buduće akitvnosti ove zajednice mogu da unaprede i obo
 Drago nam je da imamo priliku da doprinesemo i budemo deo ovog rasta.
 
 {{% /section %}}
-{{% section beige %}}
-
-Heapspace radi uz pomoć:
-
-{{% flex %}}
-{{% flex-column %}}[![](airtable.png)](https://airtable.com){{% /flex-column %}}
-{{% flex-column %}}[![](netlify.png)](https://netlify.com){{% /flex-column %}}
-{{% flex-column %}}[![](slack.png)](https://slack.com){{% /flex-column %}}
-{{% flex-column %}}[![](zapier.png)](https://zapier.com){{% /flex-column %}}
-{{% /flex %}}
-
-{{% /section %}}
