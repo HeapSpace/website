@@ -1,5 +1,6 @@
 ---
 title: Tehnološki doručak
+description: Serija događaja koji promovišu lokalno preduzetništvo. Razmena preduzetničkih ideja uz jutarnju kafu i kiflice u šest gradova u regionu.
 ---
 
 Pokrenut u decembru 2015. godine, Tehnološko doručak ima za cilj brzu razmenu preduzetničkih ideja u prijatnoj atmosferi prve jutarnje kafe. Četiri-pet predavanja od 5 minuta, 2 minuta za pitanja uz networking upotpunjen ukusom [Domaćih kiflica](http://domacekiflice.rs/) je sjajan način da se započne dan.
