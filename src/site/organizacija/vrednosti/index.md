@@ -1,5 +1,6 @@
 ---
 title: Naše vrednosti
+description: Sumirano u pet tačaka
 ---
 
 ## Delimo istu viziju

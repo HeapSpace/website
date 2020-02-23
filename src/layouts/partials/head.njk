@@ -1,31 +1,32 @@
 
+{%  if home %}
+<title>{{ site.name }}</title>
+<meta name="twitter:title" content="{{ site.name }}" />
+{%  else %}
+<title>{{ title }} - {{ site.name }}</title>
+<meta name="twitter:title" content="{{ title }} - {{ site.name }}" />
+{% endif %}
+
 <meta property="og:site_name" content="heapspace" />
 <meta property="og:type" content="website" />
-{#<meta property="og:url" content=".Permalink !!" />#}
+<meta property="og:url" content="{{ site.baseURL }}{{ url }}" />
+<meta name="description" content="{{ description}}" />
+<meta property="og:description" content="{{ description }}" />
+<meta property="twitter:description" content="{{ description }}" />
+
+{% if post %}
+  <meta property="og:type" content="article" />
+{% else %}
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="{{ site.baseURL }}hs-og.png" />
+{% endif %}
 {#{{ if .Params.post }}#}
-{#	<meta name="description" content="{{ summary }}" />#}
-{#	<meta property="og:description" content="{{ summary }}" />#}
 {#	<meta property="og:image" content="{{ site.BaseURL }}blog/{{ slug }}/{{ postImage }}" />#}
-{#	<meta property="og:type" content="article" />#}
 {#	<meta name="twitter:description" content="{{ .Summary }}" />#}
 {#{{ else }}#}
-{#	<meta name="description" content="{{ i18n "site-description" }}" />#}
-{#	<meta property="og:description" content="{{ i18n "site-description" }}" />#}
-{#	<meta property="og:image" content="{{ .Site.BaseURL }}hs-og.png" />#}
-{#	<meta property="og:type" content="website" />#}
-{#	<meta name="twitter:description" content="{{ i18n "site-description" }}" />#}
-{#	<meta name="twitter:title" content="{{ .Site.Title }}" />#}
+{#	#}
 {#{{ end }}#}
 <meta name="twitter:card" content="summary_large_image" />
-{#{{ if IsHome }}#}
-{#    <title>{{ .Site.Title }}</title>#}
-{#    <meta property="og:title" content="{{ .Site.Title }}" />#}
-{#    <meta name="twitter:title" content="{{ .Site.Title }}" />#}
-{#{{ else }}#}
-{#    <title>{{ .Title }} - {{ .Site.Title }}</title>#}
-{#    <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}" />#}
-{#    <meta name="twitter:title" content="{{ .Title }} - {{ .Site.Title }}" />#}
-{#{{ end }}#}
 
 <link rel="shortlink" href="https://heapspace.rs/" />
 <link rel="alternate" href="https://heapspace.rs/" hreflang="sr" />

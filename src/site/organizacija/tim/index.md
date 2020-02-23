@@ -1,4 +1,12 @@
 ---
+title: Tim
+description: Ovo smo mi!
 ---
 
-Tim
+Naš tim čine profesionalci različitih usmerenja.
+
++ Marija
++ Dimitrije
++ Nino
++ Kaća
++ Igor
