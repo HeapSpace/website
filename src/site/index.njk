@@ -4,9 +4,11 @@ layout: "home"
 ---
 
 <main class="bg-blue"><div class="gridbox-content">
-Mi smo <span class="text-name">Heapspace</span> organizacija. Od 2004. se udružujemo i ostvarujemo ideje kroz inovativne akcije i projekte koji rezonuju sa našim vrednostima s ciljem povezivanja i razvoja timova i pojedinaca.
-<br><br>
-Pokreće nas da prenosimo strast drugima i inspirišemo ih na napredovanje i akciju.
+<p>
+  Mi smo <span class="text-name">Heapspace</span> organizacija. Od 2004. se udružujemo i ostvarujemo ideje kroz inovativne akcije i projekte koji rezonuju sa našim vrednostima s ciljem povezivanja i razvoja timova i pojedinaca.
+</p><p>
+  Pokreće nas da prenosimo strast drugima i inspirišemo ih na napredovanje i akciju.
+</p>
 </div></main>
 
 
@@ -15,10 +17,17 @@ Pokreće nas da prenosimo strast drugima i inspirišemo ih na napredovanje i akc
     {% set posts = site.pages() | pagesWithinSubdirs('/blog/') | sortBy('date') | reverse %}
 
     {% for p in posts %}
-      <article class="home-post grid-item post-{{ p.category }}"><a href="{{ p.url }}">
-        <h2>{{ loop.index }}. {{ p.title }}</h2>
-        <p>{{ p.description }}</p>
-          <div class="date">{{ p.date | dateDisplay }}</div>
+      <article class="home-post grid-item"><a href="{{ p.url }}">
+          <img src="{{ p.url }}/box.jpg">
+          <div class="date">
+            <div class="day">{{ p.date | dateDisplay('d') }}</div>
+            <div class="month">{{ p.date | rsShortMonth }}</div>
+          </div>
+          <div class="content">
+            <div class="category category-{{ p.category }}">{{ p.category }}</div>
+            <h2>{{ loop.index }}. {{ p.title }}</h2>
+            <p>{{ p.description }}</p>
+          </div>
       </a></article>
     {% endfor %}
 

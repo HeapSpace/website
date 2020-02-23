@@ -12,31 +12,44 @@ nav ul li a {
   color: $color-hs-white;
 }
 
-.inner-nav {
-    display: flex;
-    align-items: center;
-}
-
 .site-logo {
-    padding: 0;
+  position: absolute;
+  top: 2px;
 }
 
 nav.nav-primary {
-  clear: both;
+  margin-top: 10px;
+  margin-left: 60px;
   display: inline-block;
+  width: 100%;
+  line-height: 2em;
+}
+nav.nav-secondary {
+  margin-bottom: 10px;
+  margin-left: 60px;
+  //display: inline-block;
+  width: 100%;
+  line-height: 2em;
+}
+
+nav {
   width: 100%;
   line-height: 2em;
 
   ul {
     list-style: none;
-    display: block;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
     margin:0;
     padding-left:0;
   }
 
   li {
     display: block;
-    float: left;
+    flex: 0 1 auto;
+    flex-grow: 1;
+    flex-basis: 0;
     margin-left: 1.5em;
     border-left: 1px solid $color-hs-white;
   }
@@ -47,8 +60,15 @@ nav.nav-primary {
     text-transform: lowercase;
   }
   a:hover {
-    color: $color-hs-black;
+    color: $color-hs-white;
+    background-color: $color-hs-red;
+  }
+
+  li.selected {
     background-color: $color-hs-white;
+    a {
+      color: $color-hs-black;
+    }
   }
 }
 

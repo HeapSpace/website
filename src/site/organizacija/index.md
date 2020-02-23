@@ -1,5 +1,6 @@
 ---
 title: Naše vrednosti
+menu: 40
 ---
 
 ## Delimo istu viziju

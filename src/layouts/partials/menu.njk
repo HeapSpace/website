@@ -1,14 +1,35 @@
-<div class="inner-nav">
+<div>
   <div class="site-logo">
     <a href="/"><img src="/gfx/hs.svg" class="custom-logo" alt="heapspace" itemprop="logo" style="width: 80px;"></a>
   </div>
   <nav class="nav-primary">
     <ul class="nav">
-      <li><a href="/projekti">projekti</a></li>
-      <li><a href="/blog">blog</a></li>
-      <li><a href="/partneri">partneri</a></li>
-      <li><a href="/organizacija">organizacija</a></li>
-      <li><a href="/kontakt">kontakt</a></li>
+      {% if menu==10 %}
+        <li class="selected">projekti</li>
+      {% else  %}
+        <li><a href="/projekti">projekti</a></li>
+      {% endif %}
+      <li{{ " class=selected" if menu==20 }}><a href="/blog">blog</a></li>
+      <li{{ " class=selected" if menu==30 }}><a href="/partneri">partneri</a></li>
+      {% if menu==40 %}
+        <li class="selected">organizacija</li>
+      {% else  %}
+        <li><a href="/organizacija">organizacija</a></li>
+      {% endif %}
+      <li{{ " class=selected" if menu==50 }}><a href="/kontakt">kontakt</a></li>
     </ul>
+  </nav>
+  <nav class="nav-secondary">
+    <nav class="sub-nav">
+        {% if not menu %}&nbsp;{% endif %}
+        {% if menu==10 %}
+        <ul>
+          <li><a href="/projekti/tehnoloski-dorucak/">Tehnološki doručak</a></li>
+          <li><a href="/projekti/heapcon/">Heapcon</a></li>
+          <li><a href="/projekti/opendata/">OpenData</a></li>
+        </ul>
+        {% endif %}
+    </nav>
+
   </nav>
 </div>

@@ -24,11 +24,8 @@ Spig
 Spig
   .on('/**/*.{png,jpg,gif}')
 
-  ._('RENDER^BEFORE')
+  ._('IMAGES')
   .assetLinks()
-
-  ._('ASSETS')
-  .imageMinify()
 ;
 
 Spig.run();
