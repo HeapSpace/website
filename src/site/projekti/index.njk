@@ -3,30 +3,24 @@ title: Projekti
 description: Naši projekti su usmereni na povezivanje tehnologije, kulture, umetnosti i preduzetništva.
 ---
 
-{% import "macros/projects.html" as projects %}
-
 <div style="display: flex; flex-direction: column">
-{{ projects.id(
-  'Tehnološki doručak',
-  'tehnoloski-dorucak/',
-  'https://tehnoloskidorucak.io',
-  '#',
-  'Serija događaja koji promovišu lokalno preduzetništvo. Razmena preduzetničkih ideja uz jutarnju kafu i kiflice u šest gradova u regionu.'
-) }}
+{% for p in site.prjs() | sortBy('prj') %}
 
-{{ projects.id(
-  'Heapcon',
-  'heapcon/',
-  'https://heapcon.io',
-  '#',
-  'Tehnološka konferencija za softverske inženjere. Doveli smo Voxxed Days u Beograd, a od 2018. godine organizujemo Heapcon.'
-) }}
+  <div class="project">
+    <div>
+      <h2><a href="{{ p.url }}">{{ p.title }}</a></h2>
+    </div>
+    <div class="content">
+      {{ p.description }}
+      <div class="bar">
+        <a href="{{ p.site }}" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+        <a href="{{twitter}}" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="{{twitter}}" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="{{twitter}}" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="{{twitter}}" target="_blank"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+  </div>
 
-{{ projects.id(
-  'OpenData',
-  'opendata/',
-  'https://opendata.rs',
-  '#',
-  'Inicijativa za unapređenje postojećih skupova otvorenih podataka Republike Srbije i uspostavljanje platforme za lakšu objavu novih skupova.'
-) }}
+{% endfor %}
 </div>

@@ -1,4 +1,4 @@
-const { Spig, SpigSite } = require('spignite');
+const { Spig } = require('spignite');
 
 Spig.hello();
 
@@ -9,7 +9,7 @@ Spig
   ._('PAGES')
   .pageMeta()
   .pageLinks()
-  .tags()
+  .collect('prj')
 
   ._('RENDER')
   .summary()

@@ -10,3 +10,7 @@ Naš tim čine profesionalci različitih usmerenja.
 + Nino
 + Kaća
 + Igor
++ Maja
++ Nikola
++ Dušan
++ Nikola
