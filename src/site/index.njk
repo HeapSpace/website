@@ -20,7 +20,7 @@ home: true
 
     {% for p in posts %}
       <article class="home-post grid-item"><a href="{{ p.url }}">
-          <img src="{{ p.url }}/box.jpg">
+          <img class="box" src="{{ p.url }}/box.jpg">
           <div class="date">
             <div class="day">{{ p.date | dateDisplay('d') }}</div>
             <div class="month">{{ p.date | rsShortMonth }}</div>
