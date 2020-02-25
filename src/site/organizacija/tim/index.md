@@ -9,6 +9,7 @@ Naš tim čine profesionalci različitih usmerenja.
 + Dimitrije
 + Nino
 + Kaća
++ Filip
 + Igor
 + Maja
 + Nikola
