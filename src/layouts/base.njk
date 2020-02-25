@@ -14,8 +14,8 @@
 {% include "partials/header.njk" %}
 
 {% block main %}
-  <main class="bg-blue"><div class="gridbox-content">
-    <h1>{{ title }}</h1>
+  <main class="{{ barcolor if barcolor else "bg-blue"}}"><div class="gridbox-content">
+    <h1>{{ title }}<img src="./{{ barimg }}" style="float: right;"></h1>
     <p>{{ description }}</p>
   </div>
   </main>

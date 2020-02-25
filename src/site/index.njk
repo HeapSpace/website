@@ -26,10 +26,11 @@ home: true
             <div class="month">{{ p.date | rsShortMonth }}</div>
           </div>
           <div class="content">
-            <div class="category category-{{ p.category }}">{{ p.category }}</div>
+            <div class="category category-{{ p.category }}"><img src="/cat-{{ p.category }}.png"></div>
             <h2>{{ loop.index }}. {{ p.title }}</h2>
             <p>{{ p.description }}</p>
           </div>
+          <div class="day" style="text-align: center">{{ p.date | dateDisplay('d') }} {{ p.date | rsShortMonth }}</div>
       </a></article>
     {% endfor %}
 

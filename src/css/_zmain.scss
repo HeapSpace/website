@@ -47,8 +47,7 @@ article.home-post {
   display: inline-block;
   background: #fff;
   box-sizing: border-box;
-  box-shadow: 2px 2px 4px 0 #ccc;
-  border-top: 6px solid $color-hs-black;
+  //box-shadow: 2px 2px 4px 0 #ccc;
   h2 {
     margin: 0.5em 0;
     padding-bottom: 0.2em;
@@ -89,16 +88,20 @@ article.home-post {
   }
 }
 article div.content {
-  margin: 0 1em;
+  margin: 0 1em 1em 1em;
+  border-bottom: 1px solid $color-hs-black;
 }
 article {
+  img {
+    border-top: 4px solid $color-hs-black;
+    border-bottom: 4px solid $color-hs-black;
+  }
   .category {
     font-family: $font-sans;
     position: absolute;
-    left: 0;
-    top: 243px;
-    background: $color-hs-red;
-    padding: 10px 15px;
+    left: 20px;
+    top: 20px;
+    padding: 0;
     color: #FFFFFF;
     font-size: 14px;
     text-transform: uppercase;

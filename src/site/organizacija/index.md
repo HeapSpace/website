@@ -1,5 +1,8 @@
 ---
 title: Organizacija
+description: Opis
+barimg: logo.png
+barcolor: bg-red
 ---
 
 Heapspace nosi bogato nasleđe svog prethodnika, zajednice JavaSvet, i od 2004. godine neprekidno je gradimo okupljeni oko ideje da sticanje novih znanja menja sve(s)t.
