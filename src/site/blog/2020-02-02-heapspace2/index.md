@@ -1,5 +1,5 @@
 ---
-title: Heapspace 2.0
+title: Heapspace dve nula
 date: 2020-02-02
 category: hs
 description: "Heapspace organizacija"

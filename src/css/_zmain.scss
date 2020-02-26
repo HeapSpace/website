@@ -60,31 +60,22 @@ article.home-post {
   }
   .date {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 270px;
+    right: 0;
     z-index: 1;
-    background: $color-hs-red;
+    background: $color-hs-black;
     width: 55px;
-    height: 55px;
+    height: 32px;
     padding: 11px 0;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    border-radius: 100%;
     color: #FFFFFF;
     font-weight: 700;
     text-align: center;
     -webkti-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    .day {
-      font-family: $font-sans;
-      font-size: 18px;
-    }
-    .month {
-      font-family: $font-sans;
-      font-size: 12px;
-      text-transform: uppercase;
-    }
+    font-family: $font-sans;
+    font-size: 14px;
+    text-transform: uppercase;
   }
 }
 article div.content {
@@ -92,9 +83,26 @@ article div.content {
   border-bottom: 1px solid $color-hs-black;
 }
 article {
-  img.box {
+  .box {
     border-top: 4px solid $color-hs-black;
     border-bottom: 4px solid $color-hs-black;
+    height: 280px;
+    overflow: hidden;
+  }
+  .boximg {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+  }
+  a:hover .boximg,
+  a:focus .boximg {
+    transform: scale(1.2);
   }
   .category {
     font-family: $font-sans;

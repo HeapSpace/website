@@ -20,17 +20,13 @@ home: true
 
     {% for p in posts %}
       <article class="home-post grid-item"><a href="{{ p.url }}">
-          <img class="box" src="{{ p.url }}/box.jpg">
-          <div class="date">
-            <div class="day">{{ p.date | dateDisplay('d') }}</div>
-            <div class="month">{{ p.date | rsShortMonth }}</div>
-          </div>
+          <div class="box"><div class="boximg" style="background-image: url('{{ p.url }}box.jpg')"></div></div>
+          <div class="date">{{ p.date | dateDisplay('d') }} {{ p.date | rsShortMonth }}</div>
           <div class="content">
             <div class="category category-{{ p.category }}"><img src="/cat-{{ p.category }}.png"></div>
             <h2>{{ loop.index }}. {{ p.title }}</h2>
             <p>{{ p.description }}</p>
           </div>
-          <div class="day" style="text-align: center">{{ p.date | dateDisplay('d') }} {{ p.date | rsShortMonth }}</div>
       </a></article>
     {% endfor %}
 
