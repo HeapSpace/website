@@ -1,0 +1,20 @@
+---
+title: Tim
+description: Ovo smo mi!
+barimg: team.png
+barcolor: bg-black
+---
+
+Naš tim čine profesionalci različitih usmerenja.
+
+<div>
+
+  {% for t in site.data.team %}
+    <div class="item">
+      <div class="polaroid"><img src="{{ t.pic if t.pic else "https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/hqcMtrF.jpg"}}">
+        <div class="caption">{{ t.name }}</div>
+      </div>
+    </div>
+  {% endfor %}
+
+</div>

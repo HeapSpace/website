@@ -60,7 +60,7 @@ article.home-post {
   }
   .date {
     position: absolute;
-    top: 270px;
+    top: 256px;
     right: 0;
     z-index: 1;
     background: $color-hs-black;
@@ -123,4 +123,11 @@ article {
 
 .grid-item--width2 {
   width: 570px;
+}
+
+
+h1.superbig {
+  font-size: 16em;
+  line-height: .7em;
+  text-align: center;
 }
