@@ -4,38 +4,19 @@
   </div>
   <nav class="nav-primary">
     <ul class="nav">
-      {% if menu==10 %}
-        <li class="selected"><a href="/projekti">projekti</a></li>
-      {% else  %}
-        <li><a href="/projekti">projekti</a></li>
-      {% endif %}
+      <li {{ "class=selected" if menu==10 }}><a href="/projekti">projekti</a></li>
 {#      <li{{ " class=selected" if menu==20 }}><a href="/blog">blog</a></li>#}
 {#      <li{{ " class=selected" if menu==30 }}><a href="/partneri">partneri</a></li>#}
-      {% if menu==40 %}
-        <li class="selected"><a href="/organizacija">organizacija</a></li>
-      {% else  %}
-        <li><a href="/organizacija">organizacija</a></li>
-      {% endif %}
-      <li{{ " class=selected" if menu==50 }}><a href="/kontakt">kontakt</a></li>
+      <li {{ " class=selected" if menu==50 }}><a href="/kontakt">kontakt</a></li>
     </ul>
   </nav>
   <nav class="nav-secondary">
     <nav class="sub-nav">
-        {% if not menu %}&nbsp;{% endif %}
-        {% if menu==10 %}
-        <ul>
-          <li><a href="/projekti/tehnoloski-dorucak/">Tehnološki doručak</a></li>
-          <li><a href="/projekti/heapcon/">Heapcon</a></li>
-          <li><a href="/projekti/opendata/">OpenData</a></li>
-        </ul>
-        {% endif %}
-      {% if menu==40 %}
-        <ul>
-          <li><a href="/organizacija/tim">tim</a></li>
-          <li><a href="/organizacija/vrednosti">naše vrednosti</a></li>
-        </ul>
-      {% endif %}
+      <ul>
+        <li {{ "class=selected" if menu==100 }}><a href="/organizacija">organizacija</a></li>
+        <li {{ "class=selected" if menu==110 }}><a href="/tim">tim</a></li>
+        <li {{ "class=selected" if menu==120 }}><a href="/vrednosti">naše vrednosti</a></li>
+      </ul>
     </nav>
-
   </nav>
 </div>
