@@ -1,15 +1,18 @@
 [
   {
-    "name": "Marija"
+    "name": "Marija",
+    "pic": "marija.jpg"
   },
   {
     "name": "Dimitrije"
   },
   {
-    "name": "Nino"
+    "name": "Nino",
+    "pic": "nino.jpg"
   },
   {
-    "name": "Kaća"
+    "name": "Kaća",
+    "pic": "kaca.jpg"
   },
   {
     "name": "Filip"
@@ -19,7 +22,8 @@
     "pic": "igor.jpg"
   },
   {
-    "name": "Maja"
+    "name": "Maja",
+    "pic": "maja.jpg"
   },
   {
     "name": "Nikola"
