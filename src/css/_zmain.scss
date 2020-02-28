@@ -131,3 +131,13 @@ h1.superbig {
   line-height: .7em;
   text-align: center;
 }
+.count {
+  font-size: 6rem;
+  color: $color-hs-red;
+}
+.counter {
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: -2px;
+  padding: 10px;
+}

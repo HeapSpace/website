@@ -7,6 +7,35 @@
 
 {% block main %}
   {{ content | safe }}
+
+  <div class="gridbox"><div class="gridbox-content text-large" style="padding: 4em 0">
+  <div class="flex">
+    <div class="flex-column"><div class="counter"><div class="count">16</div>godina</div>
+      <img src="/gfx/m1.png">
+    </div>
+    <div class="flex-column"><div class="counter"><div class="count">200+</div>događaja</div>
+      <img src="/gfx/m2.png">
+    </div>
+    <div class="flex-column"><div class="counter"><div class="count">10k+</div>interakcija</div>
+      <img src="/gfx/m3.png">
+    </div>
+  </div>
+  </div></div>
+
+  <div class="gridbox bg-beige"><div class="gridbox-content text-large" style="padding: 2em 0">
+      Heapspace radi na:
+
+      <div class="flex"><div class="flex-column">
+          <a href="https://airtable.com" target="_blank"><img src="/logo/airtable.png" alt="" width="140px"></a>
+        </div><div class="flex-column">
+          <a href="https://netlify.com" target="_blank"><img src="/logo/netlify.png" alt="" width="140px"></a>
+        </div><div class="flex-column"><a href="https://slack.com" target="_blank"><img src="/logo/slack.png" alt="" width="140px"></a>
+        </div><div class="flex-column"><a href="https://zapier.com" target="_blank"><img src="/logo/zapier.png" alt="" width="120px"></a>
+        </div>
+      </div>
+
+  </div></div>
+
 {% endblock %}
 
 {% block script %}
