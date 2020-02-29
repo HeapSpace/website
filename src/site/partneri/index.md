@@ -1,7 +1,7 @@
 ---
 title: Partneri
 description: "Kroz saradnju sa kompanijama omogućavamo povezivanje privatnog i civilnog sektora u tehnologiji."
-menu: 30
+menu: 40
 barimg: partner.png
 barcolor: bg-beige
 ---

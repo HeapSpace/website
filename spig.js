@@ -10,7 +10,6 @@ Spig
   .pageMeta()
   .pageLinks()
   .collect('prj')
-  .collect('org')
 
   ._('RENDER')
   .summary()

@@ -4,7 +4,8 @@
     "pic": "marija.jpg"
   },
   {
-    "name": "Dimitrije"
+    "name": "Dimitrije",
+    "pic": "dimitrije.jpg"
   },
   {
     "name": "Nino",
@@ -15,7 +16,12 @@
     "pic": "kaca.jpg"
   },
   {
-    "name": "Filip"
+    "name": "Filip",
+    "pic": "filip.jpg"
+  },
+  {
+    "name": "Nevena",
+    "pic": "nevena.jpg"
   },
   {
     "name": "Igor",
@@ -26,12 +32,17 @@
     "pic": "maja.jpg"
   },
   {
-    "name": "Nikola"
+    "name": "Nikola",
+    "pic": "pszus.jpg"
   },
   {
     "name": "Dušan"
   },
   {
     "name": "Nikola"
+  },
+  {
+    "name": "Janja",
+    "pic": "janja.jpg"
   }
 ]
