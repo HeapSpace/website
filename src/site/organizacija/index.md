@@ -13,6 +13,6 @@ Organizacija je nastala 2004. godine kao `JavaSvet`. Bila je to prva zvanična "
 
 Orgnizavali smo i dve edicije IT konferencije "IT Days". To je bila prva takva konferencija nakon burnih geo-političkih dešavanja. Pamtimo ove konferencije kao skromne, ali vrlo drage: energija prisutnih je bila na zavidnom nivou, a teme su bile u to doba sasvim aktuelne i kvalitetne.
 
-No JavaSvet nije mogao da (po)stoji na ramenima jednog člana. Krajem 2015. godine, JavaSvet prerasta u ono što je sada **Heapspace**. Od tada se organizacija uvećava, širi svoje aktivnosti i interesovanja.
+No JavaSvet nije mogao da (po)stoji na ramenima jednog člana. Krajem 2014. godine, JavaSvet prerasta u ono što je sada **Heapspace**. Od tada se organizacija uvećava, širi svoje aktivnosti i interesovanja.
 
 Radimo najbolje što umemo. Trudimo se da budemo bolji i da bude bolje, nekada uspevamo u tome, nekada malo manje :) Na kraju, ponosni smo što već godinama ne odustajemo od iste vizije, imamo integritet, i radimo punim srcem.

@@ -9,13 +9,16 @@
 		display: block;
 	}
 	main {
-		padding-top: 30px;
+		padding-top: 60px;
 		.gridbox {
 			padding: 2em 0;
 			&:first-child {
 				padding: 2em 0 1em 0;
 			}
 		}
+    img {
+      display: none;
+    }
 	}
 	.gridbox-content {
 		padding: 0 10px;

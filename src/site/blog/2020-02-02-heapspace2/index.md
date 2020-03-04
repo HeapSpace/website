@@ -2,7 +2,7 @@
 title: Heapspace, verzija dva
 date: 2020-02-02
 category: hs
-description: "Organizacija se menja vremenom, raste i sazreva. Takav je slučak i sa Heapspace-om."
+description: "Organizacija se menja vremenom, raste i sazreva. Takav je slučaj i sa Heapspace-om."
 ---
 
 Heapspace je dinamična organizacija. Menja se zajedno sa timom koji vremenom sazreva; u lepom, često i bolnom saglasju želja, mogućnosti, volje, ideja i vizija.
