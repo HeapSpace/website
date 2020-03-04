@@ -1,0 +1,33 @@
+---
+title: "Kontakt"
+description: "Otvoreni smo za saradnju i pitanja, kritike i pohvale."
+menu: 50
+barimg: logo.png
+barcolor: bg-blue
+---
+
+<p style="margin-bottom: 2em">Piši nam na	<a href="mailto:info@heapspace.rs">info@heapspace.rs</a> ili upotrebi formu ispod:</p>
+
+<form id="contact" name="add" method="POST" data-netlify="true" action="/kontakt/ok.html">
+
+  <div hidden aria-hidden="true">
+    <label>
+      Don’t fill this out if you're human:
+      <input name="bot-field" />
+    </label>
+  </div>
+
+  <fieldset>
+    <legend><span class="number">1</span> Lični podaci</legend>
+    <label for="name">Ime</label><input type="text" name="name" id="name">
+    <label for="mail">E-pošta (za kontakt)</label><input type="email" name="mail" id="mail">
+  </fieldset>
+
+  <fieldset>
+    <legend><span class="number">2</span> Poruka</legend>
+    <label for="text">Šta želiš da podeliš?</label>
+    <textarea id="text" name="text"></textarea>
+  </fieldset>
+
+  <button type="submit">Pošalji</button>
+</form>

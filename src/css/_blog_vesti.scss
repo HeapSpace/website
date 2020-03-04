@@ -1,0 +1,12 @@
+#blog {
+  li {
+    margin: 1em 0;
+    list-style: none;
+    border-left: 6px solid $color-hs-blue;
+    padding-left: 10px;
+  }
+  .desc {
+    margin-top: 0.5em;
+    font-size: 0.8em;
+  }
+}

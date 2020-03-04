@@ -1,8 +1,8 @@
 ---
-title: Heapspace dve nula
+title: Heapspace, verzija dva
 date: 2020-02-02
 category: hs
-description: "Heapspace organizacija"
+description: "Organizacija se menja vremenom, raste i sazreva. Takav je slučak i sa Heapspace-om."
 ---
 
 Heapspace je dinamična organizacija. Menja se zajedno sa timom koji vremenom sazreva; u lepom, često i bolnom saglasju želja, mogućnosti, volje, ideja i vizija.
@@ -11,7 +11,7 @@ Heapspace je dinamična organizacija. Menja se zajedno sa timom koji vremenom sa
 
 ## Šta se promenilo?
 
-Nakon par prethodnih godina rada na ivici održivog, uspeli smo da uvećamo tim. Nova krv donosi nove ideje, nove zamisli. Postoji više mesta za nova delovanja i nove aktivnosti.
+Nakon par prethodnih godina rada na ivici održivog, uspeli smo da uvećamo tim. On donosi nove ideje, nove zamisli, novu snagu... Postoji više mesta za nova delovanja i nove aktivnosti. Ali ostavimo da one same pričaju za sebe.  
 
 ## Šta je ostalo isto?
 

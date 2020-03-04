@@ -2,7 +2,8 @@
 title: Tehnološki doručak
 description: Serija događaja koji promovišu lokalno preduzetništvo. Razmena preduzetničkih ideja uz jutarnju kafu i kiflice u šest gradova u regionu.
 prj: 1
-site: https://tehnoloskidorucak.io
+web: https://tehnoloskidorucak.io
+twitter: https://twitter.com/techdorucak
 barimg: td.png
 barcolor: bg-beige
 ---

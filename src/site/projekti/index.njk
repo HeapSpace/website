@@ -1,6 +1,9 @@
 ---
 title: Projekti
 description: Naši projekti su usmereni na povezivanje tehnologije, kulture, umetnosti i preduzetništva.
+barimg: logo.png
+barcolor: bg-blue
+
 ---
 
 <div style="display: flex; flex-direction: column">
@@ -13,11 +16,11 @@ description: Naši projekti su usmereni na povezivanje tehnologije, kulture, ume
     <div class="content flex-column flex-columns-2">
       {{ p.description }}
       <div class="bar">
-        <a href="{{ p.site }}" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-        <a href="{{twitter}}" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="{{twitter}}" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="{{twitter}}" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="{{twitter}}" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="{{ p.web }}" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+        {% if p.twitter %}<a href="{{ p.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>{% endif %}
+        {% if p.instagram %}<a href="{{ p.instagram }}" target="_blank"><i class="fab fa-instagram"></i></a>{% endif %}
+        {% if p.linkedin %}<a href="{{ p.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>{% endif %}
+        {% if p.facebook %}<a href="{{ p.facebook }}" target="_blank"><i class="fab fa-facebook"></i></a>{% endif %}
       </div>
     </div>
   </div>

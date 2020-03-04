@@ -1,11 +1,18 @@
 ---
 title: Blog
+description: Pišemo i delimo naše aktivnosti i ideje.
+barimg: blog.png
+barcolor: bg-black
 ---
 
 {% set posts = site.pages() | pagesWithinSubdirs('/blog/') | sortBy('date') | reverse %}
 
-{% for p in posts %}
+{% for p in posts | sortBy('date') | reverse %}
 
-  <a href="{{ p.url }}">{{ p.title }}</a>
-
+  <ul id="blog">
+  <li>
+    {{ p.date | rsDateShort }} <a href="{{ p.url }}">{{ p.title }}</a><br>
+    <div class="desc">{{ p.description }}</div>
+  </li>
+  </ul>
 {% endfor %}
