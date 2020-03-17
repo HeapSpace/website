@@ -17,23 +17,10 @@ nav ul li a {
   top: 2px;
 }
 
-nav.nav-primary {
-  margin-top: 10px;
-  margin-left: 60px;
-  display: inline-block;
-  width: 100%;
-  line-height: 2em;
-}
-nav.nav-secondary {
-  margin-bottom: 10px;
-  margin-left: 60px;
-  //display: inline-block;
-  width: 100%;
-  line-height: 2em;
-}
-
 nav {
   width: 100%;
+  margin: 10px 0 10px 60px;
+  display: inline-block;
   line-height: 2em;
 
   ul {
@@ -41,7 +28,7 @@ nav {
     display: flex;
     align-items: stretch;
     justify-content: space-between;
-    margin:0;
+    margin: 0;
     padding-left:0;
   }
 
@@ -50,18 +37,18 @@ nav {
     flex: 0 1 auto;
     flex-grow: 1;
     flex-basis: 0;
-    margin-left: 1.5em;
     border-left: 1px solid $color-hs-white;
   }
 
   a {
     display: block;
-    padding: 0 0.2em;
+    padding-left: 3px;
     text-transform: lowercase;
+    letter-spacing: -1px;
   }
   a:hover {
-    color: $color-hs-white;
-    background-color: $color-hs-red;
+    color: $color-hs-black;
+    background-color: $color-hs-white;
   }
 
   li.selected {

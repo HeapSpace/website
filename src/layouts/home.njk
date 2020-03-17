@@ -8,31 +8,33 @@
 {% block main %}
   {{ content | safe }}
 
-  <div class="gridbox"><div class="gridbox-content text-large" style="padding: 4em 0">
-  <div class="flex">
-    <div class="flex-column"><div class="counter"><div class="count">16</div>godina</div>
-    </div>
-    <div class="flex-column"><div class="counter"><div class="count">200+</div>događaja</div>
-    </div>
-    <div class="flex-column"><div class="counter"><div class="count">10k+</div>interakcija</div>
-    </div>
-  </div>
-      <div class="flex">
-        <div class="flex-column"><img src="/gfx/m1.svg"></div>
-        <div class="flex-column"><img src="/gfx/m2.svg" style="position: relative; top: 20px;"></div>
-        <div class="flex-column"><img src="/gfx/m3.svg" style="position: relative; top: -50px;"></div>
+  <div class="gridbox hideonsmall"><div class="gridbox-content text-large" style="padding: 2em 0">
+    <hr>
+    <div class="flex" style="align-items: flex-start">
+      <div class="flex-column" style="align-self: flex-start;">
+        <div class="counter"><div class="count">16</div>godina</div>
+        <img src="/gfx/m1.svg" style="position: relative; top: 30px;">
       </div>
+      <div class="flex-column" style="align-self: flex-start;">
+        <div class="counter"><div class="count">200+</div>događaja</div>
+        <img src="/gfx/m2.svg"style="position: relative; top: 20px;">
+      </div>
+      <div class="flex-column" style="align-self: flex-start;">
+        <div class="counter"><div class="count">10k+</div>interakcija</div>
+        <img src="/gfx/m3.svg" style="position: relative; top: -30px;">
+      </div>
+    </div>
   </div></div>
 
-  <div class="gridbox bg-beige"><div class="gridbox-content text-large" style="padding: 2em 0">
+  <div class="gridbox bg-gray"><div class="gridbox-content text-large" style="padding: 2em 0">
       Heapspace radi na:
 
       <div class="flex"><div class="flex-column">
-          <a href="https://airtable.com" target="_blank"><img src="/logo/airtable.png" alt="" width="140px"></a>
+          <a href="https://airtable.com" target="_blank" class="grayimglink"><img src="/logo/airtable.png" alt="" width="140px"></a>
         </div><div class="flex-column">
-          <a href="https://netlify.com" target="_blank"><img src="/logo/netlify.png" alt="" width="140px"></a>
-        </div><div class="flex-column"><a href="https://slack.com" target="_blank"><img src="/logo/slack.png" alt="" width="140px"></a>
-        </div><div class="flex-column"><a href="https://zapier.com" target="_blank"><img src="/logo/zapier.png" alt="" width="120px"></a>
+          <a href="https://netlify.com" target="_blank" class="grayimglink"><img src="/logo/netlify.png" alt="" width="140px"></a>
+        </div><div class="flex-column"><a href="https://slack.com" target="_blank" class="grayimglink"><img src="/logo/slack.png" alt="" width="140px"></a>
+        </div><div class="flex-column"><a href="https://zapier.com" target="_blank"  class="grayimglink"><img src="/logo/zapier.png" alt="" width="120px"></a>
         </div>
       </div>
 

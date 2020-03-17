@@ -1,8 +1,9 @@
 ---
 title: Uslovi korišćenja
+description: "Vaš pristup, kao i korišćenje našeg internet sajta (u daljem tekstu: internet sajt) podleže ovim uslovima korišćenja i važećim zakonskim propisima koji uređuju ovu oblast."
+titleup: true
 ---
-
-Vaš pristup, kao i korišćenje našeg internet sajta (u daljem tekstu: internet sajt) podleže ovim uslovima korišćenja i važećim zakonskim propisima koji uređuju ovu oblast. Pristupom i korišćenjem internet sajta, prihvatate bez ograničenja, ove uslove korišćenja. Ukoliko ne prihvatate ove uslove korišćenja bez ograničenja, molimo vas da napustite internet sajt.
+Pristupom i korišćenjem internet sajta, prihvatate bez ograničenja, ove uslove korišćenja. Ukoliko ne prihvatate ove uslove korišćenja bez ograničenja, molimo vas da napustite internet sajt.
 
 ## Vlasništvo sadržaja
 

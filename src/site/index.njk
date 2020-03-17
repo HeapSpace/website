@@ -22,7 +22,7 @@ home: true
           <div class="box"><div class="boximg" style="background-image: url('{{ p.url }}box.jpg')"></div></div>
           <div class="date">{{ p.date | dateDisplay('d') }} {{ p.date | rsShortMonth }}</div>
           <div class="content">
-            <div class="category category-{{ p.category }}"><img src="/cat-{{ p.category }}.png"></div>
+{#            <div class="category category-{{ p.category }}"><img src="/cat-{{ p.category }}.png"></div>#}
             <h2>{# loop.index #}{{ p.title }}</h2>
             <p>{{ p.description }}</p>
           </div>

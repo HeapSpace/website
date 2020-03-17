@@ -22,12 +22,19 @@
 	}
 	.gridbox-content {
 		padding: 0 10px;
-		font-size: 1.2em;
+		font-size: 1.4em;
 	}
+  .text-big {
+    font-size: 1.6rem;
+  }
 }
 
 @media screen and (max-width: $screen-small) {
 	body {
 		font-size: 0.8em;
 	}
+  .hideonsmall {
+    display: none;
+  }
+
 }

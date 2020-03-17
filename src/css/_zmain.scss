@@ -31,8 +31,7 @@ main {
   font-size: 1rem;
 }
 .text-name {
-  font-family: $font-title;
-  letter-spacing: 0 ;
+  font-weight: bold;
 }
 
 
@@ -133,12 +132,24 @@ h1.superbig {
   text-align: center;
 }
 .count {
-  font-size: 6rem;
+  font-size: 4rem;
   color: $color-hs-red;
 }
 .counter {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   letter-spacing: -2px;
   padding: 10px;
+}
+
+.timphoto {
+  border-top: 6px solid $color-hs-black;
+  border-bottom: 2px solid $color-hs-black;
+  margin-bottom: 2em;
+  img {
+    border-bottom: 2px solid $color-hs-black;
+  }
+  .caption {
+    margin: 0.5em 0;
+  }
 }

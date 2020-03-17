@@ -1,15 +1,16 @@
 ---
 title: Tim
-description: Naš tim čine profesionalci različitih usmerenja i interesovanja.
+description: "Naš tim čine entuzijasti iz različitih oblasti tehnlogije, menadžmenta, marketinga, umetnosti, kulture. Zajedno širimo impuls znanja, motivacije i inspiracije i kreiramo dobre prilike za razvoj našeg društva."
 barimg: team.png
 barcolor: bg-black
 ---
 
-<div>
+<div class="grid44">
 
   {% for t in site.data.team %}
-    <div class="item">
-      <div class="polaroid"><img src="{{ t.pic if t.pic else "https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/hqcMtrF.jpg"}}">
+    <div class="timphoto">
+      <div>
+        <img src="{{ t.pic }}">
         <div class="caption">{{ t.name }}</div>
       </div>
     </div>

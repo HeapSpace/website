@@ -1,8 +1,10 @@
 ---
-title: Blog
-description: Pišemo i delimo naše aktivnosti i ideje.
+title: Rubrika
+description: Predstavljamo naše aktivnosti i ideje; delimo tuđe.
 barimg: blog.png
 barcolor: bg-black
+post: false
+menu: 20
 ---
 
 {% set posts = site.pages() | pagesWithinSubdirs('/blog/') | sortBy('date') | reverse %}

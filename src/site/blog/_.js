@@ -7,9 +7,13 @@ module.exports = (fileRef) => {
   if (!slug) {
     fileRef.setAttr('slug', slugify(fileRef.attr('title')).toLowerCase());
   }
+  let post = true;
+  if (fileRef.hasAttr('post')) {
+    post = fileRef.attr('post');
+  }
   return {
     menu: 20,
-    post: true,
+    post,
     slug
   };
 };

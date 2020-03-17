@@ -10,10 +10,10 @@ barcolor: bg-blue
 {% for p in site.prjs() | sortBy('prj') %}
 
   <div class="flex project">
-    <div class="flex-column">
+    <div class="flex-column" style="align-self: flex-start;">
       <h2><a href="{{ p.url }}">{{ p.title }}</a></h2>
     </div>
-    <div class="content flex-column flex-columns-2">
+    <div class="content flex-column flex-columns-2"  style="align-self: flex-start;">
       {{ p.description }}
       <div class="bar">
         <a href="{{ p.web }}" target="_blank"><i class="fas fa-external-link-alt"></i></a>

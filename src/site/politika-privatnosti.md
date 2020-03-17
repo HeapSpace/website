@@ -1,8 +1,8 @@
 ---
 title: "Politika privatnosti"
+description: "Ova stranica sadrži politiku privatnosti, naše obaveze prema korisnicima vezane za zaštitu ličnih podataka (GDPR) i informacije o upotrebi kolačića."
+titleup: true
 ---
-
-Ova stranica sadrži politiku privatnosti, naše obaveze prema korisnicima vezane za zaštitu ličnih podataka (GDPR) i informacije o upotrebi kolačića.
 
 Heapspace poštuje i čuva lični integritet osoba koje posećuju naš sajt i to na sledeći način:
 

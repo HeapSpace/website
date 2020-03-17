@@ -15,8 +15,8 @@
 
 {% block main %}
   <main class="{{ barcolor if barcolor else "bg-blue"}}"><div class="gridbox-content">
-    <h1>{{ title }}</h1>
-    <p>{{ description }}</p>
+    {% if post or titleup %}<h1>{{ title }}</h1>{% endif %}
+    <div class="text-big">{{ description }}</div>
     {%  if barimg %}<div style="text-align: center;"><img src="./{{ barimg }}"></div>{% endif %}
   </div>
   </main>

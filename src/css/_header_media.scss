@@ -2,30 +2,28 @@
 	.site-logo {
 		width: 30px;
 		margin-left: 0;
-    top: 15px;
-    left: 4px;
+    top: 6px;
+    left: 0;
 	}
 	header {
 		width: 100vh;
 		left: 0;
 	}
-  nav.nav-primary, nav.nav-secondary {
-    margin-left: 30px;
+  nav.nav-primary{
+    margin-left: 20px;
   }
 	nav.nav-primary li {
 		margin-left: 0;
 		font-size: 0.8em;
 		line-height: 1.5em;
 	}
-  nav.nav-secondary li {
-    margin-left: 0;
-    font-size: 0.8em;
-    line-height: 1.5em;
-  }
   nav ul {
     display: inline;
     li {
       float: left;
     }
+  }
+  nav a {
+    padding-left: 1px;
   }
 }
