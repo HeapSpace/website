@@ -1,6 +1,6 @@
 ---
 title: Partneri
-description: "Kroz saradnju sa firmama i drugim organizacijama omogućavamo nove projekte i osnažujemo postojeće."
+description: "Sarađujemo sa kompanijama, institucijama i drugim organizacijama sa kojima delimo iste vrednosti i vidimo benefit u povezivanju i podršci zajednice u oblasti tehnologijie i preduzetništva. Realizujemo nove projekte i osnažujemo postojeće."
 menu: 40
 barimg: partner.png
 barcolor: bg-beige
@@ -8,7 +8,7 @@ barcolor: bg-beige
 
 Naši partneri su (po abecednom redu):
 
-[CyberAvocado](#CyberAvocado) | [Hooloovoo](#Hooloovoo) | [SpiceFactory](#SpiceFactory) | [Zühlke](#Zuhlke)   
+[CyberAvocado](#CyberAvocado) | [Hooloovoo](#Hooloovoo) | [SpiceFactory](#SpiceFactory) | [Zühlke](#Zuhlke)
 
 Hvala vam na poverenju.
 
