@@ -1,6 +1,6 @@
 ---
 title: Tehnološki doručak
-description: "Promocija preduzetničkih inicijativa u formi petominutnog prezentovanja ideje pred publikom koja je uvek raspoložena da sazna više, uz kafu i @domaće kiflice".
+description: "Promocija preduzetničkih inicijativa u formi petominutnog prezentovanja ideje pred publikom koja je uvek raspoložena da sazna više, uz kafu i @domaće kiflice."
 prj: 1
 web: https://tehnoloskidorucak.io
 twitter: https://twitter.com/techdorucak

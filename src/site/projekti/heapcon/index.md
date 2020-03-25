@@ -1,6 +1,6 @@
 ---
 title: Heapcon
-description: Tehnološka konferencija za softverske inženjere. Doveli smo Voxxed Days u Beograd, a od 2018. godine organizujemo Heapcon.
+description: "Tehnološka konferencija za softverske inženjere. Doveli smo Voxxed Days u Beograd, a od 2018. godine organizujemo Heapcon."
 prj: 2
 web: https://heapcon.io/
 twitter: https://twitter.com/Heapconf
