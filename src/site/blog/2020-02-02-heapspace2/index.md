@@ -5,16 +5,16 @@ category: hs
 description: "Organizacija se menja vremenom, raste i sazreva. Takav je slučaj i sa Heapspace-om."
 ---
 
-Heapspace je dinamična organizacija. Menja se zajedno sa timom koji vremenom sazreva; u lepom, često i bolnom saglasju želja, mogućnosti, volje, ideja i vizija.
+Heapspace je dinamična organizacija. Menja se zajedno sa timom koji vremenom sazreva; onako kako najbolje može u skladu sa mogućnostima.
 
-2. feburara 2020., simbolično, započinjemo novi krug. 
+2. feburara 2020. započinjemo novi krug. 
 
 ## Šta se promenilo?
 
-Nakon par prethodnih godina rada na ivici održivog, uspeli smo da uvećamo tim. On donosi nove ideje, nove zamisli, novu snagu... Postoji više mesta za nova delovanja i nove aktivnosti. Ali ostavimo da one same pričaju za sebe.  
+Uspeli smo da uvećamo tim. On donosi nove ideje, nove zamisli, novu snagu... Postoji više mesta za nova delovanja i nove aktivnosti.  
 
 ## Šta je ostalo isto?
 
-Sve što nam je bitne: integritet i kvalitet; naša misija i vizija - su i dalje nepokolebljivi temelj organizacije.
+Sve što nam je bitno: integritet i kvalitet; naša misija i vizija - su i dalje nepokolebljivi temelj organizacije.
 
 Idemo dalje!

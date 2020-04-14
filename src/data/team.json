@@ -24,10 +24,6 @@
     "pic": "nevena.jpg"
   },
   {
-    "name": "Igor",
-    "pic": "igor.jpg"
-  },
-  {
     "name": "Maja",
     "pic": "maja.jpg"
   },
@@ -44,5 +40,15 @@
   {
     "name": "Janja",
     "pic": "janja.jpg"
+  },
+  {
+    "name": "Filip"
+  },
+  {
+    "name": "Igor",
+    "pic": "igor.jpg"
+  },
+  {
+    "name": "Iva"
   }
 ]

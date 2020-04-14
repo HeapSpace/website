@@ -3,7 +3,9 @@ title: Tehnološki doručak
 description: "Promocija preduzetničkih inicijativa u formi petominutnog prezentovanja ideje pred publikom koja je uvek raspoložena da sazna više, uz kafu i @domaće kiflice."
 prj: 1
 web: https://tehnoloskidorucak.io
-twitter: https://twitter.com/techdorucak
+facebook: https://www.facebook.com/tehnoloskidorucak/
+instagram: https://www.instagram.com/techdorucak/
+twitter: https://twitter.com/hashtag/tehnoloskidorucak
 barimg: td.png
 barcolor: bg-beige
 ---
@@ -13,6 +15,7 @@ Pokrenut u decembru 2015. godine, Tehnološko doručak ima za cilj brzu razmenu 
 Od septembra 2018. godine, širimo inicijativu na Zagreb i Novi Sad, a u 2019. godini Doručak se održavao u Nišu, Osijeku i Subotici.
 
 ![](td.jpg)
+{.center}
 
 [Tehnološki doručak](https://tehnoloskidorucak.io/) je mesto za razmenu ideja i kao i svaki Heapspace projekat, otvoren je za prijave. Nije važno da li si programer, dizajner, preduzetnik ili marketar, prijavi svoju ideju i budi inspiracija drugima!
 
