@@ -1,10 +1,15 @@
-#blog {
+#rubrika {
   padding-left: 0;
   li {
     margin: 1em 0;
     list-style: none;
-    border-left: 6px solid $color-hs-blue;
     padding-left: 10px;
+  }
+  li.post-true {
+    border-left: 10px solid $color-hs-blue;
+  }
+  li.news-true {
+    border-left: 10px solid $color-hs-red;
   }
   .desc {
     margin-top: 0.5em;

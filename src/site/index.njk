@@ -8,9 +8,6 @@ home: true
 <p>
   Mi smo <span class="text-name">Heapspace</span> organizacija. Od 2004. se udružujemo i ostvarujemo ideje kroz inovativne akcije i projekte koji rezonuju sa našim vrednostima s ciljem povezivanja i razvoja timova i pojedinaca.
 </p>
-{#<p>#}
-{#  Pokreće nas da prenosimo strast drugima i inspirišemo ih na napredovanje i akciju.#}
-{#</p>#}
 </div></main>
 
 
@@ -18,15 +15,26 @@ home: true
   <div class="homepage grid text-medium">
     {% set posts = site.pages() | pagesWithinSubdirs('/blog/') | sortBy('date') | reverse %}
     {% for p in posts %}
+      {% if loop.index == 3 %}
+        <article class="home-post grid-item grid-item--width2" style="border: 1px dotted black">
+          <ul>
+            {% set news = site.pages() | pagesWithinSubdirs('/vesti/') | sortBy('date') | reverse %}
+            {% for n in news %}
+              <li><a href="{{ n.url }}">{{ n.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </article>
+      {% endif %}
+
       <article class="home-post grid-item"><a href="{{ p.url }}">
           <div class="box"><div class="boximg" style="background-image: url('{{ p.url }}box.jpg')"></div></div>
           <div class="date">{{ p.date | dateDisplay('d') }} {{ p.date | rsShortMonth }}</div>
           <div class="content">
-{#            <div class="category category-{{ p.category }}"><img src="/cat-{{ p.category }}.png"></div>#}
-            <h2>{# loop.index #}{{ p.title }}</h2>
+            <h2>{{ p.title }}</h2>
             <p>{{ p.description }}</p>
           </div>
-      </a></article>
+        </a>
+      </article>
     {% endfor %}
 
   </div>

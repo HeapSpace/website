@@ -7,14 +7,13 @@ post: false
 menu: 20
 ---
 
-{% set posts = site.pages() | pagesWithinSubdirs('/blog/') | sortBy('date') | reverse %}
+{% set posts = site.pages() | pagesInRubrika | sortBy('date') | reverse %}
 
+<ul id="rubrika">
 {% for p in posts | sortBy('date') | reverse %}
-
-  <ul id="blog">
-  <li>
+  <li class="post-{{ p.post }} news-{{ p.news }}">
     {{ p.date | rsDateShort }} <a href="{{ p.url }}">{{ p.title }}</a><br>
     <div class="desc">{{ p.description }}</div>
   </li>
-  </ul>
 {% endfor %}
+</ul>
